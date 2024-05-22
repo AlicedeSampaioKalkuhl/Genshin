@@ -1,0 +1,61 @@
+---
+title: "Organise Your Dailies"
+author: "Alice de Sampaio Kalkuhl"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Who do you have?
+Your characters and their constellations matter a lot for what you need to do. 
+
+Here, you will need a table with your characters, how often you pulled them, and how you plan on using them. 
+
+We are going to set a couple of conditions for characters to give them priorities. If you don't want to play a character, don't use it. 
+
+## Ascension materials
+I prepared a table based on the Genshin Wiki on which [ascension materials](https://genshin-impact.fandom.com/wiki/Character_Ascension_Material) characters need. 
+
+Level up materials and 
+
+[specialties](https://genshin-impact.fandom.com/wiki/Local_Specialty)
+
+
+```{r}
+level_up_materials <- read.csv("character_materials.csv") %>% 
+  separate_rows(character,sep=' & ')
+local_specialties <- read.csv("local_specialties.csv") %>% separate_rows(character,sep=' & ')
+characters <- merge(level_up_materials,local_specialties,on="character") %>% mutate(ascension = case_when(
+  element == "Traveler" ~ "Brilliant Diamond",
+  element == "Pyro" ~ "Agnidus Agate",
+  element == "Hydro" ~ "Varunada Lazurite",
+  element == "Dendro" ~ "Nagadus Emerald",
+  element == "Electro" ~ "Vajrada Amethyst",
+  element == "Anemo" ~ "Vayuda Turquoise",
+  element == "Cryo" ~ "Shivada Jade",
+  element == "Geo" ~ "Prithiva Topaz")) # add element to "my_characters.csv
+
+my_characters <- read.csv("my_characters.csv")
+# names(my_characters) <- c("pulls","character","style") run this, if you named the variables different in your table
+```
+
+You can also buy materials in game but I haven't included where, because I can't in good conscience recommend spending your mora and starglitter like this.
+
+
+ 
+
+```{r pressure, echo=FALSE}
+
+
+```
+All information taken from [here](https://genshin-impact.fandom.com/wiki/Character_Ascension_Material)
+
+
+```{r conditions}
+farming <- merge(my_characters,characters,on="character") %>% 
+  filter()
+```
