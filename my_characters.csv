@@ -1,38 +1,38 @@
-pulls,character,style
-0,Albedo,TBD
-0,Alhaitham,TBD
-1,Baizhu,Healer
-1,Barbara,Healder
-1,Beidou,DPS
-0,Candace,TBD
-0,Collei,Exploration
-0,Cyno,TBD
-0,Diluc,DPS
-0,Faruzan,Exploration
-4,Fischl,TBD
-0,Hu Tao,TBD
-0,Kaveh,TBD
-0,Klee,Support
-0,Kokomi,TBD
-1,Layla,Shielder 
-1,Lisa,Puzzles
-0,Nahida,TBD
-0,Neuvillette,TBD
-0,Nilou,TBD
-1,Ningguang,Shielder
-1,Noelle,Exploration
-0,QiQi,TBD
-0,Sayu,TBD
-0,Shenhe,Finisher
-0,Sucrose,TBD
-0,Tartaglia,TBD
-1,Tighnari,Support
-1,Thoma,Shielder
-1,Xiangling,    
-0,Xiao,TBD
-0,Xinqiu,Support
-0,Yae Miko,TBD
-0,Yanfei,TBD
-0,Yaoyao,TBD
-0,Yelan,TBD
-0,Yun Jin,TBD
+pulls,character,style,element
+0,Albedo,TBD,Geo
+0,Alhaitham,TBD,Dendro
+1,Baizhu,Healer,Dendro
+1,Barbara,Healer,Hydro
+1,Beidou,DPS,Electro
+0,Candace,TBD,Hydro
+0,Collei,Exploration,Dendro
+0,Cyno,TBD,Electro
+0,Diluc,DPS,Pyro
+0,Faruzan,Exploration,Anemo
+4,Fischl,TBD,Electro
+0,Hu Tao,TBD,Pyro
+0,Kaveh,TBD,Dendro
+0,Klee,Support,Pyro
+0,Kokomi,TBD ,Hydro
+1,Layla,Shielder,Cryo
+1,Lisa,Puzzles,Electro
+0,Nahida,TBD,Dendro
+0,Neuvillette,TBD,Hydro
+0,Nilou,TBD,Hydro
+1,Ningguang,Shielder,Geo
+1,Noelle,Exploration,Geo
+0,QiQi,TBD,Cryo
+0,Sayu,TBD,Anemo
+0,Shenhe,Finisher,Cryo
+0,Sucrose,TBD,Anemo
+0,Tartaglia,TBD,Hydro
+1,Tighnari,Support,Dendro
+1,Thoma,Shielder,Pyro
+1,Xiangling,Finisher,Pyro
+0,Xiao,TBD,Anemo
+1,Xinqiu,Support,Hydro
+0,Yae Miko,TBD,ElectroTRUE 
+0,Yanfei,TBD,Pyro
+0,Yaoyao,TBD,Dendro 
+0,Yelan,TBD,Hydro
+0,Yun Jin,TBD,Geo

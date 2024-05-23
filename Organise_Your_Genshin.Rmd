@@ -38,24 +38,54 @@ characters <- merge(level_up_materials,local_specialties,on="character") %>% mut
   element == "Anemo" ~ "Vayuda Turquoise",
   element == "Cryo" ~ "Shivada Jade",
   element == "Geo" ~ "Prithiva Topaz")) # add element to "my_characters.csv
-
-my_characters <- read.csv("my_characters.csv")
-# names(my_characters) <- c("pulls","character","style") run this, if you named the variables different in your table
 ```
-
 You can also buy materials in game but I haven't included where, because I can't in good conscience recommend spending your mora and starglitter like this.
 
-
- 
-
-```{r pressure, echo=FALSE}
-
-
+```{r conditions for which characters to Farm for characters}
+my_characters <- read.csv("my_characters.csv")
+# names(my_characters) <- c("pulls","character","style") run this, if you named the variables different in your table
+farming <- merge(my_characters,characters,on="character") %>% 
+  filter(pulls > 0 & style != "TBD" ) # let's only farm for characters you have and want to be using 
 ```
+
+
+
+ # Team Construction
+ 
+ There are a couple of unintuitive things. For example, I main Layla and I've run into a couple of problems. In a Freeze Teak, playing a Claymore character will break the Freeze and as an extra yikes, e.g. Beidou's E skill breaks Layla's shield
+
+
 All information taken from [here](https://genshin-impact.fandom.com/wiki/Character_Ascension_Material)
 
-
-```{r conditions}
-farming <- merge(my_characters,characters,on="character") %>% 
-  filter()
+Personally, I prefer to take characters from a Region to prepare the region
+```{r freeze team,echo=FALSE)
+filter(element != "Pyro" & weapon != "Claymore")
 ```
+
+Abyss Team
+style != "
+
+Hyperbloom
+Dendro,Hydro,Electro
+
+Exploration 
+Bring a Pyro character for all your exploration quests to light torches
+Mondstadt anemo
+
+Liyue
+
+Inazuma
+
+Sumeru Dendro
+
+Fontaine
+
+teams <- rbind(exploration)
+```{r characters that can't be played together, echo=FALSE}
+ <- 
+Beidou & Layla 
+
+```
+
+# Preparing
+For example, I heard a rumour Alhaitham will be available soon. Now, the trial will give you ascension M
