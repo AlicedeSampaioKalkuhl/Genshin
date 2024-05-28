@@ -6,8 +6,12 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = 'C:/Users/alice/Documents/GitHub/Genshin')
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+library(purrr)
+library(rmarkdown)
+library(gtools)
 ```
 
 ## Who do you have?
@@ -18,18 +22,15 @@ Here, you will need a table with your characters, how often you pulled them, and
 We are going to set a couple of conditions for characters to give them priorities. If you don't want to play a character, don't use it. 
 
 ## Ascension materials
-I prepared a table based on the Genshin Wiki on which [ascension materials](https://genshin-impact.fandom.com/wiki/Character_Ascension_Material) characters need. 
-
-Level up materials and 
-
-[specialties](https://genshin-impact.fandom.com/wiki/Local_Specialty)
+I prepared a table based on the Genshin Wiki on which [ascension materials](https://genshin-impact.fandom.com/wiki/Character_Ascension_Material) characters need. [Level up materials](https://genshin-impact.fandom.com/wiki/Character_Level-Up_Material) and [specialties](https://genshin-impact.fandom.com/wiki/Local_Specialty) also have to be farmed. Out of all the materials, the specialities scale the most and might be the most difficult to farm. They can't be crafted and the shops that carry them only have 5 at a time. For example, as a Layla main, I spend much more time looking for [Nilotalpa Lotuses](https://gamewith.net/genshin-impact/article/show/34257) than defeating her boss or farming for her talents which is why I put an extra point of priority on the specialities
 
 
 ```{r}
 level_up_materials <- read.csv("character_materials.csv") %>% 
   separate_rows(character,sep=' & ')
 local_specialties <- read.csv("local_specialties.csv") %>% separate_rows(character,sep=' & ')
-characters <- merge(level_up_materials,local_specialties,on="character") %>% mutate(ascension = case_when(
+all_characters <- read.csv("all_characters.csv") %>% group_by(element) %>% mutate(element_score=n()) %>% ungroup()
+characters <- purrr::reduce(list(all_characters,level_up_materials,local_specialties), dplyr::left_join, by = "character") %>% mutate(ascension = case_when(
   element == "Traveler" ~ "Brilliant Diamond",
   element == "Pyro" ~ "Agnidus Agate",
   element == "Hydro" ~ "Varunada Lazurite",
@@ -37,55 +38,191 @@ characters <- merge(level_up_materials,local_specialties,on="character") %>% mut
   element == "Electro" ~ "Vajrada Amethyst",
   element == "Anemo" ~ "Vayuda Turquoise",
   element == "Cryo" ~ "Shivada Jade",
-  element == "Geo" ~ "Prithiva Topaz")) # add element to "my_characters.csv
+  element == "Geo" ~ "Prithiva Topaz")) 
 ```
-You can also buy materials in game but I haven't included where, because I can't in good conscience recommend spending your mora and starglitter like this.
+You can also buy materials in game but I haven't included where, because I can't in good conscience recommend spending your mora and starglitter like this. Here, we also rank the characters by their usage to prioritise farming. My personal ranking is: 
+
+|style|rank|
+|---|---|
+|Unused|0|
+|TBD|1|
+|Exploration|2|
+|Finisher|3|
+|Healer|4|
+|Support|5|
+|Shielder|6|
+|DPS|7|
 
 ```{r conditions for which characters to Farm for characters}
-my_characters <- read.csv("my_characters.csv")
+my_characters <- read.csv("my_characters.csv", header = T,row.names=NULL) %>% 
+                  mutate(faves_priority=case_when(style == "Unused" ~ 0,
+                                                  style == "TBD" ~ 1,
+                                                  style == "Exploration" ~ 2,
+                                                  style == "Finisher" ~ 3,
+                                                  style == "Healer" ~ 4,
+                                                  style == "Support" ~ 5,
+                                                  style == "Shielder" ~ 6,
+                                                  style == "DPS" ~ 7,
+                                                  style == "Main" ~ 8))
 # names(my_characters) <- c("pulls","character","style") run this, if you named the variables different in your table
 farming <- merge(my_characters,characters,on="character") %>% 
-  filter(pulls > 0 & style != "TBD" ) # let's only farm for characters you have and want to be using 
+  filter(pulls > 0 & style != "TBD" & style != "Unused") # let's only farm for characters you have and want to be using 
+```
+
+```{r prepare your pulls,echo=FALSE}
+wishlist <- left_join(my_characters,all_characters,by="character") %>% filter(pulls==0) %>% pull(character)
+wishlist
+```
+
+# Bosses 
+Here is a list of all bosses you need. I would recommend farming bosses that you need more than 1 
+```{r bosses,echo=FALSE}
+farming_bosses <- farming %>% 
+  group_by(source,material) %>% 
+  mutate(boss_score=n()) %>%
+  ungroup()
 ```
 
 
+# Local Specialities 
+```{r local specialties, echo=FALSE}
+local_farming <- farming_bosses %>% 
+                  select(character,local_specialty,location) %>% 
+                  distinct() %>% 
+                  group_by(local_specialty) %>% 
+                  mutate(local_score=n()) %>% 
+                  ungroup()
+```
 
- # Team Construction
+```{r prioritise your farming}
+farming_sorted <- left_join(local_farming,farming_bosses,by=c("character","local_specialty","location")) %>% 
+                    mutate(farming_priority=local_score+boss_score+faves_priority) %>% 
+                    select(character,local_specialty,location,source,material,farming_priority) %>% 
+                    group_by(character) %>% 
+                    mutate(boss = paste(source,collapse = " & "),
+                           boss_material = paste(material,collapse = " & ")) %>% 
+                    select(-c(source,material)) %>% 
+                    relocate(farming_priority, .after=character)
+paged_table(farming_sorted)
+```
+
+
+# Preparing Talents 
+For example, Alhaitham will be available soon. Now, the trial will give you ascension materials to level him until level 40 but you still need to unlock his boss. One thing that is much easier to unlock is to get his talents to level 2, so that's what we're doing here. Talent domains are accessible on specific days. 
+
+
+
+# Team Construction
+It's time to build teams with what we have. 
+
+There are a couple of unintuitive things. For example, I main Layla and I've run into a couple of problems. In a Freeze Teak, playing a Claymore character will break the Freeze and as an extra yikes, e.g. using Beidou often breaks Layla's shield. 
+
+I've tried Jean once and she needs at least 1 Catalyst or Bow chaeacters in her team, because she spreads the opponents ridiculously far out. g
+
+```{r teams, echo=FALSE}
+team_df <- merge(my_characters,characters,on="character") %>%
+filter(pulls > 0) %>% 
+group_by(character,style,element,weapon) %>% tally() %>% select(-n)
+teams_characters <- combinations(length(team_df$character),4,team_df$character,repeats.allowed = FALSE) %>% as.data.frame()
+teams <- list()
+for (i in 1:nrow(teams_characters)){
+  team <- as.vector(teams_characters[i,])
+  this_team <- team_df %>% 
+    filter(character %in% team)
+  teams[[i]] <- this_team
+}
+teams <- teams %>% discard(., ~ "Layla" %in% .x$character & "Beidou" %in% .x$character) 
+```
+When you build your teams remember to only include characters you want to play but we'll get to that later. 
+
+## Freeze 
+We need Cryo and Hydro for a Freeze team
+```{r freeze team,echo=FALSE}
+freeze_teams <- teams %>% discard(., ~ "Pyro" %in% .x$element | "Claymore" %in% .x$weapon) %>% 
+          keep(., ~ "Cryo" %in% .x$element ==TRUE & "Hydro" %in% .x$element == TRUE) # 
+my_freeze_team <- discard(freeze_teams, ~ "Unused" %in% .x$style)
+walk(my_freeze_team, ~DT::datatable(.x) %>%
+      htmltools::tagList() %>%
+      print())
+```
+
+## Hyperbloom
+There are no negative conditions to Hyperbloom but we need a Hydro, a Dendro, and an Electro character. 
+
+```{r hyperbloom team,echo=FALSE}
+hyperbloom_teams <- keep(teams, ~ "Dendro" %in% .x$element & "Hydro" %in% .x$element & "Electro" %in% .x$element)
+my_hyperbloom_team <- discard(hyperbloom_teams, ~ "Unused" %in% .x$style | "Exploration" %in% .x$style) 
+walk(my_hyperbloom_team, ~DT::datatable(.x) %>%
+      htmltools::tagList() %>%
+      print())
+```
+
+# Exploration 
+Bring a Pyro character for all your exploration quests to light torches. Remember to bring a bow character too 
+
+
+```{r exploration teams,echo=FALSE}
+exploration_teams <- keep(teams, ~ "Pyro" %in% .x$element & "Bow" %in% .x$weapon)
+```
+
+Personally, I prefer to take characters from a Region to explore the region.
+
+## Mondstadt 
+We also need an Anemo and Electro characters for puzzles here. Remeber to only bring characters you want to bring. 
+
+```{r Mondstadt exploration,echo=FALSE}
+Mondstadt <- keep(exploration_teams, ~ "Mondstadt" %in% .x$region & "Anemo" %in% .x$element & "Electro" %in% .x$element)  
+my_Mondstadt_exploration <- discard(Mondstadt, ~ "Unused" %in% .x$style) 
+walk(my_Mondstadt_exploration, ~DT::datatable(.x) %>%
+      htmltools::tagList() %>%
+      print())
+```
+
+## Liyue
+We will need a Geo character here. 
+
+```{r Liyue exploration team,echo=FALSE}
+Liyue <- keep(exploration_teams, ~ "Liyue" %in% .x$region & "Geo" %in% .x$element)
+my_Liyue_exploration <- discard(Liyue, ~ "Unused" %in% .x$style)
+walk(my_Liyue_exploration, ~DT::datatable(.x) %>%
+      htmltools::tagList() %>%
+      print())
+```
+
+## Inazuma
+
+```{r Inazuma exploration, echo=FALSE} 
+Inazuma <- keep(exploration_teams, ~ "Inazuma" %in% .x$region & "Electro" %in% .x$element) 
+my_Inazuma_exploration <- discard(Inazuma, ~ "Unused" %in% .x$style)
+walk(my_Inazuma_exploration, ~DT::datatable(.x) %>%
+      htmltools::tagList() %>%
+      print())
+```
+
+## Sumeru Forest 
+```{r Sumeru Forest exploration, echo=FALSE}
+Sumeru_forest <- keep(exploration_teams, ~ "Sumeru" %in% .x$region & "Dendro" %in% .x$element & "Electro" %in% .x$element)
+my_Sumeru_forest_exploration <- discard(Sumeru_forest, ~ "Unused" %in% .x$style)
+walk(my_Sumeru_forest_exploration, ~DT::datatable(.x) %>%
+      htmltools::tagList() %>%
+      print())
+```
  
- There are a couple of unintuitive things. For example, I main Layla and I've run into a couple of problems. In a Freeze Teak, playing a Claymore character will break the Freeze and as an extra yikes, e.g. Beidou's E skill breaks Layla's shield
-
-
-All information taken from [here](https://genshin-impact.fandom.com/wiki/Character_Ascension_Material)
-
-Personally, I prefer to take characters from a Region to prepare the region
-```{r freeze team,echo=FALSE)
-filter(element != "Pyro" & weapon != "Claymore")
+## Sumeru Desert 
+For the desert, we should bring Dendro and Anemo in addition to our Pyro character. 
+```{r Sumeru desert exploration, echo=FALSE}
+Sumeru_desert <- keep(exploration_teams, ~ "Sumeru" %in% .x$region & "Dendro" %in% .x$element & "Anemo" %in% .x$element)
+my_Sumeru_desert_exploration <- discard(Sumeru_desert, ~ "Unused" %in% .x$style)
+walk(my_Sumeru_deser_exploration, ~DT::datatable(.x) %>%
+      htmltools::tagList() %>%
+      print())
 ```
 
-Abyss Team
-style != "
-
-Hyperbloom
-Dendro,Hydro,Electro
-
-Exploration 
-Bring a Pyro character for all your exploration quests to light torches
-Mondstadt anemo
-
-Liyue
-
-Inazuma
-
-Sumeru Dendro
-
-Fontaine
-
-teams <- rbind(exploration)
-```{r characters that can't be played together, echo=FALSE}
- <- 
-Beidou & Layla 
-
+## Fontaine
+```{r Inazuma exploration, echo=FALSE} 
+Fontaine <- keep(exploration_teams, ~ "Fontaine" %in% .x$region & "Hydro" %in% .x$element) 
+my_Fontaine_exploration <- discard(Fontaine, ~ "Unused" %in% .x$style)
+walk(my_Fontaine_exploration, ~DT::datatable(.x) %>%
+      htmltools::tagList() %>%
+      print())
 ```
-
-# Preparing
-For example, I heard a rumour Alhaitham will be available soon. Now, the trial will give you ascension M
