@@ -226,3 +226,18 @@ walk(my_Fontaine_exploration, ~DT::datatable(.x) %>%
       htmltools::tagList() %>%
       print())
 ```
+# Talents 
+Now, this is a bonus but did check your characters talents recently? Levelling them up can be the difference between getting stuck on an Archon quest and cruising through. They are optional though, so if you prefer levelling up and farming bosses or collecting artifacts
+
+ˋˋˋ{r talents,echo=FALSE}
+talents <- read.csv("talents.csv) %>% 
+separate_rows(character,sep=' & ')
+
+talent_farming <- merge(farming,talents,on="character") %>% 
+separate_rows(days,sep=' & ')
+
+farming_timed <- merge(farming_sorted,talent_farming,on="character") %>% 
+select(character,farming_priority,boss,days,domain) %>% 
+relocate(days,.after=farming_priority) %>% 
+filter(days==wday(today(), label = TRUE))
+ˋˋˋ

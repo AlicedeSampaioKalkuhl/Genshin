@@ -7,6 +7,7 @@ pulls,character,style
 1,Beidou,DPS
 0,Candace,Support
 0,Chiori,DPS
+0,Collei,Support
 0,Cyno,DPS
 1,Diona,Unused
 4,Faruzan,Support
@@ -30,7 +31,7 @@ pulls,character,style
 0,Shenhe,Finisher
 0,Sucrose,TBD
 1,Thoma,Shielder
-1,Tighnari,Support
+1,Tighnari,Exploration
 1,Traveler,Unused
 0,Wriothesley,DPS
 1,Xiangling,Unused
