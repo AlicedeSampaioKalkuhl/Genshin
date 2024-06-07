@@ -54,7 +54,7 @@ You can also buy materials in game but I haven't included where, because I can't
 |DPS|7|
 
 ```{r conditions for which characters to Farm for characters}
-my_characters <- read.csv("my_characters.csv", header = T,row.names=NULL) %>% 
+my_characters <- read.csv("my_characters.csv", header = T,row.names = NULL) %>% 
                   mutate(faves_priority=case_when(style == "Unused" ~ 0,
                                                   style == "TBD" ~ 1,
                                                   style == "Exploration" ~ 2,
@@ -102,7 +102,8 @@ farming_sorted <- left_join(local_farming,farming_bosses,by=c("character","local
                     mutate(boss = paste(source,collapse = " & "),
                            boss_material = paste(material,collapse = " & ")) %>% 
                     select(-c(source,material)) %>% 
-                    relocate(farming_priority, .after=character)
+                    relocate(farming_priority, .after=character) %>% arrange(-farming_priority) %>% 
+                    select(-farming_priority) %>% distinct()
 paged_table(farming_sorted)
 ```
 
@@ -115,14 +116,14 @@ For example, Alhaitham will be available soon. Now, the trial will give you asce
 # Team Construction
 It's time to build teams with what we have. 
 
-There are a couple of unintuitive things. For example, I main Layla and I've run into a couple of problems. In a Freeze Teak, playing a Claymore character will break the Freeze and as an extra yikes, e.g. using Beidou often breaks Layla's shield. 
+There are a couple of unintuitive things. For example, I main Layla and I've run into a couple of problems. In a Freeze Teak, playing a Claymore character will break the Freeze and as an extra yikes unless you want shatter. 
 
 I've tried Jean once and she needs at least 1 Catalyst or Bow chaeacters in her team, because she spreads the opponents ridiculously far out. g
 
 ```{r teams, echo=FALSE}
 team_df <- merge(my_characters,characters,on="character") %>%
 filter(pulls > 0) %>% 
-group_by(character,style,element,weapon) %>% tally() %>% select(-n)
+group_by(character,style,element,weapon,region) %>% tally() %>% select(-n)
 teams_characters <- combinations(length(team_df$character),4,team_df$character,repeats.allowed = FALSE) %>% as.data.frame()
 teams <- list()
 for (i in 1:nrow(teams_characters)){
@@ -131,15 +132,29 @@ for (i in 1:nrow(teams_characters)){
     filter(character %in% team)
   teams[[i]] <- this_team
 }
-teams <- teams %>% discard(., ~ "Layla" %in% .x$character & "Beidou" %in% .x$character) 
+
+combat_teams <- teams %>% discard(.,~ "Exploration" %in% .x$style | "Expedition" %in% .x$style | "Unused" %in% .x$style) 
+combat_teams <- combat_teams %>% discard(., ~ "Alhaitham" %in% .x$character & !("Kaveh" %in% .x$character) & !("Hydro" %in% .x$element) & !("Electro" %in% .x$element))
+combat_teams <- combat_teams %>% discard(., ~ "Charlotte" %in% .x$character & !("Fontaine" %in% .x$region))
+combat_teams <- combat_teams %>% discard(., ~ "Chiori" %in% .x$character & length(grep("Anemo",.x$element)) < 3)
+combat_teams <- combat_teams %>% discard(., ~ "Faruzan" %in% .x$character & length(grep("Anemo",.x$element)) < 3)
+combat_teams <- combat_teams %>% discard(., ~ "Gaming" %in% .x$character & !("Anemo" %in% .x$element))
+combat_teams <- combat_teams %>% discard(., ~ "Kaveh" %in% .x$character & !("Alhaitham" %in% .x$character) & !("Hydro" %in% .x$element))
+combat_teams <- combat_teams %>% discard(., ~ "Layla" %in% .x$character & "Dendro" %in% .x$element | "Layla" %in% .x$character &  "Electro" %in% .x$element | "Layla" %in% .x$character & "Geo" %in% .x$element | "Layla" %in% .x$character & "Anemo" %in% .x$element)
+combat_teams <- combat_teams %>% discard(., ~ "Lynney" %in% .x$character & length(grep("Pyro",.x$element)) < 3 & !("Healer" %in% .x$style))
+combat_teams <- combat_teams %>% discard(., ~ "Lynette" %in% .x$character & length(grep("Anemo",.x$element)) > 2 | "Lynette" %in% .x$character & length(grep("Geo",.x$element)) > 2 | "Lynette" %in% .x$character & length(grep("Anemo",.x$element))+ length(grep("Geo",.x$element)) > 2)
+combat_teams <- combat_teams %>% discard(., ~ "Nilou" %in%  .x$character & "Electro" %in% .x$element | "Nilou" %in%  .x$character & "Anemo" %in% .x$element | "Nilou" %in%  .x$character & "Geo" %in% .x$element | "Nilou" %in%  .x$character & "Pyro" %in% .x$element | "Nilou" %in%  .x$character & "Cryo" %in% .x$element | "Nilou" %in%  .x$character & "Electro" %in% .x$element & length(grep("Dendro",.x$element)) < 1)
+combat_teams <- combat_teams %>% discard(., ~ "Shenhe" %in% .x$character & length(grep("Cryo",.x$element))<2)
+combat_teams <- combat_teams %>% discard(., ~ "Sangonomiya Kokomi" %in% .x$character & "Dendro" %in% .x$element)
+combat_teams <- combat_teams %>% discard(., ~ "Sayu" %in% .x$character &  length(grep("Anemo",.x$element))>1 | "Sayu" %in% .x$character &  length(grep("Cryo",.x$element))>1 | "Sayu" %in% .x$character &  length(grep("Dendro",.x$element))>1 |  "Sayu" %in% .x$character &  length(grep("Electro",.x$element))>1 | "Sayu" %in% .x$character &  length(grep("Geo",.x$element))>1 | "Sayu" %in% .x$character &  length(grep("Hydro",.x$element))>1 | "Sayu" %in% .x$character &  length(grep("Pyro",.x$element))>1)
+combat_teams <- combat_teams <- combat_teams %>% discard(., ~ "Sucrose" %in% .x$character & length(grep("Anemo",.x$element)) > 2 | "Sucrose" %in% .x$character & length(grep("Geo",.x$element)) > 2 | "Lynette" %in% .x$character & length(grep("Anemo",.x$element)) + length(grep("Geo",.x$element)) > 2)
 ```
-When you build your teams remember to only include characters you want to play but we'll get to that later. 
 
 ## Freeze 
 We need Cryo and Hydro for a Freeze team
 ```{r freeze team,echo=FALSE}
-freeze_teams <- teams %>% discard(., ~ "Pyro" %in% .x$element | "Claymore" %in% .x$weapon) %>% 
-          keep(., ~ "Cryo" %in% .x$element ==TRUE & "Hydro" %in% .x$element == TRUE) # 
+freeze_teams <- combat_teams %>% discard(., ~ "Pyro" %in% .x$element | "Claymore" %in% .x$weapon) %>% 
+          keep(., ~ "Cryo" %in% .x$element ==TRUE & "Hydro" %in% .x$element == TRUE) 
 my_freeze_team <- discard(freeze_teams, ~ "Unused" %in% .x$style)
 walk(my_freeze_team, ~DT::datatable(.x) %>%
       htmltools::tagList() %>%
@@ -192,7 +207,7 @@ walk(my_Liyue_exploration, ~DT::datatable(.x) %>%
 ## Inazuma
 
 ```{r Inazuma exploration, echo=FALSE} 
-Inazuma <- keep(exploration_teams, ~ "Inazuma" %in% .x$region & "Electro" %in% .x$element) 
+Inazuma <- keep(exploration_teams, ~ "Inazuma" %in% .x$region & "Electro" %in% .x$element)
 my_Inazuma_exploration <- discard(Inazuma, ~ "Unused" %in% .x$style)
 walk(my_Inazuma_exploration, ~DT::datatable(.x) %>%
       htmltools::tagList() %>%
@@ -241,3 +256,17 @@ select(character,farming_priority,boss,days,domain) %>%
 relocate(days,.after=farming_priority) %>% 
 filter(days==wday(today(), label = TRUE))
 ˋˋˋ
+
+# Artifacts
+Do yourself a favour and skip this section, if your world level is lower than 5. When you build your characters, it is obviously up to you how you want to build them. Once you have decided, the following will help prioritise domains. 
+
+```{r artifacts}
+artifacts <- read.csv("artifacts.csv")
+character_artifacts <- my_characters %>%
+                    separate_rows(artifacts,sep =" & ")
+artifact_farming <- merge(character_artifacts,artifacts,on="artifacts") %>%
+                    group_by(artifact_location) %>% 
+                    mutate(artifact_priority=n()) %>% 
+                    ungroup() %>% select(character,artifacts,artifact_location,artifact_region,artifact_priority) %>% distinct()
+paged_table(artifact_farming)
+```
