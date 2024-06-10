@@ -137,6 +137,7 @@ combat_teams <- teams %>% discard(.,~ "Exploration" %in% .x$style | "Expedition"
 combat_teams <- combat_teams %>% discard(., ~ "Alhaitham" %in% .x$character & !("Kaveh" %in% .x$character) & !("Hydro" %in% .x$element) & !("Electro" %in% .x$element))
 combat_teams <- combat_teams %>% discard(., ~ "Charlotte" %in% .x$character & !("Fontaine" %in% .x$region))
 combat_teams <- combat_teams %>% discard(., ~ "Chiori" %in% .x$character & length(grep("Anemo",.x$element)) < 3)
+combat_teams <- combat_teams %>% discard(., ~ "Eula" %in% .x$charater & "Shielder" %in% .x$style)
 combat_teams <- combat_teams %>% discard(., ~ "Faruzan" %in% .x$character & length(grep("Anemo",.x$element)) < 3)
 combat_teams <- combat_teams %>% discard(., ~ "Gaming" %in% .x$character & !("Anemo" %in% .x$element))
 combat_teams <- combat_teams %>% discard(., ~ "Kaveh" %in% .x$character & !("Alhaitham" %in% .x$character) & !("Hydro" %in% .x$element))
@@ -248,7 +249,7 @@ Now, this is a bonus but did check your characters talents recently? Levelling t
 talents <- read.csv("talents.csv) %>% 
 separate_rows(character,sep=' & ')
 
-talent_farming <- merge(farming,talents,on="character") %>% 
+talent_farming <- merge(farming,talents,on="character") %>%       
 separate_rows(days,sep=' & ')
 
 farming_timed <- merge(farming_sorted,talent_farming,on="character") %>% 
