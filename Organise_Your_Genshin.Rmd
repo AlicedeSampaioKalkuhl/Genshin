@@ -7,13 +7,27 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_knit$set(root.dir = 'C:/Users/alice/Documents/GitHub/Genshin')
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, results='asis')
 library(tidyverse)
 library(purrr)
 library(rmarkdown)
 library(gtools)
-```
+library(DT)
+library(tableHTML)
+rmd_tabsets <- function(.data) {
 
+  # first empty header to intialize tabsets
+  cat("#### { .tabset .unlisted .unnumbered}", "\n\n", sep = "")
+
+  purrr::imap(.data, function(.x, .y) {
+    cat("##### TEAM ", .y, "\n\n", sep = "")
+    print(tableHTML::tableHTML(.x, border = 0))
+    cat("\n\n")
+  })
+  # close with empty header to stop tabsets
+  cat("#### {.unlisted .unnumbered}")
+}
+```
 ## Who do you have?
 Your characters and their constellations matter a lot for what you need to do. 
 
@@ -102,8 +116,7 @@ farming_sorted <- left_join(local_farming,farming_bosses,by=c("character","local
                     mutate(boss = paste(source,collapse = " & "),
                            boss_material = paste(material,collapse = " & ")) %>% 
                     select(-c(source,material)) %>% 
-                    relocate(farming_priority, .after=character) %>% arrange(-farming_priority) %>% 
-                    select(-farming_priority) %>% distinct()
+                    relocate(farming_priority, .after=character) %>% arrange(-farming_priority) %>% distinct()
 paged_table(farming_sorted)
 ```
 
@@ -137,12 +150,10 @@ combat_teams <- teams %>% discard(.,~ "Exploration" %in% .x$style | "Expedition"
 combat_teams <- combat_teams %>% discard(., ~ "Alhaitham" %in% .x$character & !("Kaveh" %in% .x$character) & !("Hydro" %in% .x$element) & !("Electro" %in% .x$element))
 combat_teams <- combat_teams %>% discard(., ~ "Charlotte" %in% .x$character & !("Fontaine" %in% .x$region))
 combat_teams <- combat_teams %>% discard(., ~ "Chiori" %in% .x$character & length(grep("Anemo",.x$element)) < 3)
-combat_teams <- combat_teams %>% discard(., ~ "Eula" %in% .x$charater & "Shielder" %in% .x$style)
+combat_teams <- combat_teams %>% discard(., ~ "Emilie" %in% .x$character & !("Pyro" %in% .x$element))
 combat_teams <- combat_teams %>% discard(., ~ "Faruzan" %in% .x$character & length(grep("Anemo",.x$element)) < 3)
 combat_teams <- combat_teams %>% discard(., ~ "Gaming" %in% .x$character & !("Anemo" %in% .x$element))
 combat_teams <- combat_teams %>% discard(., ~ "Kaveh" %in% .x$character & !("Alhaitham" %in% .x$character) & !("Hydro" %in% .x$element))
-combat_teams <- combat_teams %>% discard(., ~ "Layla" %in% .x$character & "Dendro" %in% .x$element | "Layla" %in% .x$character &  "Electro" %in% .x$element | "Layla" %in% .x$character & "Geo" %in% .x$element | "Layla" %in% .x$character & "Anemo" %in% .x$element)
-combat_teams <- combat_teams %>% discard(., ~ "Lynney" %in% .x$character & length(grep("Pyro",.x$element)) < 3 & !("Healer" %in% .x$style))
 combat_teams <- combat_teams %>% discard(., ~ "Lynette" %in% .x$character & length(grep("Anemo",.x$element)) > 2 | "Lynette" %in% .x$character & length(grep("Geo",.x$element)) > 2 | "Lynette" %in% .x$character & length(grep("Anemo",.x$element))+ length(grep("Geo",.x$element)) > 2)
 combat_teams <- combat_teams %>% discard(., ~ "Nilou" %in%  .x$character & "Electro" %in% .x$element | "Nilou" %in%  .x$character & "Anemo" %in% .x$element | "Nilou" %in%  .x$character & "Geo" %in% .x$element | "Nilou" %in%  .x$character & "Pyro" %in% .x$element | "Nilou" %in%  .x$character & "Cryo" %in% .x$element | "Nilou" %in%  .x$character & "Electro" %in% .x$element & length(grep("Dendro",.x$element)) < 1)
 combat_teams <- combat_teams %>% discard(., ~ "Shenhe" %in% .x$character & length(grep("Cryo",.x$element))<2)
@@ -152,14 +163,13 @@ combat_teams <- combat_teams <- combat_teams %>% discard(., ~ "Sucrose" %in% .x$
 ```
 
 ## Freeze 
-We need Cryo and Hydro for a Freeze team
+We need Cryo and Hydro for a Freeze team. Also, I prefer to permafreeze, so we will be excluding Claymore and Pyro users. 
+
 ```{r freeze team,echo=FALSE}
-freeze_teams <- combat_teams %>% discard(., ~ "Pyro" %in% .x$element | "Claymore" %in% .x$weapon) %>% 
-          keep(., ~ "Cryo" %in% .x$element ==TRUE & "Hydro" %in% .x$element == TRUE) 
-my_freeze_team <- discard(freeze_teams, ~ "Unused" %in% .x$style)
-walk(my_freeze_team, ~DT::datatable(.x) %>%
-      htmltools::tagList() %>%
-      print())
+freeze_teams <- discard(combat_teams, ~ "Pyro" %in% .x$element | "Claymore" %in% .x$weapon | "Unused" %in% .x$style)
+my_freeze_team <- discard(freeze_teams, ~ !("Hydro" %in% .x$element))
+my_freeze_team <- discard(my_freeze_team, ~ !("Cryo" %in% .x$element))
+rmd_tabsets(my_freeze_team)
 ```
 
 ## Hyperbloom
@@ -168,17 +178,15 @@ There are no negative conditions to Hyperbloom but we need a Hydro, a Dendro, an
 ```{r hyperbloom team,echo=FALSE}
 hyperbloom_teams <- keep(teams, ~ "Dendro" %in% .x$element & "Hydro" %in% .x$element & "Electro" %in% .x$element)
 my_hyperbloom_team <- discard(hyperbloom_teams, ~ "Unused" %in% .x$style | "Exploration" %in% .x$style) 
-walk(my_hyperbloom_team, ~DT::datatable(.x) %>%
-      htmltools::tagList() %>%
-      print())
+rmd_tabsets(my_hyperbloom_team)
 ```
 
 # Exploration 
-Bring a Pyro character for all your exploration quests to light torches. Remember to bring a bow character too 
+If you want to optimise your teams, bring a Pyro character for all your exploration quests to light torches. Remember to bring a bow character too.
 
 
 ```{r exploration teams,echo=FALSE}
-exploration_teams <- keep(teams, ~ "Pyro" %in% .x$element & "Bow" %in% .x$weapon)
+exploration_teams <- teams # %>% keep(., ~ "Pyro" %in% .x$element & "Bow" %in% .x$weapon)
 ```
 
 Personally, I prefer to take characters from a Region to explore the region.
@@ -188,65 +196,51 @@ We also need an Anemo and Electro characters for puzzles here. Remeber to only b
 
 ```{r Mondstadt exploration,echo=FALSE}
 Mondstadt <- keep(exploration_teams, ~ "Mondstadt" %in% .x$region & "Anemo" %in% .x$element & "Electro" %in% .x$element)  
-my_Mondstadt_exploration <- discard(Mondstadt, ~ "Unused" %in% .x$style) 
-walk(my_Mondstadt_exploration, ~DT::datatable(.x) %>%
-      htmltools::tagList() %>%
-      print())
+my_Mondstadt_exploration <- discard(Mondstadt, ~ "Unused" %in% .x$style) %>% discard(., ~ "Unused" %in% .x$style) %>% discard(., ~ "Liyue" %in% .x$region) %>% discard(., ~ "Inazuma" %in% .x$region) %>% discard(., ~ "Sumeru" %in% .x$region) %>% discard(., ~ "Fontaine" %in% .x$region)
+rmd_tabsets(my_Mondstadt_exploration)
 ```
 
 ## Liyue
 We will need a Geo character here. 
 
 ```{r Liyue exploration team,echo=FALSE}
-Liyue <- keep(exploration_teams, ~ "Liyue" %in% .x$region & "Geo" %in% .x$element)
-my_Liyue_exploration <- discard(Liyue, ~ "Unused" %in% .x$style)
-walk(my_Liyue_exploration, ~DT::datatable(.x) %>%
-      htmltools::tagList() %>%
-      print())
+my_Liyue_exploration <-exploration_teams %>% keep(., ~ "Liyue" %in% .x$region & "Geo" %in% .x$element & "Yanfei" %in% .x$character) %>% discard(., ~ "Unused" %in% .x$style) %>% discard(., ~ "Mondstadt" %in% .x$region) %>% discard(., ~ "Inazuma" %in% .x$region) %>% discard(., ~ "Sumeru" %in% .x$region) %>% discard(., ~ "Fontaine" %in% .x$region)
+rmd_tabsets(my_Liyue_exploration)
 ```
 
 ## Inazuma
+We will need at least one Electro character here. 
 
 ```{r Inazuma exploration, echo=FALSE} 
-Inazuma <- keep(exploration_teams, ~ "Inazuma" %in% .x$region & "Electro" %in% .x$element)
-my_Inazuma_exploration <- discard(Inazuma, ~ "Unused" %in% .x$style)
-walk(my_Inazuma_exploration, ~DT::datatable(.x) %>%
-      htmltools::tagList() %>%
-      print())
+my_Inazuma_exploration <- exploration_teams %>% keep(., ~ length(grep("Inazuma",.x$region))==4 & "Electro" %in% .x$element) %>% discard(., ~ "Unused" %in% .x$style) %>% discard(., ~ "Mondstadt" %in% .x$region) %>% discard(., ~ "Liyue" %in% .x$region) %>% discard(., ~ "Sumeru" %in% .x$region) %>% discard(., ~ "Fontaine" %in% .x$region)
+rmd_tabsets(my_Inazuma_exploration)
 ```
 
 ## Sumeru Forest 
 ```{r Sumeru Forest exploration, echo=FALSE}
-Sumeru_forest <- keep(exploration_teams, ~ "Sumeru" %in% .x$region & "Dendro" %in% .x$element & "Electro" %in% .x$element)
-my_Sumeru_forest_exploration <- discard(Sumeru_forest, ~ "Unused" %in% .x$style)
-walk(my_Sumeru_forest_exploration, ~DT::datatable(.x) %>%
-      htmltools::tagList() %>%
-      print())
+my_Sumeru_forest_exploration <- exploration_teams %>% keep(., ~ "Sumeru" %in% .x$region & "Dendro" %in% .x$element & "Electro" %in% .x$element & "Tighnari" %in% .x$character) %>% discard(., ~ "Unused" %in% .x$style) %>% discard(., ~ "Mondstadt" %in% .x$region) %>% discard(., ~ "Liyue" %in% .x$region) %>% discard(., ~ "Inazuma" %in% .x$region) %>% discard(., ~ "Fontaine" %in% .x$region)
+rmd_tabsets(my_Sumeru_forest_exploration)
 ```
  
 ## Sumeru Desert 
 For the desert, we should bring Dendro and Anemo in addition to our Pyro character. 
+
 ```{r Sumeru desert exploration, echo=FALSE}
-Sumeru_desert <- keep(exploration_teams, ~ "Sumeru" %in% .x$region & "Dendro" %in% .x$element & "Anemo" %in% .x$element)
-my_Sumeru_desert_exploration <- discard(Sumeru_desert, ~ "Unused" %in% .x$style)
-walk(my_Sumeru_deser_exploration, ~DT::datatable(.x) %>%
-      htmltools::tagList() %>%
-      print())
+my_Sumeru_desert_exploration <- keep(exploration_teams, ~ "Sumeru" %in% .x$region & "Dendro" %in% .x$element) %>% keep(., ~ "Anemo" %in% .x$element & "Sethos" %in% .x$character) %>% discard(., ~ "Unused" %in% .x$style) %>% discard(., ~ "Mondstadt" %in% .x$region) %>% discard(., ~ "Liyue" %in% .x$region) %>% discard(., ~ "Inazuma" %in% .x$region) %>% discard(., ~ "Fontaine" %in% .x$region)
+
+rmd_tabsets(my_Sumeru_desert_exploration)
 ```
 
 ## Fontaine
-```{r Inazuma exploration, echo=FALSE} 
-Fontaine <- keep(exploration_teams, ~ "Fontaine" %in% .x$region & "Hydro" %in% .x$element) 
-my_Fontaine_exploration <- discard(Fontaine, ~ "Unused" %in% .x$style)
-walk(my_Fontaine_exploration, ~DT::datatable(.x) %>%
-      htmltools::tagList() %>%
-      print())
+```{r Fontaine exploration, echo=FALSE} 
+my_Fontaine_exploration <- keep(exploration_teams, ~ "Fontaine" %in% .x$region & "Hydro" %in% .x$element & "Clorinde" %in% .x$character) %>% discard(., ~ "Unused" %in% .x$style) %>% discard(., ~ "Mondstadt" %in% .x$region) %>% discard(., ~ "Liyue" %in% .x$region) %>% discard(., ~ "Inazuma" %in% .x$region) %>% discard(., ~ "Sumeru" %in% .x$region)
+rmd_tabsets(my_Fontaine_exploration)
 ```
 # Talents 
 Now, this is a bonus but did check your characters talents recently? Levelling them up can be the difference between getting stuck on an Archon quest and cruising through. They are optional though, so if you prefer levelling up and farming bosses or collecting artifacts
 
-ˋˋˋ{r talents,echo=FALSE}
-talents <- read.csv("talents.csv) %>% 
+```{r talents,echo=FALSE}
+talents <- read.csv("talents.csv") %>% 
 separate_rows(character,sep=' & ')
 
 talent_farming <- merge(farming,talents,on="character") %>%       
@@ -256,7 +250,8 @@ farming_timed <- merge(farming_sorted,talent_farming,on="character") %>%
 select(character,farming_priority,boss,days,domain) %>% 
 relocate(days,.after=farming_priority) %>% 
 filter(days==wday(today(), label = TRUE))
-ˋˋˋ
+paged_table(farming_timed)
+```
 
 # Artifacts
 Do yourself a favour and skip this section, if your world level is lower than 5. When you build your characters, it is obviously up to you how you want to build them. Once you have decided, the following will help prioritise domains. 
