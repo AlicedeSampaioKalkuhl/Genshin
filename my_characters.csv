@@ -1,7 +1,7 @@
 pulls,character,style,stats,artifacts,weapon_used
 2,Alhaitham,DPS,TM & Dendro Dmg,Gilded Dreams,Light of Folicar Incision
-0,Albedo,Support,DEF,Husk of Opulent Dreams,TBD
 1,Amber,Support,ATK,Wanderer's Troupe,Messenger
+0,Arataki Itto,DPS,PHYS & Geo DMG,Archaic Petra & Pale Flamse,TBD
 1,Baizhu,Healer,ER & HP & Healing Bonus,Song of Days Past,Prototype Amber
 2,Barbara,DPS,HP & CRIT,Nymphs Dream,Thrilling Tales of Dragon Slayers
 1,Beidou,DPS,Gladiator's Finale & Thundering Fury,Favonius Greatsword
@@ -11,8 +11,9 @@ pulls,character,style,stats,artifacts,weapon_used
 2,Collei,Exploration,Dendro DMG & CRIT,Deepwood Memories,Favonius Warbow
 0,Cyno,DPS,PHYS,Thundering Fury & Bloodstained Chivalry,TBD
 1,Diona,Unused,NA,NA,NA
+0,Emilie,Finisher,ATK & Dendro DMG & CRIT & ER,Unfinished Reverie,TBD
 5,Faruzan,Support,CRIT & ER,Viridescent Venerer,Skyward Harp
-0,Fremminet,DPS,PHYS,Pale Flame,TBD
+0,Freminet,DPS,PHYS,Pale Flame,TBD
 0,Gaming,Support,ER & HP,Marechaussee Hunter,TBD
 0,Gorou,Exploration,CRIT,Noblesse Oblige,TBD
 1,Kaeya,Unused,NA,NA,NA
@@ -39,6 +40,6 @@ pulls,character,style,stats,artifacts,weapon_used
 1,Xiangling,Unused,NA,NA,NA 
 0,Xiao,Exploration,ER & CRIT & Anemo DMG,Vermillion Hereafter,TBD
 1,Xingqiu,Finisher,ATK & Hydro DMG & CRIT,Emblem of Severed Fate,Sacrificial Swords
-1,Yanfei,DPS,EM & CRIT,Unfinished Reverie,The Widsith
+1,Yanfei,DPS,EM & CRIT,Crimson Witch of Flames,The Widsith
 0,Yoimiya,Finisher,CRIT,Crimson Witch of Flames,TBD
 0,Yun Jin,Shielder,ER & CRIT,Retracing Bolide,TBD
