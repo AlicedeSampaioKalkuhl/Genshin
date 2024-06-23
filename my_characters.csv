@@ -1,5 +1,6 @@
 pulls,character,style,stats,artifacts,weapon_used
-2,Alhaitham,DPS,PHYS & Dendro Dmg,Gilded Dreams,Light of Folicar Incision
+2,Alhaitham,DPS,TM & Dendro Dmg,Gilded Dreams,Light of Folicar Incision
+0,Albedo,Support,DEF,Husk of Opulent Dreams,TBD
 1,Amber,Support,ATK,Wanderer's Troupe,Messenger
 1,Baizhu,Healer,ER & HP & Healing Bonus,Song of Days Past,Prototype Amber
 2,Barbara,DPS,HP & CRIT,Nymphs Dream,Thrilling Tales of Dragon Slayers
@@ -10,8 +11,8 @@ pulls,character,style,stats,artifacts,weapon_used
 2,Collei,Exploration,Dendro DMG & CRIT,Deepwood Memories,Favonius Warbow
 0,Cyno,DPS,PHYS,Thundering Fury & Bloodstained Chivalry,TBD
 1,Diona,Unused,NA,NA,NA
-0,Eula,DPS,PHYS,Pale Flame,TBD
 5,Faruzan,Support,CRIT & ER,Viridescent Venerer,Skyward Harp
+0,Fremminet,DPS,PHYS,Pale Flame,TBD
 0,Gaming,Support,ER & HP,Marechaussee Hunter,TBD
 0,Gorou,Exploration,CRIT,Noblesse Oblige,TBD
 1,Kaeya,Unused,NA,NA,NA
@@ -22,9 +23,9 @@ pulls,character,style,stats,artifacts,weapon_used
 2,Layla,Main,ER & HP & Cryo DMG,Tenacity of the Milileth,Iron Sting 
 1,Lisa,Exploration,EM,Emblem of Severed Fate,Eye of Perception
 3,Lynette,Finisher,HP & EM,Viridescent Venerer,Prototype Rancor
-0,Navia,DPS,ATK & DEF,Nighttime Whispers in the Echoing Woods,TBD
+0,Nahida,Support,ATK & EM,Deepwood Memories & Gilded Dreams,TBD
 0,Neuvillette,DPS,HP,Heart of Depth,TBD
-0,Nilou,Healer,HP & Hydro DMG,Tenacity of the Millelith & Vourukasha's Glow,TBD
+0,Nilou,Support,HP & Hydro DMG,Tenacity of the Millelith & Vourukasha's Glow,TBD
 1,Ningguang,DPS,ATJ & Geo DMG,Archaic Petra,Otherworldly Story
 1,Noelle,Exploration,DEF,Nighttime Whispers in the Echoing Woods,Skyrider Greatsword
 0,Qiqi,Healer,ER & ATK,Maiden Beloved
