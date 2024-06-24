@@ -19,6 +19,7 @@ pulls,character,style,stats,artifacts,weapon_used
 1,Kaeya,Unused,NA,NA,NA
 1,Keqing,DPS,EM & Electro DMG & CRIT,Thundering Fury,Lion's Roar
 0,Kaveh,Finisher,ER & Dendro DMG,Flower of Paradise Lost,TBD
+0,Kirara,Shielder,HP,Tenacity of the Milileth & Deepwood Memories,TBD
 0,Klee,Exploration,Pyro DMG & CRIT,Lavawalker,TBD
 1,Kuki Shinobi,Unused,NA,NA,NA
 2,Layla,Main,ER & HP & Cryo DMG,Tenacity of the Milileth,Iron Sting 
@@ -42,4 +43,4 @@ pulls,character,style,stats,artifacts,weapon_used
 1,Xingqiu,Finisher,ATK & Hydro DMG & CRIT,Emblem of Severed Fate,Sacrificial Swords
 1,Yanfei,DPS,EM & CRIT,Crimson Witch of Flames,The Widsith
 0,Yoimiya,Finisher,CRIT,Crimson Witch of Flames,TBD
-0,Yun Jin,Shielder,ER & CRIT,Retracing Bolide,TBD
+1,Yun Jin,Shielder,ER & CRIT,Retracing Bolide,TBD
