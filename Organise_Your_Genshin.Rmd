@@ -38,7 +38,6 @@ We are going to set a couple of conditions for characters to give them prioritie
 ## Ascension materials
 I prepared a table based on the Genshin Wiki on which [ascension materials](https://genshin-impact.fandom.com/wiki/Character_Ascension_Material) characters need. [Level up materials](https://genshin-impact.fandom.com/wiki/Character_Level-Up_Material) and [specialties](https://genshin-impact.fandom.com/wiki/Local_Specialty) also have to be farmed. Out of all the materials, the specialities scale the most and might be the most difficult to farm. They can't be crafted and the shops that carry them only have 5 at a time. For example, as a Layla main, I spend much more time looking for [Nilotalpa Lotuses](https://gamewith.net/genshin-impact/article/show/34257) than defeating her boss or farming for her talents which is why I put an extra point of priority on the specialities
 
-
 ```{r}
 level_up_materials <- read.csv("character_materials.csv") %>% 
   separate_rows(character,sep=' & ')
@@ -88,7 +87,7 @@ wishlist <- left_join(my_characters,all_characters,by="character") %>% filter(pu
 wishlist
 ```
 
-# Bosses 
+#     Bosses 
 Here is a list of all bosses you need. I would recommend farming bosses that you need more than 1 
 ```{r bosses,echo=FALSE}
 farming_bosses <- farming %>% 
