@@ -1,59 +1,69 @@
-pulls,character,style,stats,artifacts,weapon_used
-2,Alhaitham,DPS,TM & Dendro Dmg,Gilded Dreams,Light of Folicar Incision
-1,Amber,Support,ATK,Wanderer's Troupe,The Stringless
-0,Arataki Itto,DPS,PHYS & Geo DMG,Archaic Petra & Pale Flamse,TBD (Serpent Spine)
-1,Baizhu,Healer,ER & HP,Song of Days Past,Prototype Amber
-2,Barbara,DPS,HP & CRIT,Nymphs Dream,Thrilling Tales of Dragon Slayers
-1,Beidou,DPS,Electro DMG,Gladiator's Finale & Thundering Fury,Sacrificial Greatsword 
-7,Bennett,Support,HP & ER,Emblem of Severed Fate,Favonius Sword
-0,Candace,Support,ER,Retracing Bolide,TBD (Rightful Reward)
-0,Chongyun,Support,ATK & PHYS,Pale Flame & Emblem of Severed Fate,TBD (Sacrificial Greatsword)
-1,Clorinde,Finisher,HP & ATK,Fragment of Harmonic Whimsy,Absolution
-2,Collei,Exploration,Dendro DMG & CRIT,Deepwood Memories,Favonius Warbow
-0,Cyno,DPS,PHYS,Thundering Fury & Bloodstained Chivalry,TBD (Kitain Cross Spear)
-0,Dehya,Support,ATK & HP,Vourukasha's Glow,TBD (Favonius Greatsword)
-1,Diona,Unused,NA,NA,NA
-0,Emilie,Finisher,ATK & Dendro DMG,Unfinished Reverie,TBD (Moonpiercer)
-5,Faruzan,Support,CRIT & ER,Viridescent Venerer,Skyward Harp
-1,Freminet,DPS,PHYS,Pale Flame,Skyrider Greatsword (Snow-Tombed Starsilver)
-3,Gaming,Support,ER & HP,Marechaussee Hunter,The Bell   
-0,Gorou,Exploration,CRIT,Noblesse Oblige,TBD (Favonius Warbow)
-0,Jean,Healer,Healing Bonus & EM,Viridescent Venerer & Song of Days Past,TBD (Sacrificial Sword)
-0,Kamisato Ayaka,Support,CRIT,Emblem of Severed Fate,TBD (Amenoma Kageuchi)
-0,Kamisato Ayato,DPS,CRIT & HP,Vourukasha's Glow,TBD (Finale of the Deep)
-1,Kaeya,Unused,NA,NA,NA
-1,Keqing,Support,EM & CRIT,Thundering Fury,Lion's Roar
-0,Kaveh,Finisher,ER & Dendro DMG,Flower of Paradise Lost,TBD (Forest Regalia)
-0,Kirara,Shielder,HP,Tenacity of the Milileth & Deepwood Memories,TBD (Sapwood Blade)
-0,Klee,Exploration,Pyro DMG & CRIT,Lavawalker,TBD (Solar Pearl)
-1,Kujo Sara,Support,ATK,Noblesse Oblige,Amos Bow (Mouun's Moon)
-1,Kuki Shinobi,Healer,HP & EM,Flower of Paradise Lost & Gilded Dreams,Dark Iron Sword
-2,Layla,Main,HP & Cryo DMG,Tenacity of the Milileth,Iron Sting (Key of Khaj Nisut)
-1,Lisa,Exploration,EM,Emblem of Severed Fate,The Widsith
-3,Lynette,Finisher,HP & EM,Viridescent Venerer,Wolf Fang
-0,Lyney,Exploration,CRIT & HP,Marechaussee Hunter,TBD (Prototype Crescent)
-0,Nahida,Support,ATK & EM,Deepwood Memories & Gilded Dreams,TBD (Sacrifical Fragments)
-0,Navia,DPS,CRIT,Nighttime Whispers,TBD (Verdict)
-0,Neuvillette,DPS,HP,Heart of Depth,TBD (Lost Prayer to the Sacred Winds)
-0,Nilou,Support,HP & Hydro DMG,Tenacity of the Millelith & Vourukasha's Glow,TBD (The Dockhand's Assistant)
-1,Ningguang,DPS,ATJ & Geo DMG,Archaic Petra,Mappa Mare
-6,Noelle,Exploration,DEF,Nighttime Whispers in the Echoing Woods,Whiteblind
-1,Qiqi,Healer,ER & ATK,Maiden Beloved,The Flute
-7,Rosaria,Support,CRIT,Blizzard Strayer & Pale Flame,Crescent Pike (Dragonspine Spear)
-0,Sayu,Support,EM,Viridescent Venerer,TBD (Katsuragikiri Nagamasa)
-6,Sethos,Exploration,ER & CRIT,Thundersoother,Cloudforged
-0,Shikanoien Heizou,Exploration,CRIT,Desert Pavilion Chronicle,TBD (Skyward Atlas)
-1,Sigewinne,Healer,HP,Song of Days Past,Silvershower Heartstrings
-0,Sucrose,Exploration,Anemo DMG,Viridescent Venerer,TBD (Favonius Codex)
-0,Tartaglia,Support,Hydro DMG & ER,Nymph's Dream & Heart of Depth,TBD (Amos Bow)
-7,Thoma,Shielder,HP,Noblesse Oblige & Vouruksha's Glow,Dragon's Bane
-1,Tighnari,Exploration,CRIT,Wanderer's Troupe,Rust (The Viridescent Hunt)
-1,Traveler,Unused,NA,NA,NA
-0,Wriothesley,DPS,CRIT,Shimenawa's Reminiscence,TBD (Frostbearer)
-2,Xiangling,Support,,Emblem of Severed Fate,White Tassel (Deathmatch)
-0,Xiao,Healer,ER & CRIT & Anemo DMG,Vermillion Hereafter,TBD (Lithic Spear)
-1,Xingqiu,Finisher,ATK & Hydro DMG,Emblem of Severed Fate,Sacrificial Swords
-1,Yanfei,DPS,EM & CRIT,Crimson Witch of Flames,Eye of Perceptions
-0,Yaoyao,Exploration,HP,Vourukasha's Glow & Deepwood Memories,TBD (Favonius Lance)
-0,Yoimiya,Finisher,CRIT,Crimson Witch of Flames,TBD (Hamayumi)
-1,Yun Jin,Shielder,ER & CRIT,Retracing Bolide,Lithic Spear
+pulls,character,style,stats,artifacts,talents,weapon
+C1,Alhaitham,DPS,TM & Dendro Dmg,Gilded Dreams,3:3:3,Light of Folicar Incision
+NA,Albedo,Support,DEF & ATK,Husk of Opulent Dreams & Golden Troupe,1:1:1,NA
+C0,Amber,Support,ATK,Wanderer's Troupe,4:3:4,The Stringless
+NA,Arataki Itto,DPS,PHYS & Geo DMG,Archaic Petra & Pale Flamse,1:1:1,NA
+C0,Baizhu,Healer,ER & HP,Song of Days Past,4:4:4,Prototype Amber
+C1,Barbara,DPS,HP & CRIT,Nymphs Dream,4:4:3,Thrilling Tales of Dragon Slayers
+C1,Beidou,DPS,Electro DMG,Gladiator's Finale & Thundering Fury,3:4:4, 
+C6,Bennett,Support,HP & ER,Emblem of Severed Fate,4:3:3,Favonius Sword
+NA,Candace,Support,ER,Retracing Bolide,1:1:1,NA
+C1,Chevreuse,Unused,NA,NA,1:1:1,
+NA,Chiori,Support,DEF & Geo DMG,Golden Troupe & Hustk of Opulent Dreams,1:1:1,NA
+NA,Chongyun,Support,ATK & PHYS,Pale Flame & Emblem of Severed Fate,1:1:1,Sacrificial Greatsword
+C0,Clorinde,Finisher,HP & ATK,Fragment of Harmonic Whimsy,1:3:1,Absolution
+C1,Collei,Exploration,Dendro DMG & CRIT,Deepwood Memories,4:4:5,Favonius Warbow
+NA,Cyno,DPS,PHYS,Thundering Fury & Bloodstained Chivalry,1:1:1,NA
+C0,Dehya,Support,ATK & HP,Vourukasha's Glow,1:1:2,Favonius Greatsword
+C1,Diona,Unused,NA,NA,1:1:1,Hunter's Bow
+C0,Emilie,Finisher,ATK & Dendro DMG,Unfinished Reverie,1:1:1,NA
+C0,Fischl,Support,PHYS,Pale Flame & Thundersoother,1:1:1,NA
+C4,Faruzan,Support,CRIT & ER,Desert Pavilion Chronicle,4:4:6,Skyward Harp
+C0,Freminet,DPS,PHYS,Pale Flame,4:4:4,Snow-Tombed Starsilver
+C2,Gaming,Support,ER & HP,Marechaussee Hunter,2:4:3,The Bell   
+NA,Gorou,Exploration,CRIT,Noblesse Oblige,1:1:1,NA
+NA,Iansan,NA,NA,NA
+C0,Jean,Healer,Healing Bonus & EM,Viridescent Venerer & Maiden Beloved,1:1:1,NA
+NA,Kachina,TBD,TBD,TBD,NA
+NA,Kamisato Ayaka,Support,CRIT,Emblem of Severed Fate,NA
+NA,Kamisato Ayato,DPS,CRIT & HP,Vourukasha's Glow,NA
+C0,Kaeya,Unused,NA,NA,1:1:1,Dull Blade
+C0,Keqing,Support,EM & CRIT,Thundering Fury,2:2:3,Lion's Roar
+C0,Kaveh,Finisher,ER & Dendro DMG,Flower of Paradise Lost,2:2:2,Rainslasher 
+NA,Kirara,Shielder,HP,Tenacity of the Milileth & Deepwood Memories,NA
+NA,Klee,Exploration,Pyro DMG & CRIT,Lavawalker,NA
+C0,Kujo Sara,Support,ATK,Noblesse Oblige,1:4:1,Amos' Bow
+C0,Kuki Shinobu,Healer,HP & EM,Flower of Paradise Lost & Gilded Dreams,1:2:2,Dark Iron Sword
+C1,Layla,Main,HP & Cryo DMG,Tenacity of the Milileth,3:5:3,Iron Sting 
+C0,Lisa,Exploration,EM,Emblem of Severed Fate,4:4:4,The Widsith
+C3,Lynette,Finisher,HP & EM,Viridescent Venerer & Marechaussee Hunter,4:4:5,Wolf-Fang
+NA,Lyney,Exploration,CRIT & HP,Marechaussee Hunter,NA
+NA,Mavuika,TBD,TBD,TBD,NA
+NA,Mualani,TBD,TBD,TBD,NA
+NA,Nahida,Support,ATK & EM,Deepwood Memories & Gilded Dreams,NA
+NA,Navia,DPS,CRIT,Nighttime Whispers in the Echoing Woods,NA
+NA,Neuvillette,DPS,HP,Heart of Depth,NA
+NA,Nilou,Support,HP & Hydro DMG,Tenacity of the Millelith & Vourukasha's Glow,NA
+C0,Ningguang,DPS,ATJ & Geo DMG,Archaic Petra,4:5:4,Mappa Mare
+C6,Noelle,Exploration,DEF,Nighttime Whispers in the Echoing Woods,4:4:4,Whiteblind
+C0,Qiqi,Healer,ER & ATK,Ocean-Hued Clam,2:2:2,The Flute
+C6,Rosaria,Support,CRIT & PHYS,Blizzard Strayer & Pale Flame,3:3:3,Dragonspine Spear
+NA,Sayu,Support,EM,Viridescent Venerer,NA
+C5,Sethos,Exploration,ER & CRIT,Thundersoother,4:4:4,Cloudforged
+NA,Shenhe,Support,ATK & Cryo DMG,Noblesse Oblige,1:1:1,NA
+NA,Shikanoien Heizou,Exploration,CRIT,Desert Pavilion Chronicle,1:1:1,NA
+C0,Sigewinne,Healer,HP,Song of Days Past,2:4:4,Silvershower Heartstrings
+C0,Sucrose,Exploration,Anemo DMG,Viridescent Venerer,NA
+NA,Tartaglia,Support,Hydro DMG & ER,Nymph's Dream & Heart of Depth,NA
+C6,Thoma,Shielder,HP,Noblesse Oblige & Vouruksha's Glow,3:5:3,Dragon's Bane
+C0,Tighnari,Exploration,CRIT,Wanderer's Troupe,2:3:4,Messenger
+C0,Pyro Traveler,Unused,NA,NA,1:1:1,NA
+NA,Wriothesley,DPS,CRIT,Shimenawa's Reminiscence,NA
+C1,Xiangling,Support,CRIT,Emblem of Severed Fate,4:4:4,White Tassel
+NA,Xiao,Healer,ER & CRIT & Anemo DMG,Vermillion Hereafter,NA
+Na,Xilonen,TBD,TBD,TBD
+C0,Xingqiu,Finisher,ATK & Hydro DMG,Emblem of Severed Fate,3:3:2,Sacrificial Swords
+C0,Yanfei,DPS,EM & CRIT,Crimson Witch of Flames,2:4:2,Eye of Perceptions
+NA,Yaoyao,Exploration,HP,Vourukasha's Glow & Deepwood Memories,NA
+NA,Yoimiya,Finisher,CRIT,Crimson Witch of Flames,NA
+C0,Yun Jin,Shielder,ER & CRIT,Retracing Bolide,4:4:4,Lithic Spear

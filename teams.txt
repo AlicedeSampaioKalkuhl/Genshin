@@ -5,13 +5,15 @@ Boom                Yanfei,Kirara,Thoma,Emilie
 Bloom               Alhaitham,Barbara,Nilou,Kaveh
 Lynette             Lynette,Lisa,Gaming,Neuvilette 
 Anemo               Faruzan,Sayu,Tartaglia,Xiao
-Phys                Wriothesley,Noelle,Freminet,Arataki Itto 
+Phys                Fischl,Noelle,Freminet,Arataki Itto 
 Cristalize          Navia,Klee,Keqing,Chongyun
-Geo                 Yun Jin,Gorou,Yoimiya,Jean
+Geo I               Yun Jin,Gorou,Yoimiya,Jean
 Hydro Infused       Candace,Dehya,Beidou,Yaoyao
 Melt                Kamisato Ayato,Kamisato Ayaka,pyro tbd,anemo tbd
 Aggravate           Cyno,Collei,Tighnari,Sethos
 Mono Pyro           Bennett,Xiangling,Lyney,Sucrose
+Fridge              Shenhe,Wriothesley,Dendro,Hydro
+Geo II              Albedo,Chiro,TBD,TBD 
 Mondstadt           Amber,Klee,Sucrose,Noelle
 Liyue               Baizhu,QiQi,Gaming,Xiao
 Chasm               Yaoyao,Yanfei,Ningguang,Beidou

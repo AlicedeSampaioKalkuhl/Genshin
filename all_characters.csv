@@ -11,9 +11,11 @@ Beidou,4,Electro,Claymore,Liyue
 Bennett,4,Pyro,Sword,Mondstadt
 Candace,4,Hydro,Polearm,Sumeru
 Charlotte,4,Cryo,Catalyst,Fontaine
+Chasca,5,Cryo,TBD,Natlan
 Chevreuse,4,Pyro,Polearm,Fontaine
 Chiori,5,Geo,Sword,Inazuma
 Chongyun,4,Cryo,Claymore,Liyue
+Citlali,TBD,Cryo,TBD,Natlan
 Clorinde,5,Electro,Sword,Fontaine
 Collei,4,Dendro,Bow,Sumeru
 Cyno,5,Electro,Polearm,Sumeru
@@ -31,13 +33,16 @@ Gaming,4,Pyro,Claymore,Liyue
 Ganyu,5,Cryo,Bow,Liyue
 Gorou,4,Geo,Bow,Inazuma
 Hu Tao,5,Pyro,Polearm,Liyue
+Iansan,4,TBD,TBD,Natlan
 Jean,5,Anemo,Sword,Mondstadt
+Kachina,4,Geo,Polearm,Natlan
 Kaedehara Kazuha,5,Anemo,Sword,Inazuma
 Kaeya,4,Cryo,Sword,Mondstadt
 Kamisato Ayaka,5,Cryo,Sword,Inazuma
 Kamisato Ayato,5,Hydro,Sword,Inazuma
 Kaveh,4,Dendro,Claymore,Sumeru
 Keqing,5,Electro,Sword,Liyue
+Kinich,5,Dendro,Claymore,Natlan
 Kirara,4,Dendro,Sword,Inazuma
 Klee,5,Pyro,Catalyst,Mondstadt
 Kujou Sara,4,Electro,Bow,Inazuma
@@ -46,8 +51,10 @@ Layla,4,Cryo,Sword,Sumeru
 Lisa,4,Electro,Catalyst,Mondstadt
 Lynette,4,Anemo,Sword,Fontaine
 Lyney,5,Pyro,Bow,Fontaine
+Mavuika,5,Pyro,TBD,Natlan
 Mika,4,Cryo,Polearm,Mondstadt
 Mona,5,Hydro,Catalyst,Mondstadt
+Mualani,5,Hydro,Catalyst,Natlan
 Nahida,5,Dendro,Catalyst,Sumeru
 Navia,5,Geo,Claymore,Fontaine
 Neuvillette,5,Hydro,Catalyst,Fontaine
@@ -67,13 +74,20 @@ Sucrose,4,Anemo,Catalyst,Mondstadt
 Tartaglia,5,Hydro,Bow,Snezhnaya     
 Thoma,4,Pyro,Polearm,Inazuma
 Tighnari,5,Dendro,Bow,Sumeru
-Traveler,5,Traveler,Sword,None
-Venti,5,Anemo,Bow,Mondstadt
+Anemo Traveler,5,Traveler,Sword,None
+Cryo Traveler,5,Traveler,Sword,None
+Dendro Traveler,5,Traveler,Sword,None
+Electro Traveler,5,Traveler,Sword,None
+Geo Traveler,5,Traveler,Sword,None
+Hydro Traveler,5,Traveler,Sword,None
+Pyro Traveler,5,Traveler,Sword,None
+Venti,5,Anemo,Bow,Mondstadt,Skyward Harp
 Wanderer,5,Anemo,Catalyst,Sumeru
 Wriothesley,5,Cryo,Catalyst,Fontaine
 Xiangling,4,Pyro,Polearm,Liyue
 Xianyun,5,Anemo,Catalyst,Liyue
 Xiao,5,Anemo,Polearm,Liyue
+Xilonen,5,Geo,TBD,Natlan
 Xingqiu,4,Hydro,Sword,Liyue
 Xinyan,4,Pyro,Claymore,Liyue
 Yae Miko,5,Electro,Catalyst,Inazuma

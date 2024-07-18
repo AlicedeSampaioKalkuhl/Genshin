@@ -1,0 +1,196 @@
+weapon,quality,atk,stat,wielder
+A Thousand Floating Dreams,5,44:542,EM,58:265,Catalyst
+Absolution,5,48:674,CRIT DMG,0.096:0.441,Sword
+Aqua Simulacra,5,44:842,CRIT DMG,0.192:0.882,Bow
+Beacon of the Reed Sea,5,46.608,CRIT Rate,0.072:0.331,Claymore
+Calamity Queller,5,49:741,ATK,0.036:0.165,Polearm
+Cashflow Supervision,5,48:674,CRIT Rate,0.048:0.221,Catalyst
+Crane's Echoing Call,5,49:741,ATK,0.036:0.165,Catalyst
+Crimson Moon's Semblance,5,48:674,CRIT Rate,0.048:0.221,Polearm
+Elegy for the End,5,46:608,ER,0.12:0.551,Bow
+Engulfing Lightning,5,46:608,ER,0.12:0.551,Polearm
+Everlasting Moonglow,5,46:608,HP,0.108:0.496,Catalyst
+Freedom-Sworn,5,46:608,EM,43:198,Sword
+Haran Geppaku Futsu,5,46:608,CRIT Rate,0.072:0.331,Sword
+Hunter's Path,5,44:542,CRIT Rate,0.096:0.441,Bow
+Jadefall's Splendor,5,46:608,HP,0.108:0.496,Catalyst
+Kagura's Verity,5,46:608,CRIT DMG,0.144:0.662,Catalyst
+Key of Khaj-Nisut,5,44:542,HP,0.144:0.662,Sword
+Light of Folicar Incision,5,44:542,CRIT DMG,0.192:0.882,Sword
+Lumidouce Elegy,5,TBD,TBD,TBD,Polearm
+Memory of Dust,5,46:608,ATK,0.108:0.496,Catalyst
+Mistsplitter Reforged,5,48:674,CRIT DMG,0.096:0.441,Sword
+Polar Star,5,46:608,CRIT Rate,0.072:0.331,Bow
+Primordial Jade Cutter,5,44:542,CRIT Rate,0.096:0.441,Sword
+Redhorn Stonethresher,5,44:542,CRIT DMG,0.192:0.882,Claymore
+Silvershower Heartstrings,5,44:542,HP,0.144:0.662,Bow
+Song of Broken Pines,5,46:741,PHYS,0.045:0.207,Claymore 
+Splendor of Tranquil Waters,5,44:542,CRIT DMG,0.882:0.192,Sword
+Staff of Homa,5,46:608,CRIT DMG,0.144:0.662,Polearm 
+Staff of Scarlet Sands,5,44:542,CRIT Rate,0.096:0.441,Polearm 
+Summit Shaper,5,46:608,ATK,0.108:0.496,Sword
+The First Great Magic,5,46:608,CRIT DMG,0.144:0.662,Bow
+The Unforged,5,46:608,ATK,0.108:0.496,Claymore 
+Thundering Pulse,5,46:608,CRIT DMG,0.144:0.662,Bow 
+Tome of the Eternal Flow,5,44:542,CRIT DMG,0.192:0.882,Catalyst
+Tulaytullah's Remembrance,5,48:674,CRIT DMG,0.096:0.441,Catalyst
+Uraku Misugiri,5,44:542,CRIT DMG,0.192:0.882,Sword 
+Verdict,5,48:674,CRIT Rate,0.048:0.221,Claymore
+Vortex Vanquisher,5,46:608,ATK,0.108:0.496,Polearm
+Akuoumaru,4,42:510,ATK,0.09:0.413,Sword
+Alley Hunter,4,44:565,ATK,0.06:0.276,Bow
+Anemona Kageuchi,4,41:451,ATK,0.12:0.551,Sword
+Ballad of the Fjords,4,42:510,CRIT Rate,0.06:0.276,Polearm
+Blackcliff Agate,4,42:510,CRIT DMG,0.08:0.368,Sword
+Blackcliff Pole,4,42:510,CRIT DMG,0.12:0.551,Polearm 
+Blackcliff Slasher,4,42:510,CRIT DMG,0.12:0.551,Claymore
+Blackcliff Warbow,4,44:565,CRIT DMG,0.08:0.368,Bow 
+Cinnabar Spindle,4,41:454,DEF,0.15:0.69,Sword
+Cloudforged,4,42:510,EM,36:165,Bow
+Compound Bow,4,41:454,PHYS,0.15:0.69,Bow
+Crescent Pike,4,44:565,PHYS,0.075:0.345,Polearm 
+Deathmatch,4,41:454,CRIT Rate,0.08:0.368,Polearm
+Dialogues of the Desert Sages,4,42:510,HP,0.09:0.413,Polearm 
+Dodoco Tales,4,41:454,ATK,0.12:0.551,Catalyst 
+Lithic Blade,4,42:510,ATK,0.09:0.413,Claymore
+Lithic Spear,4,44:565,ATK,0.06:0.276,Polearm
+Makhaira Aquamarine,4,42:510,EM,36:165,Claymore
+Mitternachts Waltz,4,42:510,PHYS,0.113:0.517,Bow
+Mouun's Moon,4,44:565,ATK,0.06:0.276,Bow
+Portable Power Saw,4,41:454,HP,0.12:0.551,Claymore
+Prospector's Drill,4,44:565,ATK,0.06:0.276,Polearm
+Range Gauge,4,44:465,ATK,0.06:0.276,Bow
+The Alley Flash,4,45:620,EM,12:55,Sword 
+The Dockhand's Assistant,4,42:510,HP,0.09:0.413,Sword
+Wandering Evenstar,4,42:510,EM,36:165,Catalyst
+Wavebreaker's Fin,4,45:620,ATK,0.03:0.138,Polearm
+Wine and Song,4,44:465,ER,0.067:0.306,Catalyst
+Xiphos' Moonlight,4,42:510,EM,36:165,Sword
+Amos' Bow,5,46:608,ATK,0.108:0.496,Bow 
+Aquila Favonia,5,48:674,PHYS,0.09:0.413
+Lost Prayer to the Sacred winds,5,46:608,CRIT Rate,0.072:0.331,Catalyst
+Primordial Jade Winged-Spear,5,48:674,CRIT Rate,0.048:0.221,Polearm 
+Skyward Atlas,5,48:674,ATK,0.072:0.331,Catalyst
+Skyward Blade,5,46:608,ER,0.12:0.551,Sword 
+Skyward Harp,5,48:674,CRIT Rate,0.048:0.221,Bow
+Skyward Pride,5,48:674,ER,0.08:0.368,Claymore
+Skyward Spine,5,48:674,ER,0.08:0.368,Polearm
+Wolf's Gravestone,5,46:608,ATK,0.108:0.496,Claymore 
+"The Catch",4,42:520,ER,0.1:0.45,Polearm
+"Ultimate Overlord's Mega Magic Sword",4,44:465,ER,0.067:0.306
+Dragon's Bane,4,41:454,EM,48:221,Polearm 
+Eye of Perception,4,41:454,ATK,0.12:0.551,Claymore
+Favonius Codex,4,42:510,ER,0.1:0.459,Catalyst
+Favonius GreatSword,4,41:454,ER,0.133:0.613,Claymore
+Favonius Lance,4,44:465,ER,0.067:0.306,Polearm 
+Favonius Sword,4,41:454,ER,0.133:0.613,Sword
+Favonius WarBow,4,41:454,ER,0.133:0.613,Bow
+Dragonspine Spear,4,41:454,PHYS,0.15:0.69,Polearm
+End of the Line,4,42:510,ER,0.10:0.459,Bow
+Fading Twilight,4,44:565,ER,0.067:0.306,Bow
+Festering Desire,4,42:510,ER,0.1:0.459,Sword
+Finale of the Deep,4,44:565,ATK,0.06:0.276,Sword 
+Fleuve Cendre Ferryman,4,42:510,ER,0.1:0.459,Sword
+Flowing Purity,4,44:565,ATK,0.06:0.276,Catalyst
+Forest Regalia,4,44:565,ER,0.06:0.306,Claymore 
+Frostbearer,4,42:510,ATK,0.09:0.413,Catalyst
+Fruit of Fulfillment,4,42:510,ER,0.1:0.459,Catalyst
+Hakushin Ring,4,44:565,ER,0.067:0.306,Catalyst 
+Hamayumi,4,41:454,ATK,0.12:0.551,Bow 
+Ibis Piercer,4,44:565,ATK,0.06:0.276,Bow 
+Iron Sting,4,42:510,EM,36:165,Sword 
+Kagotsurube Isshin,4,42:510,ATK,0.09:0.413,Sword 
+Katsuragikiri Nagamasa,4,42:510,ER,0.1:0.459,Claymore 
+King's Squire,4,41:454,ATK,0.12:0.551,Bow 
+Kitain Cross Spear,4,44:565,EM,24:110,Polearm 
+Lion's Roar,4,42:510,ATK,0.09:41:3,Sword
+Lithic Spear,4,44:565,ATK,0.06:0.276,Polearm 
+Luxurious Sea-Lord,4,41:454,ATK,0.12:0.551,Claymore
+Mailed Flower,4,44:565,EM,24:110,Claymore 
+Makhaira Aquamarine,4,42:510,EM,36:165,Claymore
+Missive Windspear,4,42:510,ATK,0.09:0.413,Polearm 
+Mitternachts Waltz,4,42:510,PHYS,0.113:0.517,Bow
+Moonpiercer,4,44:565,EM,24:110,Polearm
+Mouun's Moon,4,44:565,ATK,0.06:0.276,Bow 
+Oathsworn Eye,4,44:565,ATK,0.06:0.276,Catalyst 
+Portable Power Saw,4,41:565,HP,0.12:0.551,Claymore 
+Predator,4,42:510,ATK,0.09:0.413,Bow 
+Prospector's Drill,4,44:565,ATK,0.06:0.276,Polearm
+Prototype Amber,4,42:510,HP,0.09:0.413,Catalyst 
+Prototype Archaic,4,44:565,ATK,0.06:0.276,Sword
+Prototype Crescent,4,42:510,ATK,0.09:0.413,Bow 
+Prototype Rancour,4,44:565,PHYS,0.075:0.345,Sword 
+Prototype Starglitter,4,42:510,ER,0.1:0.459,Polearm
+Rainslasher,4,42:510,EM,36:165,Claymore 
+Range Gauge,4,44:565,ATK,0.06:0.276,Bow
+Rightful Reward,4,44:565,HP,0.06:0.276,Polearm 
+Royal Bow,4,42:510,ATK,0.09:0.413,Bow 
+Royal Greatsword,4,44:565,ATK,0.06:0.276,Claymore 
+Royal Grimore,4,44:565,ATK,0.06:0.276,Catalyst 
+Royal Longsword,4,42:510,ATK,0.09:0.413,Sword
+Royal Spear,4,44:565,ATK,0.06:0.276,Polearm 
+Rust,4,42:510,ATK,0.09:0.413,Bow 
+Sacrificial Bow,4,42:510,ATK,0.09:0.413,Bow 
+Sacrificial Bow,4,44:565,ER,0.067:0.306,Bow
+Sacrificial Fragments,4,41:454,EM,48:221,Catalyst
+Sacrificial Greatsword,4,44:565,ER,0.067:0.306,Claymore 
+Sacrificial Jade,4,41:454,CRIT Rate,0.08:0.368,Catalyst 
+Sacrificial Sword,4,41:454,ER,0.133:0.613,Sword
+Sapwood Blade,4,44:565,ER,0.067:0.306,Sword 
+Scion of the Blazing Sun,4,44:565,CRIT Rate,0.04:0.184,Bow
+Serpent Spine,4,42:510,CRIT Rate,0.06:0.276,Claymore
+Snow-Tombed Starsilver,4,44:565,PHYS,0.075:0.345,Claymore 
+Solar Perl,4,42:510,CRIT Rate,0.06:0.276,Catalyst 
+Song of Stillness,4,42:510,ATK,0.09:0.413,Bow
+Sword of Descension,4,39:440,ATK,0.077:0.352,Sword
+Sword of Narzissenkreuz,4,42:510,ATK,0.09:0.413,Sword
+Talking Stick,4,44:565,CRIT Rate,0.04:0.184,Claymore 
+The Alley Flash,4,45:620,EM,12:55,Sword 
+The Bell,4,42:510,HP,0.09:0.413,Claymore
+The Flute,4,42:510,ATK,0.09:0.413,Sword
+The Stringless,4,42:510,EM,36:165,Bow 
+The Viridescent Hunt,4,42:510,CRIT Rate,0.06:0.276,Bow 
+The Widsith,4,42:510,CRIT DMG,0.12:0.551,Catalyst 
+Tidal Shadow,4,42:510,ATK,0.09:0.413,Claymore
+Toukabou Shigure,4,42:510,EM,36:165,Sword
+Wandering Evenstar,4,42:510,EM,36:165,Catalyst
+Wavebreaker's Fin,4,45:620,ATJ,0.03:0.138,Polearm
+Whiteblind,4,42:510,DEF,0.113:0.517,Claymore 
+Windblume Ode,4,42:510,EM,36:165,Bow
+Wind and Song,4,44:565,ER,0.067:0.306,Catalyst
+Wolf-Fang,4,42:510,CRIT Rate,0.06:0.276,Sword
+Xiphos' Moonlight,4,42:510,EM,36:165,Sword
+Black Tassel,3,38:354,HP,0.102:0.469,Polearm 
+Bloodtainted Greatsword,3,38:354,EM,41:187,Claymore
+Cool Steel,3,39:401,ATK,0.077:0.352,Sword
+Dark Iron Sword,3,39:401,EM,31:151,Sword
+Debate Club,3,39:401,ATK,0.077:0.352,Claymore
+Emerald Orb,3,40:448,EM,94:20,Catalyst
+Ferrous Sahdow,3,39:401,HP,0.077:0.352,Claymore
+Fillet Blade,3,39:401,ATK,0.077:0.352,Sword
+Halberd,3,40:448,ATK,0.051:0.234,Polearm
+Harbinger of Dawn,3,39:401,CRIT DMG,0.102:0.469,Sword
+Magic Guide,3,38:354,EM,41:187,Catalyst
+Magic Guide,3,38:354,EM,41:187,Catalyst
+Messenger,3,40:448,CRIT DMG,0.068:0.312,Bow
+Otherworldly Story,3,39:401,ER,0.085:0.39,Catalyst
+Raven Bow,3,40:448,EM,20:94,Bow
+Recurve Bow,3,38:354,HP,0.102:0.469,Bow
+Sarhpshooter's Oath,3,39:401,CRIT DMG,0.102:0.469,Bow
+Skyrider Greatsword,3,39:401,PHYS,0.093:0.439,Claymore
+Skyrider Sword,3,38:354,CRIT Rate,0.068:0.312,Bow
+Thrilling Tales of Dragon Slayers,3,39:401,HP,0.077:0.352,Catalyst
+Traveler's Handy Sword,3,40:448,DEF,0.064:0.293,Sword
+Twin Nephrite,3,40:448,CRIT Rate,0.034:0.156,Catalyst
+White Iron Greatsword,3,39:401,CRIT Rate,0.051:0.439,Claymore
+White Tassel,3,39:401,CRIT Rate,0.051:0.234,Polearm
+Iron Point,2,33:243,NA,NA,Polearm
+Old Merc's Pal,2,33:243,NA,NA,Claymore
+Pocket Grimoire,2,33:243,NA,NA,Catalyst
+Seasoned Hunter's Bow,2,33:243,NA,NA,Bow 
+Silver Sword,2,33:243,NA,NA,Sword
+Apprentice's Notes,1,23:185,NA,NA,Catalyst
+Beginner's Protector,1,23:185,NA,NA,Polearm
+Dull Blade,1,23:185,NA,NA,Sword
+Hunter's Bow,1,23:185,NA,NA,Bow
+Waster Greatsword,1,23:185,NA,NA,Claymore
