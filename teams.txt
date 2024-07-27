@@ -1,24 +1,28 @@
 planned teams 
-Permafreeze         Clorinde,Layla,Sigewinne,QiQi
-Hyperbloom          TBD,Nahida,Xinqiu,Kuki Shinobu
-Boom                Yanfei,Kirara,Thoma,Emilie
-Bloom               Alhaitham,Barbara,Nilou,Kaveh
-Lynette             Lynette,Lisa,Gaming,Neuvilette 
-Anemo               Faruzan,Sayu,Tartaglia,Xiao
-Phys                Fischl,Noelle,Freminet,Arataki Itto 
-Cristalize          Navia,Klee,Keqing,Chongyun
-Geo I               Yun Jin,Gorou,Yoimiya,Jean
-Hydro Infused       Candace,Dehya,Beidou,Yaoyao
-Melt                Kamisato Ayato,Kamisato Ayaka,pyro tbd,anemo tbd
+Permafreeze         Layla,Sigewinne,Keqing,Shenhe
+Cristalize          Navia,Ningguang,Sigewinne,QiQi
+Boom                Yanfei,Kirara,Sucrose,Emilie
+Bloom               Alhaitham,Sangonomiya Kokomi,Nilou,Kaveh
+Lynette             Lynette,Lisa,Gaming,Mona 
+Hyperbloom          Xingqiu,Nahida,Baizhu,Kuki Shinobu
+Phys                Fischl,Noelle,Freminet,Rosaria
+Overload            Kujou Sara,tbd,Chevreuse,Amber
+Vape                Tartaglia,Pyro Traveler,Mavuika,Mualani
+Anemo               Faruzan,Sayu,tbd,Xiao
+Fridge              Wriothesley,Chongyun,dendro tbd,Barbara
 Aggravate           Cyno,Collei,Tighnari,Sethos
-Mono Pyro           Bennett,Xiangling,Lyney,Sucrose
-Fridge              Shenhe,Wriothesley,Dendro,Hydro
-Geo II              Albedo,Chiro,TBD,TBD 
+Geo I               Yun Jin,Gorou,Yoimiya,tbd
+Hydro Infused       Candace,Dehya,Beidou,Yaoyao
+Melt                Kamisato Ayato,Kamisato Ayaka,Klee,Jean
+Mono Pyro           Bennett,Xiangling,Lyney,anemo tbd
+Geo II              Chiori,Kachina,Arataki Itto,Diluc 
+
 Mondstadt           Amber,Klee,Sucrose,Noelle
 Liyue               Baizhu,QiQi,Gaming,Xiao
 Chasm               Yaoyao,Yanfei,Ningguang,Beidou
 Inazuma             Arataki Itto,Kirara,Gorou,Shikanoien Heizou
 Sumeru Woods        Tighnari,Collei,Nilou,Cyno
-Sumeru Desert       Sethos,Kaveh,Nahida,Candace 
+Sumeru Desert       Sethos,Dehya,Nahida,Candace 
 Fontaine            Charlotte,Navia,Clorinde,Wriothesley
 Underwater          Lynette,Sigewinne,Lyney,Freminet
+Natlan              Kachina,Iansan,Mualani,Mavuika
