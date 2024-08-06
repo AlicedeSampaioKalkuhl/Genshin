@@ -1,28 +1,19 @@
 planned teams 
-Permafreeze         Layla,Sigewinne,Keqing,Shenhe
+Permafreeze         Layla,Sigewinne,Keqing,Rosaria
 Cristalize          Navia,Ningguang,Sigewinne,QiQi
 Boom                Yanfei,Kirara,Sucrose,Emilie
 Bloom               Alhaitham,Sangonomiya Kokomi,Nilou,Kaveh
 Lynette             Lynette,Lisa,Gaming,Mona 
-Hyperbloom          Xingqiu,Nahida,Baizhu,Kuki Shinobu
-Phys                Fischl,Noelle,Freminet,Rosaria
-Overload            Kujou Sara,tbd,Chevreuse,Amber
-Vape                Tartaglia,Pyro Traveler,Mavuika,Mualani
-Anemo               Faruzan,Sayu,tbd,Xiao
-Fridge              Wriothesley,Chongyun,dendro tbd,Barbara
+Hyperbloom          Mualani,Nahida,Yae Miko,Kuki Shinobu
+Phys                Fischl,Noelle,Freminet,Mika
+Overload            Kujou Sara,Wriothesley,Chevreuse,Amber
+Vape                Tartaglia,Pyro Traveler,Mavuika,Xingqiu
+Anemo               Faruzan,Diluc,Xianyun,Xiao
+Fridge              Barbara,Kaeya,Charlotte,Sucrose
 Aggravate           Cyno,Collei,Tighnari,Sethos
-Geo I               Yun Jin,Gorou,Yoimiya,tbd
+Geo I               Kachina,Gorou,Yoimiya,Chongyun
 Hydro Infused       Candace,Dehya,Beidou,Yaoyao
 Melt                Kamisato Ayato,Kamisato Ayaka,Klee,Jean
-Mono Pyro           Bennett,Xiangling,Lyney,anemo tbd
-Geo II              Chiori,Kachina,Arataki Itto,Diluc 
-
-Mondstadt           Amber,Klee,Sucrose,Noelle
-Liyue               Baizhu,QiQi,Gaming,Xiao
-Chasm               Yaoyao,Yanfei,Ningguang,Beidou
-Inazuma             Arataki Itto,Kirara,Gorou,Shikanoien Heizou
-Sumeru Woods        Tighnari,Collei,Nilou,Cyno
-Sumeru Desert       Sethos,Dehya,Nahida,Candace 
-Fontaine            Charlotte,Navia,Clorinde,Wriothesley
-Underwater          Lynette,Sigewinne,Lyney,Freminet
-Natlan              Kachina,Iansan,Mualani,Mavuika
+Mono Pyro           Bennett,tbd,Lyney,Shikanoien Heizhou
+Inazuma National    Chiori,Arataki Itto,Sayu,Thoma
+Liyue National      Shenhe,Ganyu,Xiangling,Yun Jin
