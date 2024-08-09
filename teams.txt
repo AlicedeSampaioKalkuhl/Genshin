@@ -1,19 +1,19 @@
 planned teams 
 Permafreeze         Layla,Sigewinne,Keqing,Rosaria
-Cristalize          Navia,Ningguang,Sigewinne,QiQi
-Boom                Yanfei,Kirara,Sucrose,Emilie
+Cristalize          Navia,Ningguang,Clorinde,QiQi
+Boom                Yanfei,Kirara,Bennett,Emilie
 Bloom               Alhaitham,Sangonomiya Kokomi,Nilou,Kaveh
 Lynette             Lynette,Lisa,Gaming,Mona 
-Hyperbloom          Mualani,Nahida,Yae Miko,Kuki Shinobu
 Phys                Fischl,Noelle,Freminet,Mika
+Hyperbloom          Mualani,Nahida,Yae Miko,Kuki Shinobu
 Overload            Kujou Sara,Wriothesley,Chevreuse,Amber
 Vape                Tartaglia,Pyro Traveler,Mavuika,Xingqiu
 Anemo               Faruzan,Diluc,Xianyun,Xiao
-Fridge              Barbara,Kaeya,Charlotte,Sucrose
+Fridge              Barbara,Kaeya,Charlotte,dendro tbd
 Aggravate           Cyno,Collei,Tighnari,Sethos
-Geo I               Kachina,Gorou,Yoimiya,Chongyun
+Geo                 Kachina,Gorou,Razor,Chongyun
 Hydro Infused       Candace,Dehya,Beidou,Yaoyao
-Melt                Kamisato Ayato,Kamisato Ayaka,Klee,Jean
-Mono Pyro           Bennett,tbd,Lyney,Shikanoien Heizhou
+Melt                Kamisato Ayato,Kamisato Ayaka,Klee,Sucrose
+Mono Pyro           Yoimiya,Bennett,Lyney,Shikanoien Heizhou
 Inazuma National    Chiori,Arataki Itto,Sayu,Thoma
 Liyue National      Shenhe,Ganyu,Xiangling,Yun Jin
