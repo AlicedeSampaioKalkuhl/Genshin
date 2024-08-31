@@ -1,19 +1,22 @@
 planned teams 
 Permafreeze         Layla,Sigewinne,Keqing,Rosaria
 Cristalize          Navia,Ningguang,Clorinde,QiQi
-Boom                Yanfei,Kirara,Bennett,Emilie
+Boom                Yanfei,Kirara,Jean,Emilie
 Bloom               Alhaitham,Sangonomiya Kokomi,Nilou,Kaveh
 Lynette             Lynette,Lisa,Gaming,Mona 
-Phys                Fischl,Noelle,Freminet,Mika
-Hyperbloom          Mualani,Nahida,Yae Miko,Kuki Shinobu
-Overload            Kujou Sara,Wriothesley,Chevreuse,Amber
-Vape                Tartaglia,Pyro Traveler,Mavuika,Xingqiu
-Anemo               Faruzan,Diluc,Xianyun,Xiao
-Fridge              Barbara,Kaeya,Charlotte,dendro tbd
-Aggravate           Cyno,Collei,Tighnari,Sethos
-Geo                 Kachina,Gorou,Razor,Chongyun
+Phys                Freminet,Fischl,Xiynan,Mika
+Electro Charged     Mualani,Thoma,Kaedehara Kazuha,Iansan
+Turbo Twirly        Kachina,Diluc,Xianyun,Xilonen
 Hydro Infused       Candace,Dehya,Beidou,Yaoyao
+Aggravate           Cyno,Collei,Tighnari,Sethos
+Geo Phys            Noelle,Arataki Itto,Razor,Chongyun
+Burgeon             Baizhu,Yelan,Chevreuse,Furina
+Overload            Kujou Sara,Wriothesley,atk scaling tbd,Amber
+Vape                Tartaglia,Lumine,Mavuika,Xingqiu
+Anemo               Faruzan,Chasca,Xiao,tbd
+Hyperbloom          Neuvilette,Nahida,Yae Miko,Kuki Shinobu
+Fridge              Barbara,Kaeya,Charlotte,dendro tbd
 Melt                Kamisato Ayato,Kamisato Ayaka,Klee,Sucrose
 Mono Pyro           Yoimiya,Bennett,Lyney,Shikanoien Heizhou
-Inazuma National    Chiori,Arataki Itto,Sayu,Thoma
-Liyue National      Shenhe,Ganyu,Xiangling,Yun Jin
+Inazuma National    Chiori,Gorou,Sayu,tbd
+Liyue National      Shenhe,Ganyu,Xiangling,Yun Jin 
