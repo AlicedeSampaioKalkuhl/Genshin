@@ -1,22 +1,24 @@
 planned teams 
-Permafreeze         Layla,Sigewinne,Keqing,Rosaria
-Cristalize          Navia,Ningguang,Clorinde,QiQi
-Boom                Yanfei,Kirara,Jean,Emilie
-Bloom               Alhaitham,Sangonomiya Kokomi,Nilou,Kaveh
-Lynette             Lynette,Lisa,Gaming,Mona 
-Phys                Freminet,Fischl,Xiynan,Mika
-Electro Charged     Mualani,Thoma,Kaedehara Kazuha,Iansan
-Turbo Twirly        Kachina,Diluc,Xianyun,Xilonen
-Hydro Infused       Candace,Dehya,Beidou,Yaoyao
 Aggravate           Cyno,Collei,Tighnari,Sethos
-Geo Phys            Noelle,Arataki Itto,Razor,Chongyun
-Burgeon             Baizhu,Yelan,Chevreuse,Furina
-Overload            Kujou Sara,Wriothesley,atk scaling tbd,Amber
-Vape                Tartaglia,Lumine,Mavuika,Xingqiu
 Anemo               Faruzan,Chasca,Xiao,tbd
-Hyperbloom          Neuvilette,Nahida,Yae Miko,Kuki Shinobu
+Bloom               Alhaitham,Sangonomiya Kokomi,Nilou,Kaveh
+Boom                Yanfei,Kirara,Jean,Emilie
+Burgeon             Baizhu,Yelan,Chevreuse,Furina
+Crystalize          Navia,Ningguang,Clorinde,QiQi
+Geo                 Chiori,Gorou,Thoma,tbd
+Geo Phys            Noelle,Arataki Itto,Razor,Chongyun
+Electro Charged     Mualani,Xiynan,Kaedehara Kazuha,Iansan
 Fridge              Barbara,Kaeya,Charlotte,dendro tbd
+Hydro Infused       Candace,Dehya,Beidou,Yaoyao
+Hyperbloom          hydro tbd,Nahida,Yae Miko,Kuki Shinobu
+Liyue National      Shenhe,Ganyu,Xiangling,Yun Jin 
+Lynette             Lynette,Lisa,Gaming,Mona 
+Lumine              Tartaglia,Lumine,Mavuika,Sayu
 Melt                Kamisato Ayato,Kamisato Ayaka,Klee,Sucrose
 Mono Pyro           Yoimiya,Bennett,Lyney,Shikanoien Heizhou
-Inazuma National    Chiori,Gorou,Sayu,tbd
-Liyue National      Shenhe,Ganyu,Xiangling,Yun Jin 
+Overload            Kujou Sara,Wriothesley,Xingqiu,Amber
+Permafreeze         Layla,Sigewinne,Keqing,Rosaria
+Phys                Freminet,Fischl,phys char,Mika
+Plunge              Diluc,Xianyun,tbd,tbd
+Turbo Twirly        Kachina,tbd,tbd,Xilonen
+

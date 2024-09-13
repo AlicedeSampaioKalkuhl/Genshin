@@ -45,7 +45,7 @@ C3,Lynette,Finisher,HP & EM,Viridescent Venerer,HP,ATK,EM,Anemo DMG,EM,Finale of
 NA,Lyney,Exploration,CRIT & HP,Vermillion Hereafter,HP,ATK,ATK,Pyro DMG,CRIT,NA
 NA,Mavuika,TBD,TBD,TBD,HP,ATK,TBD,Pyro DMG,TBD,NA
 NA,Mika,Healer,ER & HP,Maiden Beloved & Tenacity of the Millileth,HP,ATK,ER,HP,Healing Bonus,NA
-C0,Mona,Support,ER,Emblem of Severed Fate,HP,ATK,ER,ATK,CRIT,Thrilling Tales of Dragon Slayers
+C1,Mona,Support,ER,Emblem of Severed Fate,HP,ATK,ER,ATK,CRIT,Thrilling Tales of Dragon Slayers
 C0,Mualani,TBD,TBD,TBD,HP,ATK,HP,Hydro DMG,HP,NA
 NA,Nahida,Support,ATK & EM,Deepwood Memories,HP,ATK,EM,EM,EM,NA
 C0,Navia,DPS,CRIT,Nighttime Whispers in the Echoing Woods,HP,ATK,ATK,Geo DMG,CRIT,Verdict
@@ -56,7 +56,7 @@ C1,Qiqi,Healer,ATK,Ocean-Hued Clam & Maiden Beloved,HP,ATK,ATK,Cryo DMG,Healing 
 C1,Razor,DPS,CRIT,Pale Flame & Thundering Fury,HP,ATK,ATK,Electro DMG,CRIT,Skyrider Greatsword
 C6,Rosaria,Support,CRIT & PHYS,Blizzard Strayer & Pale Flame,HP,ATK,ATK,PHYS,CRIT,Dragonspine Spear
 NA,Sangonomiya Kokomi,Healer,HP,Ocean-Hued Clam,HP,ATK,HP,Hydro DMG,HP,NA
-NA,Sayu,Support,EM,Viridescent Venerer,HP,ATK,ATK,ATK,ATK,NA
+C0,Sayu,Support,EM,Viridescent Venerer,HP,ATK,ATK,ATK,ATK,NA
 C5,Sethos,Exploration,ER & CRIT,Thundering Fury,HP,ATK,EM,Electro DMG Bonus,EM,Cloudforged
 NA,Shenhe,Support,ATK,Noblesse Obliege,HP,ATK,ATK,Cryo DMG,ATK,NA
 NA,Shikanoien Heizou,Exploration,CRIT,Desert Pavilion Chronicle,HP,ATK,EM,EM,EM,NA
