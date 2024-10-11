@@ -2,23 +2,13 @@ planned teams
 Aggravate           Cyno,Collei,Tighnari,Sethos
 Anemo               Faruzan,Chasca,Xiao,tbd
 Bloom               Alhaitham,Sangonomiya Kokomi,Nilou,Kaveh
-Boom                Yanfei,Kirara,Jean,Emilie
-Burgeon             Baizhu,Yelan,Chevreuse,Furina
-Crystalize          Navia,Ningguang,Clorinde,QiQi
-Geo                 Chiori,Gorou,Thoma,tbd
+Geo                 Chiori,Gorou,Kachina,Gaming
 Geo Phys            Noelle,Arataki Itto,Razor,Chongyun
-Electro Charged     Mualani,Xiynan,Kaedehara Kazuha,Iansan
+Electro Charged     Mualani,Xinyan,Kaedehara Kazuha,Iansan
 Fridge              Barbara,Kaeya,Charlotte,dendro tbd
-Hydro Infused       Candace,Dehya,Beidou,Yaoyao
 Hyperbloom          hydro tbd,Nahida,Yae Miko,Kuki Shinobu
-Liyue National      Shenhe,Ganyu,Xiangling,Yun Jin 
-Lynette             Lynette,Lisa,Gaming,Mona 
 Lumine              Tartaglia,Lumine,Mavuika,Sayu
-Melt                Kamisato Ayato,Kamisato Ayaka,Klee,Sucrose
-Mono Pyro           Yoimiya,Bennett,Lyney,Shikanoien Heizhou
+Mono Pyro           Yoimiya,Bennett,Amber,Shikanoien Heizhou
 Overload            Kujou Sara,Wriothesley,Xingqiu,Amber
-Permafreeze         Layla,Sigewinne,Keqing,Rosaria
-Phys                Freminet,Fischl,phys char,Mika
-Plunge              Diluc,Xianyun,tbd,tbd
-Turbo Twirly        Kachina,tbd,tbd,Xilonen
+Plunge              Diluc,Xianyun,Kazuha,Gaming 
 
