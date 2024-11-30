@@ -1,70 +1,69 @@
-pulls,character,style,stats,artifacts,flower,plume,sands,goblet,ciclet,weapon
-C1,Alhaitham,DPS,TM & Dendro Dmg,Gilded Dreams & Wanderer's Troupe,HP,ATK,EM,Dendro DMG,CRIT,Light of Folicar Incision
-C1,Amber,Support,ATK & HP,Noblesse Oblige,HP,ATK,ER,Pyro DMG,CRIT,Favonius Warbow
-NA,Arataki Itto,DPS,PHYS & Geo DMG,Archaic Petra & Pale Flame,HP,ATK,DEF,Geo DMG,CRIT,NA
-C0,Baizhu,Healer,ER & HP,Song of Days Past,HP,ATK,HP,Dendro DMG,Healing Bonus,Prototype Amber
-C1,Barbara,DPS,HP & CRIT Rate,Nymph's Dream,HP,ATK,HP,Hydro DMG,Healing Bonus,Lost Prayers to the Sacred Winds
-C1,Beidou,DPS,ATK & CRIT,Gladiator's Finale & Thundering Fury,HP,ATK,ATK,Elecro DMG,CRIT,3:4:4,Rainslasher
-C6,Bennett,Support,HP & ER,Emblem of Severed Fate,HP,ATK,HP,HP,Healing Bonus,Favonius Sword
-C4,Candace,Support,HP & ER,Gilded Dreams,HP,ATK,HP,HP,HP,Rightful Reward
-C0,Charlotte,Support,ATK,Golden Troupe,HP,ATK,ATK,Cryo DMG,ATK,Weapon Wandering Evenstar
-NA,Chasca,Support,TBD,TBD,HP,ATK,TBD,TBD,TBD,TBD
-C3,Chevreuse,Support,HP,Song of Days Past,HP,ATK,HP,HP,HP,Black Tassel
-C0,Chiori,Support,DEF,Golden Troupe & Husk of Opulent Dreams,HP,ATK,DEF,Geo DMG,DEF,NA
-C0,Chongyun,Support,ATK & PHYS,Pale Flame & Emblem of Severed Fate,HP,ATK,ER,Cryo DMG,CRIT,Sacrificial Greatsword
-C0,Clorinde,Finisher,HP & ATK,Fragment of Harmonic Whimsy,HP,ATK,EM,Electro DMG,EM,Absolution
-C4,Collei,Exploration,ER & CRIT,Deepwood Memories,HP,ATK,ER,Dendro DMG,EM,Sacrificial Bow
-C0,Dehya,Support,ATK & HP,Vourukasha's Glow,HP,ATK,ER,Pyro DMG,HP,Favonius Greatsword
-C0,Diluc,DPS,EM & CRIT,Crimson Witch of Flames,HP,ATK,EM,Pyro DMG,CRIT,NA
-C1,Diona,Unused,NA,NA,NA,NA,NA,NA,NA,Hunter's Bow
-C0,Emilie,Finisher,ATK,Unfinished Reverie,HP,ATK,ATK,Dendro DMG,ATK,Moonpiercer
-C1,Fischl,Support,PHYS,Pale Flame & Thundering Fury,HP,ATK,ATK,Phys DMG,CRIT,The Stringless
-C4,Faruzan,Support,CRIT & ER,Desert Pavilion Chronicle,HP,ATK,ER,Anemo DMG,CRIT,Skyward Harp
-C0,Freminet,DPS,PHYS,Pale Flame,HP,ATK,ATK,Phys DMG,CRIT,Snow-Tombed Starsilver
-C2,Gaming,Support,ER & HP,Marechaussee Hunter,HP,ATK,EM,Pyro DMG,CRIT,The Bell 
+pulls,character,style,stats,artifacts,flower,plume,sands,goblet,ciclet,refinement,weapon
+C1,Alhaitham,DPS,TM & Dendro Dmg,Deepwood Memories,HP,ATK,EM,Dendro DMG,CRIT,R1,Light of Folicar Incision
+C2,Amber,Support,ATK & HP,Noblesse Oblige,HP,ATK,ER,Pyro DMG,CRIT,Favonius Warbow
+NA,Arataki Itto,DPS,PHYS & Geo DMG,Archaic Petra & Pale Flame,HP,ATK,DEF,Geo DMG,CRIT,NA,NA
+C0,Baizhu,Healer,ER & HP,Song of Days Past,HP,ATK,HP,Dendro DMG,Healing Bonus,R5,Ash-Graven Drinking Horn
+C1,Barbara,DPS,HP & CRIT Rate,Nymph's Dream,HP,ATK,HP,Hydro DMG,Healing Bonus,R2,Lost Prayers to the Sacred Winds
+C1,Beidou,DPS,ATK & CRIT,Gladiator's Finale & Thundering Fury,HP,ATK,ATK,Elecro DMG,CRIT,R4,Rainslasher
+C6,Bennett,Support,HP & ER,Emblem of Severed Fate,HP,ATK,HP,HP,Healing Bonus,R5,Favonius Sword
+C6,Candace,Support,HP & ER,Gilded Dreams,HP,ATK,HP,HP,HP,R1,Staff of Homa
+C1,Charlotte,Support,ATK,Golden Troupe,HP,ATK,ATK,Cryo DMG,ATK,R1,Frost Bearer
+C6,Chevreuse,Support,HP,Song of Days Past,HP,ATK,HP,HP,HP,R5,Black Tassel
+C0,Chiori,Support,DEF,Golden Troupe & Husk of Opulent Dreams,HP,ATK,DEF,Geo DMG,DEF,R1,Flute of Ezpitzal
+C0,Chongyun,Support,ATK & ER,Noblesse Obliege,HP,ATK,ER,Cryo DMG,CRIT,R5,Sacrificial Greatsword
+C0,Clorinde,Finisher,HP & ATK,Fragment of Harmonic Whimsy,HP,ATK,EM,Electro DMG,EM,R1,Absolution
+C5,Collei,Exploration,ER & CRIT,Deepwood Memories,HP,ATK,ER,Dendro DMG,EM,R1,King's Squire
+C0,Dehya,Support,ATK & HP,Vourukasha's Glow,HP,ATK,ER,Pyro DMG,HP,R5,Favonius Greatsword
+C0,Diluc,DPS,EM & CRIT,Crimson Witch of Flames,HP,ATK,EM,Pyro DMG,CRIT,R1,Talking Stick
+C3,Diona,Unused,NA,NA,NA,NA,NA,NA,NA,Hunter's Bow
+C0,Emilie,Finisher,ATK,Unfinished Reverie,HP,ATK,ATK,Dendro DMG,ATK,R4,Moonpiercer
+C4,Faruzan,Support,CRIT & ER,Desert Pavilion Chronicle,HP,ATK,ER,Anemo DMG,CRIT,R4,Skyward Harp
+C2,Fischl,Support,PHYS,Pale Flame,HP,ATK,ATK,Phys DMG,CRIT,R5,The Stringless
+C0,Freminet,DPS,PHYS,Pale Flame,HP,ATK,ATK,Phys DMG,CRIT,R1,Snow-Tombed Starsilver
+C2,Gaming,Support,ER & HP,Marechaussee Hunter,HP,ATK,EM,Pyro DMG,CRIT,R2,Fruitful Hook
 NA,Gorou,Exploration,CRIT,Noblesse Oblige,HP,ATK,DEF,DEF,DEF,NA
 NA,Iansan,Exploration,TBD,TBD,HP,ATK,TBD,TBD,TBD,NA
-C0,Jean,Healer,ER & EM,Viridescent Venerer & Maiden Beloved,HP,ATK,ER,Anemo DMG,Healing Bonus,Sacrificial Sword
-C0,Kachina,Support,TBD,TBD,HP,ATK,DEF,Geo DMG,DEF,NA
-C0,Kaedehara Kazua,Support,,Viridescent Venerer,HP,ATK,EM,Anemo DMG,EM,
-C0,Kaeya,DPS,CRIT,Blizzard Strayer,HP,ATK,ATK,Cryo DMG,CRIT,Iron Sting
-C0,Keqing,Support,EM & CRIT,Thundering Fury & Pale,HP,ATK,EM,Phys DMG,EM,Prototype Rancor
-C0,Kaveh,Finisher,ER & EM,Flower of Paradise Lost,HP,ATK,ER,Dendro DMG,EM,Rainslasher 
-C6,Kirara,Shielder,HP,Deepwood Memories,HP,ATK,HP,HP,HP,Sapwood Blade
-C1,Kujo Sara,Support,ATK,Noblesse Oblige,HP,ATK,ATK,ATK,ATK,Amos' Bow
-C0,Kuki Shinobu,Healer,HP & EM,Gilded Dreams,HP,ATK,EM,EM,EM,Dark Iron Sword
-C1,Layla,Main,HP & EM,Tenacity of the Milileth & Blizzard Strayer,HP,ATK,HP,Cryo DMG,HP,Key of Khaj-Nisut 
-C0,Lisa,Exploration,EM,Emblem of Severed Fate,HP,ATK,ER,Electro DMG,CRIT,The Widsith
-C3,Lynette,Finisher,HP & EM,Viridescent Venerer,HP,ATK,EM,Anemo DMG,EM,Finale of the Deep
-NA,Mavuika,TBD,TBD,TBD,HP,ATK,TBD,Pyro DMG,TBD,NA
-C0,Mika,Healer,ER & HP,Maiden Beloved & Tenacity of the Millileth,HP,ATK,ER,HP,Healing Bonus,NA
-C1,Mona,Support,ER,Emblem of Severed Fate,HP,ATK,ER,ATK,CRIT,Thrilling Tales of Dragon Slayers
-C0,Mualani,TBD,TBD,TBD,HP,ATK,HP,Hydro DMG,HP,NA
-NA,Nahida,Support,ATK & EM,Deepwood Memories,HP,ATK,EM,EM,EM,NA
-C0,Navia,DPS,CRIT,Nighttime Whispers in the Echoing Woods,HP,ATK,ATK,Geo DMG,CRIT,Verdict
-C0,Nilou,Support,HP & Hydro DMG,Tenacity of the Millelith & Vourukasha's Glow,HP,ATK,HP,HP,HP,Xiphos' Moonlight
-C6,Ningguang,DPS,ATJ & ER,Archaic Petra,HP,ATK,EM,Geo DMG,EM,Mappa Mare
-C6,Noelle,Exploration,DEF,Retracing Bolide,HP,ATK,DEF,DEF,DEF,Whiteblind
-C1,Qiqi,Healer,ATK,Ocean-Hued Clam & Maiden Beloved,HP,ATK,ATK,ATK,Healing Bonus,The Flute
-C0,Raiden Shogun,Support,EM,Flowers of Paradise Lost,HP,ATK,EM,EM,EM,
-C3,Razor,DPS,CRIT,Echoes of an Offering,HP,ATK,ATK,Electro DMG,CRIT,Skyrider Greatsword
-C6,Rosaria,Support,CRIT & PHYS,Blizzard Strayer & Pale Flame,HP,ATK,ATK,PHYS,CRIT,Dragonspine Spear
-NA,Sangonomiya Kokomi,Healer,HP,Ocean-Hued Clam,HP,ATK,HP,Hydro DMG,HP,NA
-C0,Sayu,Support,EM,Viridescent Venerer,HP,ATK,ATK,ATK,ATK,NA
-C5,Sethos,Exploration,ER & CRIT,Thundering Fury,HP,ATK,EM,Electro DMG,EM,Cloudforged
-C1,Shikanoien Heizou,Exploration,CRIT,Desert Pavilion Chronicle,HP,ATK,EM,EM,EM,NA
-C0,Sigewinne,Healer,HP,Song of Days Past,HP,ATK,HP,HP,Healing Bonus,Silvershower Heartstrings
-C0,Sucrose,Exploration,EM,Viridescent Venerer,HP,ATK,EM,EM,EM,Favonius Codex
-C6,Thoma,Shielder,HP,Noblesse Oblige & Vouruksha's Glow,HP,ATK,HP,Pyro DMG,EM,Dragon's Bane
-C0,Tighnari,Exploration,CRIT,Wanderer's Troupe,HP,ATK,EM,Dendro DMG,CRIT,Messenger
-C0,Pyro Traveler,Unused,NA,NA,NA,NA,NA
-NA,Wriothesley,DPS,CRIT,Shimenawa's Reminiscence,HP,ATK,ATK,Cryo DMG,CRIT,NA
-C6,Xiangling,Support,CRIT,Emblem of Severed Fate,HP,ATK,ER,Pyro DMG,CRIT,White Tassel
-NA,Xianyun,Support,ATK,Viridescent Venerer,HP,ATK,ATK,ATK,ATK,NA
-C2,Xinyan,TBD,PHYS,Pale Flame & Bloodstained Chivalry,HP,ATK,ATK,PHYS,CRIT,NA
-C0,Xingqiu,Finisher,ATK & Hydro DMG,Emblem of Severed Fate,HP,ATK,ER,Hydro DMG,CRIT,Sacrificial Swords
-C2,Yanfei,DPS,EM & CRIT,Crimson Witch of Flames,HP,ATK,EM,Pyro DMG,EM,Fruit of Fulfillment
-C0,Yaoyao,Exploration,HP,Vourukasha's Glow & Deepwood Memories,HP,ATK,EM,EM,EM,NA
-C0,Yelan,Support,HP,Emblem of Severed Fate,HP,ATK,HP,HP,HP,Aqua Simulacra
+C0,Jean,Healer,ER & EM,Viridescent Venerer & Maiden Beloved,HP,ATK,ER,Anemo DMG,Healing Bonus,R1,Freedom Sworn
+C2,Kachina,Support,TBD,TBD,HP,ATK,DEF,Geo DMG,DEF,R1,Footprint of the Rainbow
+C0,Kaedehara Kazua,Support,,Viridescent Venerer,HP,ATK,EM,Anemo DMG,EM,R1,Kagotsurube Isshin
+C0,Kaeya,DPS,CRIT,Blizzard Strayer,HP,ATK,ATK,Cryo DMG,CRIT,R1,Finale of the Deep
+C6,Kaveh,Finisher,ER & EM,Flower of Paradise Lost,HP,ATK,ER,Dendro DMG,EM,R1,Forest Regalia 
+C1,Keqing,Support,EM & CRIT,Thundering Fury & Pale,HP,ATK,EM,Phys DMG,EM,R2,Prototype Rancor
+C6,Kirara,Shielder,HP,Deepwood Memories,HP,ATK,HP,HP,HP,R1,Sapwood Blade
+C1,Kujo Sara,Support,ATK,Noblesse Oblige,HP,ATK,ATK,ATK,ATK,R1,Amos' Bow
+C0,Kuki Shinobu,Healer,HP & EM,Gilded Dreams,HP,ATK,EM,EM,EM,R2,Dark Iron Sword
+C2,Layla,Main,HP & EM,Tenacity of the Milileth & Blizzard Strayer,HP,ATK,HP,Cryo DMG,HP,R2,Key of Khaj-Nisut 
+C0,Lisa,Exploration,EM,Emblem of Severed Fate,HP,ATK,ER,Electro DMG,CRIT,R5,The Widsith
+C4,Lynette,Finisher,HP & EM,Viridescent Venerer,HP,ATK,EM,Anemo DMG,EM,R1,Wolf-Fang
+C0,Mika,Healer,ER & HP,Maiden Beloved & Tenacity of the Millileth,HP,ATK,ER,HP,Healing Bonus,R1,Crescent Pike
+C1,Mona,Support,ER,Emblem of Severed Fate,HP,ATK,ER,ATK,CRIT,R1,Ring of Yaxche
+C0,Mualani,TBD,TBD,TBD,HP,ATK,HP,Hydro DMG,HP,R1,Surf's Up
+C0,Nahida,Support,ATK & EM,Deepwood Memories,HP,ATK,EM,EM,EM,R1,Wandering Evenstar
+C0,Navia,DPS,CRIT,Nighttime Whispers in the Echoing Woods,HP,ATK,ATK,Geo DMG,CRIT,R2,Verdict
+C0,Nilou,Support,HP & Hydro DMG,Tenacity of the Millelith & Vourukasha's Glow,HP,ATK,HP,HP,HP,R1,Xiphos' Moonlight
+C6,Ningguang,DPS,ATJ & ER,Archaic Petra,HP,ATK,EM,Geo DMG,EM,R1,Mappa Mare
+C6,Noelle,Exploration,DEF,Retracing Bolide,HP,ATK,DEF,DEF,DEF,R4,Whiteblind
+C1,Qiqi,Healer,ATK,Ocean-Hued Clam & Maiden Beloved,HP,ATK,ATK,ATK,Healing Bonus,R5,Sword of Narzissenkreuz
+C0,Raiden Shogun,Support,EM,Flowers of Paradise Lost,HP,ATK,EM,EM,EM,R1,Kithain Cross Spear
+C3,Razor,DPS,CRIT,Echoes of an Offering,HP,ATK,ATK,Electro DMG,CRIT,R5,Skyrider Greatsword
+C6,Rosaria,Support,CRIT & PHYS,Blizzard Strayer & Pale Flame,HP,ATK,ATK,PHYS,CRIT,R1,Dragonspine Spear
+NA,Sangonomiya Kokomi,Healer,HP,Ocean-Hued Clam,HP,ATK,HP,Hydro DMG,HP,NA,NA
+C0,Sayu,Support,EM,Viridescent Venerer,HP,ATK,ATK,ATK,ATK,R1,Tidal Shadow
+C6,Sethos,Exploration,ER & CRIT,Thundering Fury,HP,ATK,EM,Electro DMG,EM,R5,Cloudforged
+C1,Shikanoien Heizou,Exploration,CRIT,Desert Pavilion Chronicle,HP,ATK,EM,EM,EM,R2,Flowing Purity
+C0,Sigewinne,Healer,HP,Song of Days Past,HP,ATK,HP,HP,Healing Bonus,R1,Silvershower Heartstrings
+C0,Sucrose,Exploration,EM,Viridescent Venerer,HP,ATK,EM,EM,EM,R4,Favonius Codex
+C6,Thoma,Shielder,HP,Noblesse Oblige & Vouruksha's Glow,HP,ATK,HP,Pyro DMG,EM,R5,Dragon's Bane
+C1,Tighnari,Exploration,CRIT,Wanderer's Troupe,HP,ATK,EM,Dendro DMG,CRIT,R1,Viridescent Hunt
+C0,Pyro Traveler,Unused,NA,NA,NA,NA,NA,NA
+NA,Wriothesley,DPS,CRIT,Shimenawa's Reminiscence,HP,ATK,ATK,Cryo DMG,CRIT,NA,NA
+C6,Xiangling,Support,CRIT,Emblem of Severed Fate,HP,ATK,ER,Pyro DMG,CRIT,R1,Deathmatch
+NA,Xiao,DPS,CRIT,Vermillion Hereafter,HP,ATK,ATK,ATK,Anemo DMG,CRIT,NA,NA
+NA,Xianyun,Support,ATK,Viridescent Venerer,HP,ATK,ATK,ATK,ATK,NA,NA
+C0,Xingqiu,Finisher,ATK & Hydro DMG,Emblem of Severed Fate,HP,ATK,ER,Hydro DMG,CRIT,R1,Skyward Blade
+C2,Xinyan,TBD,PHYS,Pale Flame & Bloodstained Chivalry,HP,ATK,ATK,PHYS,CRIT,R4,White Iron Greatsword
+C2,Yanfei,DPS,EM & CRIT,Crimson Witch of Flames,HP,ATK,EM,Pyro DMG,EM,R5,Eye of Perception
+C0,Yaoyao,Exploration,HP,Vourukasha's Glow & Deepwood Memories,HP,ATK,EM,EM,EM,R1,Rightful Reward
+C0,Yelan,Support,HP,Emblem of Severed Fate,HP,ATK,HP,HP,HP,R1,Aqua Simulacra
 NA,Yoimiya,Finisher,CRIT,Shimenawa's Reminiscence,HP,ATK,ATK,Pyro DMG,CRIT,NA
-C0,Yun Jin,Shielder,ER & CRIT,Retracing Bolide,HP,ATK,DEF,DEF,DEF,Lithic Spear
+C0,Yun Jin,Shielder,ER & CRIT,Retracing Bolide,HP,ATK,DEF,DEF,DEF,R1,Mountain-Bracing Bolt
