@@ -4,6 +4,7 @@ Off-Field-Amber,Amber,Favonius Warbow,Golden Troupe,EM:Pyro-DMG:EM
 Deepwood-Alhaitham,Alhaitham,Light of Folicar Incision,Deepwood Memories,EM:Dendro-DMG:Crit-Rate
 EM:Alhaitham,Alhaitham,Light of Folicar Incision,Wanderer's Troupe-Gilded Dreams,EM:EM:EM
 Gilded-Alhaitham,Alhaitham,Light of Folicar Incision,Gilded Dreams,EM:Dendro-DMG:Crit-DMG
+Arataki Itto,Arataki Itto,Serpent Spine,Husk of Oppulent Dreams,DEF:Geo-DMG:Crit-DMG
 Deepwood-Baizhu,Baizhu,Sacrificial Jade,Deepwood Memories,HP:HP:Healing-Bonus
 Healer-Baizhu,Baizhu,Sacrificial Jade,Ocean-Hued Clam,HP:HP:Healing-Bonus
 Beidou,Beidou,Favonius Greatsword,Emblem of Severed Fate,ER:Electro-DMG:Crit-Rate
@@ -13,7 +14,9 @@ Nymph-Barbara,Barbara,Ash-Graven Drinking Horn,Nymph's Dream,ATK:Hydro-DMG:Crit-
 Heart-Barbara,Barbara,Ash-Graven Drinking Horn,Heart of Depths,ATK:Hydro-DMG:Crit-DMG
 Candace,Candace,Staff of Homa,Gilded Dreams,HP:HP:HP
 Charlotte,Charlotte,Frostbearer,Golden Troupe,ER:ATK:ATK
+Chasca,Chasca,Flower-Weathered Feathers,Obsidian Codex,ER:Anemo-DMG:Crit-DMG
 Chevreuse,Chevreuse,Black Tassel,Song of Days Past,HP:HP:HP
+Cyno,Cyno,White Tassel,Gilded Dreams,EM:Electro-DMG:Crit-DMG
 Geo-Chiori,Chiori,,Husk of Oppulent Dreams,DEF:Geo-DMG:DEF
 Support-Chiori,Chiori,Favonius Sword,Golden Troupe,DEF:DEF:Crit-Rate
 Chongyun,Chongyun,Akuoumaru,Blizzard Strayer-Finale of Deep Gallies,EM:EM:Crit-DMG
@@ -26,13 +29,12 @@ Deepwood-Collei,Collei,King's Squire,Deepwood Memories,EM:EM:EM
 EM-Collei,Collei,King's Squire,Flower of Paradise Lost,EM:EM:EN
 EM-Dehya,Dehya,Makhaira Aquamarine,Flower of Paradise Lost,EM:EM:EM
 Diluc,Diluc,Talking Stick,Crimson Witch of Flames,ATK:Pyro-DMG:Crit-DMG
-Plunge-Diluc,Diluc,Fruitful Hook,Long Night's Oath,ATK:Physical-DMG:Crit-DMG
 HP-Dehya,Dehya,The Bell,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:Crit-DMG
 Diona,Diona,Recurve Bow,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:Healing-Bonus
 Dori,Dori,The Bell,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:Healing-Bonus
-Crit-Emilie,Ballad of the Fjords,Unfinished Reverie,
-Deepwood-Emilie,Moonpiercer,Deepwood Memories,
-EM-Emilie,Moonpiercer,Unfinished Reverie,
+Crit-Emilie,Ballad of the Fjords,Unfinished Reverie,ATK:ATK:ATK
+Deepwood-Emilie,Moonpiercer,Deepwood Memories,ATK:ATK:ATK
+EM-Emilie,Moonpiercer,Unfinished Reverie,ATK:ATK:ATK
 Cryo-Escoffier,Escoffier,Deathmatch,Blizzard Strayer-Finale of Deep Gallies,ER:ATK:ATK
 Support-Escoffier,Escoffier,Deathmatch,Golden Troupe,ER:ATK:ATK
 DPS-Faruzan,Faruzan,Skyward Harp,Desert Pavilion Chroncile,ER:Anemo-DMG:Crit-DMG
@@ -43,39 +45,48 @@ Freminet,Freminet,Entombed Starsilver,Pale Flame,EM:Physical-DMG:Crit-DMG
 Furina,Furina,Fleuvre Cendre Ferryman,Golden Troupe,HP:Hydro-DMG:Crit-Rate
 Pyro-Gaming,Gaming,Fruitful Hook,Crimson Witch of Flames,EM:Pyro-DMG:Crit-DMG
 HP-Gaming,Gaming,The Bell,Marechaussee Hunter,EM:Pyro-DM:Crit-DMG
-Plunge-Gaming,Gaming,Fruitful Hook,Long Night's Oath,EM:EM:Crit-DMG
-ATK-Iansan,Iansan,
-Scroll-Iansan,Iansan,Mappa Mare,Scroll of the Hero of Cinder City,EM:EM:EM
+ATK-Iansan,Iansan,,Vermillion Hereafter-Gladiator's Triumph,ATK:ATK:ATK
+Scroll-Iansan,Iansan,,Scroll of the Hero of Cinder City,EM:EM:EM
 Obsidian-Ifa,Ifa,Mappa Mare,Obsidian Codex,EM:Anemo-DMG:Crit-DMG
 Viridescent-Ifa,Ifa,Mappa Mare,Viridescent Venerer,EM:Anemo-DMG:Crit-Rate
+DPS-Kachina,Kachina,Deathmatch,Obsidian Codex,DEF:Geo-DMG:Crit-DMG
+Support-Kachina,Kachina,Footprints of the Rainbow,Husk of Oppulent Dreams,DEF:Geo-DMG:Crit-Rate
+Natlan-Kachina,Kachina,Footprints of the Rainbow,Scroll of the Hero of Cinder City,DEF:Geo-DMG:Crit-Rate
 Kaeya,Kaeya,Wolf-Fang,Blizzard Strayer-Finale of Deep Gallies,ATK:Cryo-DMG:Crit-DMG
 Freeze-Kaeya,Kaeya,Wolf-Fang,Blizzard Strayer,ATK:Cryo-DMG:Crit-DMG
+Bloom-Kaveh,Kaveh,Makhaira Aquamarine,Flower of Paradise Lost,EM:Dendro-GM:Crit-DMG
+Shatter-Kaveh,Kaveh,Makhaira Aquamarine,Guilded Dreams,EM:EM:Crit-DMG
 Electro-Keqing,Keqing,Anemona Kageuchi,Thundering Fury,ER:Electro-DMG:Crit-DMG
 Phys-Keqing,Keqing,Prototype Rancour,Pale Flame-Bloodstained Chivalry,ATK:Physical-DMG:Crit-DMG
-Plunge-Kazuha,Kazuha,
-Support-Kazuha,Kazuha,Freedom Sworn,
+Plunge-Kazuha,Kazuha,Kagotsurube Isshin,Viridescent Venerer,ER:Anemo-DMG:Crit-DMG
+Support-Kazuha,Kazuha,Freedom Sworn,Viridescent Venerer,ER:Anemo-DMG:Crit-Rate
 Calamity-Kirara,Kirara,Calamity of Eshu,Tenacity of the Milileth,HP:Dendro-DMG:Crit-DMG
 Deepwood-Kirara,Kirara,Sapwood Blade,Deepwood Memories,HP:HP:HP
 HP-Kirara,Kirara,Key of Khaj Nisut,Tenactiy of the Milileth-Vourukasha's Glow,HP:HP:HP
-EM-Kuki Shinobu,
+HP-Shinobu,Kuki Shinobu,Key of Khaj Nisut,Guilded Dreams,EM:EM:Healing-Bonus
+EM-Shinobu,Kuki Shinobu,Dark Iron Sword,Guilded Dreams,EM:EM:EM
 Kujou Sara,Kujou Sara,Amos Bow,Noblesse Oblige,ER:Electro-DMG:Crit-Rate
-Lan Yan,Lan Yan,
+Lan Yan,Lan Yan,Lost Prayers to the Sacred Wind,Viridescent Venerer,ATK:ATK:ATK 
+Lisa,Lisa,Hakushin Ring,Emblem of Severe Fate,ER:Electro-DMG:Crit-Rate
 Hydro-Lumine,Lumine,Sacrificial Sword,Emblem of Severed Fate,ER:Hydro-DMG:Crit-DMG
 Pyro-Lumine,Lumine,Lion's Roar,Scroll of the Hero of Cinder City,ER:Pyro-DMG:Healing-Bonus
-Burst-Layla,Layla,Iron String,
+Burst-Layla,Layla,Iron String,Blizzard Strayer-Finale of Deep Gallies,EM::Cryo-DMG:Crit-Rate
 Freeze-Layla,Layla,Iron String,Blizzard Strayer,EM:Cryo-DMG:Crit-DMG
 DPS-Layla,Layla,Calamity of Eshu,Retracing Bolide,EM:Cryo-DMG:Crit-DMG
 HP-Layla,Layla,Key of Khaj Nisut,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP
-Marechausee-Lynette,Lynette,
-Viridescent-Lynette,Lynette,
-Crimson-Lyney,Lyney,
-Marechausee-Lyney,Lyney,
+Anemo-Lumine,Lumine,
+Pyro-Lumine,Lumine,
+Marechausee-Lynette,Lynette,Finale of the Deep,Marechausee Hunter,HP:Anemo-DMG:Crit-DMG
+Viridescent-Lynette,Lynette,Wolf-Fang,Viridescent Venerer,ER:HP:HP
+Crimson-Lyney,Lyney,Rust,Crimson Witch of Flames,HP:Pyro-DMG:Crit-DMG
+Marechausee-Lyney,Lyney,Song of Stillness,Marechausee Hunter,HP:Pyro-DMG:Crit-DMG
 Mika,Mika,Prototype Staglitter,Maiden Beloved,HP:HP:Healing-Bonus
+Mizuki,Yumemizuki Mizuki,Sunny Morning Sleep-In,Viridescent Vener,EM:Anemo-DMG:Crit-DMG
 Mona,Mona,Ring of Yaxche,Emblem of Severed Fate,ER:Hydro-DMG:Crit-Rate
 Mualani,Mualani,Surf's Up,Obsidian Codex,HP:Hydro-DMG:Crit-Rate
-EM-Nahida,Nahida,Sacrificial Fragments,
-Deepwood-Nahida,Nahida,Sacrificial Fragments,
-Healer-Nahida,Nahida,Prototype Amber,
+EM-Nahida,Nahida,Sacrificial Fragments,Flower of Paradise Lost,EM:EM:EM
+Deepwood-Nahida,Nahida,Sacrificial Fragments,Deepwood Memories,EM:EM:EM
+Healer-Nahida,Nahida,Prototype Amber,Deepwood Memories,EM:EM:EM
 Navia,Navia,Verdict,Nightime Whispers in the Echoing Woods,ATK:Geo-DMG:Crit-Rate
 DPS-Neuvilette,Neuvilette,Sacrificial Jade,Marechaussee Hunter,HP:Hydro-DMG:Crit-DMG
 Support-Neuvilette,Neuvilette,Waverider Whirl,Emblem of Severed Fate-Vourukasha's Glower,ER:HP:HP
@@ -83,27 +94,32 @@ DPS-Nilou,Nilou,Key of Khaj Nisut,Tenacity of the Milileth-Vourukasha's Glow,ER:
 Support-Nilou,Nilou,Key of Khaj Nisut,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP
 Ningguang,Ningguang,Otherwordly Story,Archaic Petra,EM:Geo-DMG:Crit-Rate
 Noelle,Noelle,Whiteblind,Retracing Bolide,DEF:DEF:Healing-Bonus
-Scroll-Ororon,Ororon,
-Support-Ororon,Ororon,
+Scroll-Ororon,Ororon,Chain Breaker,Scroll of the Hero of Cinder City,ER:Electro-DMG:Crit-Rate
+Support-Ororon,Ororon,The Stringless,Golden Troupe,ER:Electro-DMG:Crit-Rate
 EM-Qiqi,Qiqi,Narzissenkreuz Blade,Maiden Beloved,ATK:ATK:Healing-Bonus
 Qiqi,Qiqi,Narzissenkreuz Blade,Ocean-Hued Clam,ATK:ATK:Healing-Bonus
 EM-Raiden,Raiden Shogun,Kithain Cross Spear,Gilded Dreams,EM:EM:EM
 ER-Raiden,Raiden Shogun,The Catch,Emblem of Severed Fate,ER:Electro-DMG:Crit-Rate
-Razor
+Razor,Razor,Skyrider Greatsword,Pale Flame,AKT:Physical-DMG:Crit-DMG
 Freeze-Rosaria,Rosaria,Favonius Lance,Blizzard Strayer,ER:Cryo-DMG:Crit-Rate
 Phys-Rosaria,Rosaria,Dragonspine Spear,Pale Flame,ER:Physical-DMG:Crit-Rate
 Shenhe,Shenhe,Favonius Lance,Blizzard Strayer,ATK:ATK:ATK
-DPS-Sigewinne,Sigewinne,Silvershower Heartstrings,Fragment of Harmonic Whimsy,ER:Hydro-DMG
-Healer-Sigewinne
-Burst-Thoma,Dragon's Bane,Noblesse Oblige,ER:EM:EM
-HP-Thoma,Black Tassel,Tenacity of the Milileth,HP:HP:HP
-Varesa,Varesa,he Widsith,Long Night's Oath,ATK:Electro-DMG:Crit-Rate
-Healer-Xianyun
-Viridescent-Xianyun
-Xiangling,Xiangling,,Emblem of Severed Fate,ER:Pyro-DMG:Crit-Rate
+DPS-Sigewinne,Sigewinne,Silvershower Heartstrings,Fragment of Harmonic Whimsy,ER:Hydro-DMG:Crit-DMG
+Healer-Sigewinne,Sigewinne,Silvershower Heartstrings,Song of Day's Past,HP:HP:Healing-Bonus
+DPS-Sucrose,Sucrose,Wandering Evenstar,Gilded Dreams,EM:Anemo-DMG:Crit-DMG
+Support-Sucrose,Sucrose,Favonius Codex,Viridescent Venerer,EM:EM:EM
+Burst-Thoma,Thoma,Dragon's Bane,Noblesse Oblige,ER:EM:EM
+HP-Thoma,Thoma,Rightful Reward,Tenacity of the Milileth,HP:HP:HP
+Varesa,Varesa,the Widsith,Long Night's Oath,ATK:Electro-DMG:Crit-Rate
+Healer-Varesa,Varesa,Prototype Amber,Maiden Beloved,ER:Electro-DMG:Healing-Bonus
+Healer-Xianyun,Xianyun,Crane's Echoing Call,Song of Day's Past,ATK:ATK:Healing-Bonus
+Viridescent-Xianyun,Xianyun,Crane's Echoing Call,Viridescent Past,ATK:ATK:Healing-Bonus
+Xiangling,Xiangling,The Catch,Emblem of Severed Fate,ER:Pyro-DMG:Crit-Rate
+Burn-Xiangling,Xiangling,The Catch,Unfinished Reverie,ER:Pyro-DMG:Crit-Rate
 Xingqui,Xingqui,Sacrificial Sword,Heart of Depths,ER:EM:EM
-DPS-Yanfei,Yanfei,Eye of Perception,
-Shield-Yanfei,Yanfei,Protoype Amber,
-Deepwood-Yaoyao,
+DPS-Yanfei,Yanfei,Sacrificial Fragments,Crimson Witch of Flames,ATK:Pyro-DMG:Crit-DMG
+Shield-Yanfei,Yanfei,Protoype Amber,Retracing Bolide,ER:HP:HP
+Deepwood-Yaoyao,Yaoyao,Rightful Reward,Deepwood Memories,HP:HP:Healing-Bonus
+Healer-Yaoyao,Yaoyao,Rightful Reward,Ocean-Hued Clam,HP:HP:Healing-Bonus
 Yelan,Yelan,Aqua Simulacra,Tenacity of the Milileth,HP:Hydro-DMG:Crit-Rate
-Yun Jin,
+Yun Jin,Yun Jin,Mountain-Bracing Bolt,Husk of Opulent Dreams,ER:DEF:DEF

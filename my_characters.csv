@@ -1,1 +1,75 @@
-character,constellation,weapon,talent_normal,talent_skill,talent_bust
+character,constellation,level,talent_normal,talent_skill,talent_bust
+Alhaitham,C1,71,3,4,4
+Amber,C3,65,4,4,8
+Baizhu,C0,78,4,5,4
+Barbara,C1,70,6,4,4
+Beidou,C3,71,4,8,5
+Bennett,C6,80,4,7,7
+Candace,C6,77,4,8,7
+Charlotte,C4,70,3,4,7
+Chevreuse,C6,70,3,7,6
+Chongyun,C5,65,4,7,7
+Chiori,C0,72,4,6,6
+Citlali,C0,70,2,2,2
+Clorinde,C0,70,4,7,6
+Collei,C6,70,4,8,8
+Dehya,C1,72,3,5,4
+Diona,C3,54,1,1,4
+Dori,C4,57,1,1,4
+Diluc,C0,64,1,4,1
+Emilie,C0,74,4,5,6
+Faruzan,C4,70,5,8,6
+Fischl,C4,70,1,6,3
+Freminet,C0,62,4,4,4
+Furina,C0,80,3,5,5
+Gaming,C6,80,6,11,10
+Gorou,C0,66,1,1,1
+Iansan,C6,70,2,7,9
+Jean,C0,70,4,4,4
+Kachina,C5,71,4,10,8
+Kaeya,C0,70,1,2,2
+Kaveh,C6,70,4,7,7
+Kazuha,C0,70,2,5,4
+Keqing,C2,75,5,4,4
+Kirara,C6,70,3,6,4
+Kujou Sara,C2,70,4,5,5
+Kuki Shinobu,C3,70,3,6,4
+Lan Yan,C0,80,4,4,4
+Layla,C2,90,7,9,7
+Lisa,C0,64,4,5,5
+Lumine,C4,70,2,6,3
+Lynette,C4,74,6,7,10
+Lyney,C0,72,2,4,3
+Mika,C2,69,1,1,1
+Mona,C1,70,4,1,1
+Mualani,C0,80,8,8,8
+Nahida,C0,70,4,5,5
+Navia,C0,72,4,5,5
+Neuvilette,C0,70,2,1,1
+Nilou,C0,70,4,4,4
+Ningguang,C6,79,4,8,7
+Noelle,C6,67,4,7,7
+Ororon,C1,60,1,1,2
+Raiden Shogun,C0,64,3,3,3
+Razor,C3,63,1,1,4
+Rosaria,C6,70,4,6,7
+Qiqi,C2,72,4,4,4
+Sayu,C1,76,1,4,4
+Sethos,C6,70,7,4,7
+Shenhe,C0,80,1,1,1
+Shikanoin Heizou,C5,4,5,5
+Sigewinne,C0,71,6,8,8
+Sucrose,C2,70,4,4,5
+Tighnari,C1,64,4,4,4
+Thoma,C6,70,4,8,8
+Xiangling,C6,72,4,7,7
+Xianyun,C0,70,4,5,5
+Xiao,C0,60,1,3,3
+Xingqui,C4,70,3,3,5
+Xinyan,C4,75,2,6,2
+Yaoyao,C6,72,4,7,4
+Yanfei,C4,5,7,6
+Yelan,C0,63,3,3,3
+Yumemizuki Mizuki,C1,60,1,4,4
+Yun Jin,C2,65,4,4,4
+Varesa,C0,70,6,6,6
