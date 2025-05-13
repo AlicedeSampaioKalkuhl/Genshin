@@ -1,6 +1,9 @@
 build1,build2,build3,build4
-Deepwood-Alhaitham,Furina,Iansan,Healer-Xianyun
-EM-Alhaitham,EM-Dehya,Emilie,Burst-Thoma
+Deepwood-Alhaitham,Furina,Iansan,VV-Xianyun
+Gilded-Alhaitha,Deepwood-Baizhu,Furina,ER-Raiden
+Gilded-Alhaitham,EM-Dehya,Emilie,Burst-Thoma
+Gilded-Alhaitham,EM-Shinobu,Deepwood-Nahida,Furina
+Gilded-Alhaitham,EM-Shinobu,Deepwood-Nahida,Xingqui
 Natlan-Chasca,Natlan-Ororon,EM-Citlali,ATK-Iansan
 Chasca,Furina,Natlan-Citlali,Bennett
 Chasca,Shenhe,HP-Layla,Dori
@@ -9,9 +12,9 @@ Chasca,Shenhe,HP-Dehya,Dori
 Freeze-Chongyun,Candace,Furina,Escoffier
 Plunge-Chongyun,Yelan,Healer-Xianyun,Shenhe 
 Clorinde,Deepwood-Nahida,Dori,Furina 
-Clorinde,Chevreuse,Kujou Sara,Burst-Thoma
 Clorinde,Calamity-Kirara,Deepwood-Nahida,Yelan
 Clorinde,ER-Raiden,Deepwood-Baizhu,Furina 
+Clorinde,Chevreuse,Kujou Sara,Burst-Thoma
 Clorinde,ATK-Iansan,Calamity-Kirara,Deepwood-Yaoyao 
 Clorinde,Furina,Beidou,Deepwood-Nahida 
 Clorinde,Furina,Kujou Sara,Deepwood-Nahida 
@@ -21,85 +24,108 @@ Clorinde,Yun Jin,Furina,Healer-Sigewinne
 Clorinde,Yelan,Support-Kazuha,ATK-Iansan
 Clorinde,EM-Nahida,HP-Shinobu,Yelan
 Clorinde,Support-Ororon,Yelan,Support-Kazuha 
-Clorinde,Chevreuse,Viridescent-Lynette,Kujou Sara 
-Cyno,Deepwood-Collei,Dori,EM-Nahida
+Clorinde,Chevreuse,VV-Lynette,Kujou Sara 
+Clorinde,Mona,Deepwood-Nahida,EM-Raiden
+Cyno,Deepwood-Collei,Support-Xilonen,EM-Nahida
 HP-Deyha,Citlali,Candace,Shenhe
-Diluc,Bennett,Furina,Viridescent-Xianyun
-Diluc,Bennett,Citlali,Viridescent-Xianyun
+Diluc,Bennett,Furina,VV-Xianyun
+Diluc,Bennett,Citlali,VV-Xianyun
+Emilie,Bennnetz,Deepwood-Baizhu,vv-Sucrose
 Phys-Fischl,Mika,Xianyun,Phys-Rosaria
 Freminet,Mika,Beidou,Furina
-Pyro-Gaming,Bennett,Citlali,Viridescent-Xianyun
-Pyro-Gaming,Bennett,Furina,Viridescent-Xianyun
+Freminet,Furina,Escoffier,VV-Sucrose
+Freminet,Furina,Candace,Escoffier
+Pyro-Gaming,Bennett,Citlali,VV-Xianyun
+Pyro-Gaming,Bennett,Furina,VV-Xianyun
 Pyro-Gaming,Bennett,Citlali,Iansan
 Pyro-Gaming,Bennett,Furina,Iansan
 Pyro-Gaming,Bennett,Citlali,Rosaria
-Pyro-Gaming,Iansan,Citlali,Viridescent-Xianyun
-HP-Gaming,Furina,Citlali,Viridescent-Xianyun
+Pyro-Gaming,Iansan,Citlali,VV-Xianyun
+HP-Gaming,Furina,Citlali,VV-Xianyun
 HP-Gaming,Furina,Citlali,Iansan
-HP-Gaming,Furina,Iansan,Viridescent-Xianyun
+HP-Gaming,Furina,Iansan,VV-Xianyun
 HP-Gaming,Citlali,Furina,Rosaria
-Viridescent-Ifa,Furina,HP-Layla,Amber
-Viridescent-Ifa,Furina,Support-Escoffier,Freeze-Layla
-Viridescent-Ifa,Xinqui,Furina,Natlan-Ororon
-Obsidian-Ifa,Kazuha,Yelan,Dori
+VV-Ifa,Xinqui,Furina,Natlan-Ororon
+VV-Ifa,Faruzan,Yelan,Dori
+VV-Ifa,Furina,Natlan-Ororon,Charlotte
+Obsidian-Ifa,Faruzan,Yelan,Dori
+Obsidian-Ifa,Furina,Natlan-Ororon,Charlotte
+Obsidian-Ifa,Xinqui,Furina,Natlan-Ororon
+Obsidian-Ifa,Furina,Natlan-Iansan,VV-Xianyun
+Sunfire-Jean,Bennet,EM-Raiden,VV-Sucrose
 Kaeya,Qiqi,Bennett,Lisa
 DPS-Kachina,Gorou,Support-Chiori,Noelle
 EM-Kaveh,Furina,Charlotte,Deepwood-Kirara
-Bloom-Kaveh,Support-Nilou,Collei,Healer-Baizhu
-Bloom-Kaveh,Support-Nilou,Healer-Nahida,HP-Kirara
+Bloom-Kaveh,Support-Nilou,Healer-Nahida,Xinqui
+DPS-Kazuha,Support-Kachina,Qiqi,Support-Chiori
 Electro-Keqing,Furina,Support-Kazuha,Kujou Sara 
 Electro-Keqing,Furina,Support-Sucrose,Support-Ororon
 Electro-Keqing,Furina,Yelan,Support-Ororon
 Electro-Keqing,Nahida,HP-Kirara,Kujou Sara
+Electro-Keqing,Beidou,Nahida,Support-Xilonen
 Phys-Keqing,Mika,Xianyun,Phys-Rosaria 
-Freeze-Layla,Furina,Support-Escoffier,Shenhe
-Freeze-Layla,Furina,Support-Escoffier,Yelan
+Freeze-Layla,Furina,Escoffier,Shenhe
+Freeze-Layla,Furina,Escoffier,Yelan
 Freeze-Layla,Candace,Chongyun,Shenhe
-Crimson-Lyney,Bennett,Citlali,Layla
+DPS-Layla,Shenhe,Furina,Bennett
+Marechausse-Lynette,Furina,Healer-Sigewinne,Xiangling
+Crimson-Lyney,Bennett,Support-Citlali,Amber
+Crimson-Lyney,Bennett,Amber,Lan Yan
 Marechausee-Lyney,Chevreuse,Bennett,Beidou
-Marechausee-Lyney,Bennett,EM-Thoma,Support-Sucrose
-Crimson-Lyney,Bennett,EM-Dehya,Lan Yan
+Marechausee-Lyney,Bennett,Amber,Support-Sucrose
 Marechausee-Lyney,Bennett,Chevreuse,EM-Raiden
-Marechausee-Lyney,Furina,Bennett,Charlotte
-Marechausee-Lyney,Bennett,Burgeon-Xiangling,Deepwood-Emilie
-Plunge-Lynette,Furina,Faruzan,Viridescent-Xianyun
+Marechausee-Lyney,Bennett,Burn-Amber,Deepwood-Emilie
+Plunge-Lynette,Furina,Faruzan,VV-Xianyun
 Mizuki,Furina,EM-Kuki Shinobu,Support-Ororon 
 Mizuki,Furina,Burst-Layla,EM-Raiden
 Mizuki,Burst-Layla,Kuki Shinobu,Amber
 Mizuki,Burst-Layla,Furina,EM-Kuki Shinobu 
 Mizuki,HP-Thoma,Furina,EM-Kuki Shinobu
-Mualani,Support-Kazuha,Healer-Barbara,Xinyan 
+Mualani,Support-Kazuha,Healer-Barbara,Xinyan
 Mualani,Support-Kazuha,Healer-Barbara,Natlan-Citlali
-Mualani,Xinyan,Healer-Nahida,Emilie
+Mualani,Natlan-Xilonen,Mona,Xiangling
 Mualani,EM-Dehya,Healer-Nahida,Emilie
 Mualani,Healer-Baizhu,Xiangling,Furina
-Mualani,Furina,Xiangling,Viridescent-Jean
-DPS-Neuvilette,Support-Escoffier,Furina,Shield-Citlali
+Mualani,Furina,Xiangling,VV-Jean
+Mualani,EM-Dehya,Support-Chiori,Natlan-Kachina
+Navia,Support-Xilonen,EM-Dehya,Furina
+Navia,Support-Xilonen,Yelan,Chongyun
+Navia,Support-Xilonen,Furina,Chongyun
+Navia,Gorou,Support-Xilonen,Shield-Layla
+DPS-Neuvilette,Escoffier,Furina,Shield-Citlali
+DPS-Neuvilette,Escoffier,Furina,Shield-Layla
 DPS-Nilou,EM-Nahida,Deepwood-Yaoao,Furina
 Noelle,Furina,Healer-Xianyun,Yun Jin
 Noelle,Furina,Yun Jin,Gorou
-EM-Raiden,Bennett,Sara,Support-Sucrose 
+Noelle,Furina,Support-Xilonen,Gorou
+EM-Raiden,Bennett,Sara,VV-Sucrose 
 Razor,Mika,Xianyun,Phys-Rosaria 
 Sayu,ATK-Iansan,Deepwood-Emilie,Burn-Xiangling
 Sethos,Deepwood-Baizhu,Furina,Beidou
 Sethos,Deepwood-Nahida,Furina,Dori
-Sethos,Support-Sucrose,Deepwood-Kirara,Furina
-Sethos,Xiangling,Chevreuse,Emilie
+Sethos,VV-Sucrose,Deepwood-Kirara,Furina
 DPS-Sucrose,Anemo-Lumine,EM-Thoma,Bennett
-DPS-Sigewinne,Freminet,Marechausee-Lynette,Lyney
 DPS-Sigewinne,Support-Neuvilette,Layla,Cryo-Escoffier
 DPS-Sigewinne,Support-Neuvilette,EM-Raiden,Support-Ororon
-Varesa,Chevreuse,Kujou Sara,Xiangling
-Varesa,Chevreuse,Natlan-Iansan,Pyro Lumine 
-Varesa,Chevreuse,Kujou Sara,Xianyun 
+DPS-Sigewinne,Support-Neuvilette,Support-Kazuha,Support-Ororon
+Varesa,Chevreuse,Kujou Sara,Xinyan
 Varea,Furina,Natlan-Iansan,Xianyun
-Varesa,Natlan-Iansan,Nahida,Baizhu 
-Varesa,Furina,Kujou Sara,Xianyun
+Varesa,Kujou Sara,Deepwood-Collei,Healer-Baizhu 
 Varesa,Natlan-Kachina,Qiqi,Chiori
+Varesa,Arataki Itto,Qiqi,Chiori
+Varesa,VV-Jean,Healer-Xianyun,Natlan-Iansan 
+Varesa,Freeze-Rosaria,Bennett,Natlan-Citlali
 Healer-Varesa,Emilie,Furina,EM-Dehya
 Healer-Varesa,Furina,Navia,Iansan
 Xiao,Support-Faruzan,Furina,Healer-Xianyun
-DPS-Yanfei,Furina,Xinqui,Support-Kazuha
-DPS-Yanfei,Yaoao,Emilie,Support-Sucrose
-DPS-Yanfei,Ningguang,Dori,Beidou
-Yumemizuki Mizuki,Burst-Layla,EM-Kuki Shinobu,Amber
+Burnfei,Furina,Xinqui,Support-Kazuha
+Burnfei,Yaoao,Emilie,VV-Sucrose
+Burnfei,Off-Field-Amber,Yelan,Xinqui
+Burnfei,Yae Miko,Bennett,Chevreuse
+Burnfei,Furina,Burst-Layla,Qiqi
+Burnfei,VV-Xianyun,Yelan,Furina
+Burnfei,Chevreuse,Beiou,EM-Raiden
+Mizuki,Melt-Layla,EM-Shinobu,Amber
+Mizuki,Melt-Layla,Furina,Xiangling
+Mizuki,Melt-Layla,Furina,Support-Xilonen
+Mizuki,Diona,Melt-Layla,Xiangling

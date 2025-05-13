@@ -7,10 +7,14 @@ Archaic Petra,Ningguang,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Archaic Petra,Ningguang,HP,Goblet,4,0.149,Crit-DMG,0.07,Crit-Rate,0.039,EM,19,ER,0.065
 Archaic Petra,Ningguang,ATK,Circlet,12,0.308,Crit-Rate,0.031,Crit-DMG,0.078,ER,0.11,ATK,35
 Archaic Petra,Ningguang,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Archaic Petra,Ningguang,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Archaic Petra,Xilonen,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Archaic Petra,Xilonen,ATK,Feather,5,113,ATK,0.053,DEF,0.066,HP,598,Crit-Rate,0.039
+Archaic Petra,Xilonen,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Archaic Petra,Xilonen,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Archaic Petra,Xilonen,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Archaic Petra,Xiao,Anemo-DMG,Goblet,20,0.466,DEF,37,HP,538,Crit-DMG,0.21,ATK,16
 Archaic Petra,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Archaic Petra,NA,ATK,Feather,5,113,ATK,0.053,DEF,0.066,HP,598,Crit-Rate,0.039
+Archaic Petra,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Archaic Petra,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Archaic Petra,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Archaic Petra,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -35,56 +39,60 @@ Archaic Petra,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Archaic Petra,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Archaic Petra,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Archaic Petra,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Chongyun,HP,Flower,0,717,DEF,0.066,ATK,18,EM,23,NA,NA
+Blizzard Strayer,Chongyun,HP,Flower,20,4780,ATK,18,ER,0.123,EM,42,DEF,0.204
 Blizzard Strayer,Chongyun,ATK,Feather,12,205,ER,0.117,EM,40,ATK,0.047,DEF,16
 Blizzard Strayer,Chongyun,EM,Sands,0,28,HP,269,ATK,14,DEF,21,NA,NA
-Blizzard Strayer,Chongyun,DEF,Goblet,0,0.087,ATK,14,ER,0.065,Crit-Rate,0.031,NA,NA
+Blizzard Strayer,Chongyun,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Chongyun,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Chongyun,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Chongyun,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Chongyun,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Chongyun,DEF,Circlet,0,0.087,HP,239,ATK,0.058,ER,0.058,NA,NA
-Blizzard Strayer,Escoffier,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Escoffier,HP,Flower,3,1326,ATK,0.047,Crit-Rate,0.031,DEF,23,NA,NA
 Blizzard Strayer,Escoffier,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Escoffier,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Escoffier,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Escoffier,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Escoffier,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Escoffier,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Escoffier,ATK,Circlet,17,0.407,EM,23,ER,0.22,Crit-Rate,0.062,ATK,19
 Blizzard Strayer,Faruzan,Anemo-DMG,Goblet,8,0.228,HP,568,ATK,19,DEF,0.051,EM,16
 Blizzard Strayer,Kaeya,HP,Flower,0,717,ATK,0.047,DEF,23,ATK,19,ER,0.052
-Blizzard Strayer,Kaeya,ATK,Feather,20,311,HP,0.053,EM,56,ER,0.175,HP,239
-Blizzard Strayer,Kaeya,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Kaeya,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Kaeya,DEF,Sands,0,0.087,Crit-DMG,0.054,EM,16,HP,0.047,DEF,21
+Blizzard Strayer,Kaeya,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Kaeya,HP,Goblet,0,0.07,DEF,19,Crit-Rate,0.031,ATK,19,DEF,0.066
 Blizzard Strayer,Kaeya,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Kaeya,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Layla,HP,Flower,0,717,DEF,0.066,ATK,14,DEF,21,NA,NA
-Blizzard Strayer,Layla,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Layla,HP,Sands,0,0.07,ATK,16,EM,23,ATK,0.047,NA,NA
+Blizzard Strayer,Kaeya,ATK,Circlet,2,0.11,ATK,18,HP,0.041,DEF,16,NA,NA
+Blizzard Strayer,Layla,HP,Flower,20,4780,ATK,53,HP,0.041,ER,0.117,Crit-Rate,0.062
+Blizzard Strayer,Layla,ATK,Feather,20,311,HP,0.053,EM,56,ER,0.175,HP,239
+Blizzard Strayer,Layla,HP,Sands,4,0.149,ATK,16,EM,23,ATK,0.047,DEF,19
 Blizzard Strayer,Layla,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Layla,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Layla,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Layla,Cryo-DMG,Goblet,20,0.466,HP,239,HP,0.146,DEF,37,EM,42
-Blizzard Strayer,Layla,Crit-Rate,Circlet,20,0.311,ATK,0.105,HP,0.187,ER,0.065,EM,19
-Blizzard Strayer,Layla,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Layla,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Rosaria,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Layla,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blittard Strayer,Nilou,HP,Goblet,0,0.07,EM,23,DEF,19,HP,299,Crit-Rate,0.035
+Blizzard Strayer,Rosaria,HP,Flower,0,717,DEF,0.066,ATK,18,EM,23,NA,NA
 Blizzard Strayer,Rosaria,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Rosaria,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Rosaria,Cyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,Rosaria,Physical-DMG,Goblet,8,0.286,HP,239,DEF,39,ER,0.052,ATK,0.058
 Blizzard Strayer,Rosaria,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Shenhe,HP,Flower,20,4780,ATK,53,HP,0.041,ER,0.117,Crit-Rate,0.062
+Blizzard Strayer,Shenhe,HP,Flower,0,717,DEF,16,Crit-DMG,0.078,DEF,0.066,ATK,16
 Blizzard Strayer,Shenhe,ATK,Feather,0,47,HP,239,ATK,0.041,EM,21,NA,NA
 Blizzard Strayer,Shenhe,ER,Sands,15,0.408,EM,23,HP,508,DEF,23,Crit-Rate,0.093
 Blizzard Strayer,Shenhe,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,Shenhe,ATK,Circlet,8,0.228,EM,23,ER,0.11,Crit-Rate,0.062,ATK,19
-Blizzard Strayer,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,Shenhe,Crit-Rate,Circlet,20,0.311,ATK,0.105,HP,0.187,ER,0.065,EM,19
+Blizzard Strayer,NA,HP,Flower,0,717,DEF,0.066,ATK,14,DEF,21,NA,NA
 Blizzard Strayer,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,NA,DEF,Sands,0,0.087,Crit-DMG,0.054,EM,16,HP,0.047,DEF,21
+Blizzard Strayer,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,NA,DEF,Goblet,0,0.087,ATK,14,ER,0.065,Crit-Rate,0.031,NA,NA
 Blizzard Strayer,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,NA,HP,Goblet,0,0.07,EM,23,DEF,19,HP,299,Crit-Rate,0.035
+Blizzard Strayer,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -95,7 +103,7 @@ Blizzard Strayer,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Blizzard Strayer,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Blizzard Strayer,NA,DEF,Circlet,0,0.087,ER,0.065,DEF,21,ATK,14,NA,NA
 Blizzard Strayer,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Blizzard Strayer,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -120,7 +128,7 @@ Bloodstained Chivalry,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Bloodstained Chivalry,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bloodstained Chivalry,NA,HP,Goblet,0,0.07,EM,16,ER,0.058,ATK,16,NA,NA
 Bloodstained Chivalry,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,Dendro-DMG,Goblet,0,0.07,EM,16,ATK,18,ATK,0.047,NA,NA
@@ -129,8 +137,8 @@ Bloodstained Chivalry,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,DEF,Goblet,20,0.583,EM,19,ATK,54,ER,0.11,HP,568
 Bloodstained Chivalry,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Bloodstained Chivalry,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Bloodstained Chivalry,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bloodstained Chivalry,NA,HP,Circlet,0,0.07,Crit-DMG,0.054,HP,299,Crit-Rate,0.031,NA,NA
+Bloodstained Chivalry,NA,ATK,Circlet,0,0.07,DEF,0.058,ER,0.052,ATK,18,NA,NA
 Bloodstained Chivalry,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Bloodstained Chivalry,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -184,6 +192,7 @@ Deepwood Memories,Baizhu,ATK,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,Baizhu,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,Baizhu,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,Baizhu,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Deepwood Memories,Chongyun,Cryo-DMG,Goblet,20,0.466,ATK,0.041,HP,538,ATK,37,HP,0.163
 Deepwood Memories,Collei,HP,Flower,4,1530,Crit-DMG,0.07,ATK,16,DEF,0.058,ATK,0.047
 Deepwood Memories,Collei,ATK,Feather,20,311,ER,0.117,DEF,19,ATK,0.099,HP,956
 Deepwood Memories,Collei,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -212,7 +221,6 @@ Deepwood Memories,Tighnari,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,Tighnari,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,Tighnari,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,Xiangling,Pyro-DMG,Goblet,0,0.07,DEF,0.051,ER,0.058,Crit-DMG,0.07,NA,NA
-Deepwood Memories,Xinyan,Physical-DMG,Goblet,0,0.087,DEF,19,HP,239,Crit-Rate,0.039,NA,NA
 Deepwood Memories,Yaoyao,HP,Flower,0,717,HP,0.041,EM,19,ATK,19,DEF,21
 Deepwood Memories,Yaoyao,ATK,Feather,8,152,EM,19,DEF,35,HP,0.058,ATK,0.105
 Deepwood Memories,Yaoyao,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -230,12 +238,12 @@ Deepwood Memories,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deepwood Memories,NA,Cryo-DMG,Goblet,20,0.466,ATK,0.041,HP,538,ATK,37,HP,0.163
+Deepwood Memories,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deepwood Memories,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Deepwood Memories,NA,Physical-DMG,Goblet,0,0.087,DEF,19,HP,239,Crit-Rate,0.039,NA,NA
 Deepwood Memories,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -244,48 +252,52 @@ Deepwood Memories,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Deepwood Memories,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,Beidou,Electro-DMG,Goblet,0,0.07,EM,19,ATK,18,Crit-DMG,0.054,NA,NA
-Deset Pavillion Chronicle,Faruzan,HP,Flower,20,4780,HP,0.099,Crit-DMG,0.054,Crit-Rate,0.089,EM,44
-Deset Pavillion Chronicle,Faruzan,ATK,Feather,20,311,ER,0.175,DEF,44,ATK,0.053,Crit-Rate,0.07
-Deset Pavillion Chronicle,Faruzan,ER,Sands,4,0.166,DEF,23,ATK,35,DEF,0.066,Crit-DMG,0.054
-Deset Pavillion Chronicle,Faruzan,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,Faruzan,Crit-Rate,Circlet,8,0.152,ATK,33,ATK,0.053,EM,23,DEF,16
-Deset Pavillion Chronicle,Faruzan,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,Heizou,HP,Flower,0,717,ATK,19,Crit-DMG,0.07,EM,21,NA,NA
-Deset Pavillion Chronicle,Heizou,ATK,Feather,0,47,Crit-Rate,0.027,EM,19,HP,299,ER,0.065
-Deset Pavillion Chronicle,Heizou,ATK,Sands,8,0.228,Crit-Rate,0.031,ER,0.058,HP,209,Crit-DMG,0.132
-Deset Pavillion Chronicle,Heizou,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,Heizou,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,Heizou,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,Heizou,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,Heizou,HP,Circlet,0,0.07,DEF,19,ER,0.045,EM,16,NA,NA
-Deset Pavillion Chronicle,Nahida,EM,Sands,4,60,Crit-Rate,0.027,DEF,23,HP,209,Crit-DMG,0.054
-Deset Pavillion Chronicle,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Deset Pavillion Chronicle,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Beidou,Electro-DMG,Goblet,0,0.07,EM,19,ATK,18,Crit-DMG,0.054,NA,NA
+Desert Pavillion Chronicle,Faruzan,HP,Flower,20,4780,HP,0.099,Crit-DMG,0.054,Crit-Rate,0.089,EM,44
+Desert Pavillion Chronicle,Faruzan,ATK,Feather,20,311,ER,0.175,DEF,44,ATK,0.053,Crit-Rate,0.07
+Desert Pavillion Chronicle,Faruzan,ER,Sands,4,0.166,DEF,23,ATK,35,DEF,0.066,Crit-DMG,0.054
+Desert Pavillion Chronicle,Faruzan,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Faruzan,Crit-Rate,Circlet,8,0.152,ATK,33,ATK,0.053,EM,23,DEF,16
+Desert Pavillion Chronicle,Faruzan,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Freminet,EM,Sands,4,60,Crit-Rate,0.027,DEF,23,HP,209,Crit-DMG,0.054
+Desert Pavillion Chronicle,Heizou,HP,Flower,0,717,ATK,19,Crit-DMG,0.07,EM,21,NA,NA
+Desert Pavillion Chronicle,Heizou,ATK,Feather,0,47,Crit-Rate,0.027,EM,19,HP,299,ER,0.065
+Desert Pavillion Chronicle,Heizou,ATK,Sands,8,0.228,Crit-Rate,0.031,ER,0.058,HP,209,Crit-DMG,0.132
+Desert Pavillion Chronicle,Heizou,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Heizou,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Heizou,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Heizou,HP,Circlet,0,0.07,DEF,19,ER,0.045,EM,16,NA,NA
+Desert Pavillion Chronicle,Ifa,HP,Flower, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Ifa,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Ifa,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA 
+Desert Pavillion Chronicle,Ifa,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,Ifa,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Desert Pavillion Chronicle,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Echoes of An Offering,Razor,HP,Flower,0,717,Crit-DMG,0.054,DEF,16,ATK,0.041,NA,NA
 Echoes of An Offering,Razor,ATK,Feather,0,47,EM,19,Crit-Rate,0.031,DEF,0.051,NA,NA
 Echoes of An Offering,Razor,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -338,29 +350,35 @@ Emblem of Severed Fate,Lumine,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Lumine,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Lumine,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Mona,HP,Flower,4,1530,EM,23,DEF,0.066,ATK,0.041,HP,0.047
-Emblem of Severed Fate,Mona,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,Mona,ATK,Feather,0,47,HP,0.058,HP,299,ER,0.065,NA,NA
 Emblem of Severed Fate,Mona,ATK,Sands,5,0.169,DEF,16,HP,0.087,ATK,16,DEF,0.051
 Emblem of Severed Fate,Mona,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Mona,HP,Sands,4,0.149,DEF,0.058,DEF,19,ATK,0.047,EM,19
 Emblem of Severed Fate,Mona,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Mona,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emblem of Severed Fate,Neuvilette,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,Neuvilette,HP,Flower,0,717,DEF,0.058,ER,0.065,Crit-Rate,0.041,HP,0.041
 Emblem of Severed Fate,Neuvilette,ATK,Feather,4,100,HP,0.041,HP,269,DEF,19,ER,0.058
-Emblem of Severed Fate,Neuvilette,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,Neuvilette,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Neuvilette,DEF,Goblet,4,0.186,DEF,16,ATK,14,EM,21,ER,0.045
 Emblem of Severed Fate,Neuvilette,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Neuvilette,HP,Circlet,4,0.149,DEF,16,HP,299,ATK,14,ER,0.045
-Emblem of Severed Fate,Raiden Shogun,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emblem of Severed Fate,Raiden Shogun,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,Raiden Shogun,HP,Flower,0,717,ER,0.045,DEF,19,ATK,0.058,Crit-Rate,0.035
+Emblem of Severed Fate,Raiden Shogun,ATK,Feather,0,47,HP,269,ATK,0.041,DEF,23,NA,NA
 Emblem of Severed Fate,Raiden Shogun,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,Raiden Shogun,DEF,Sands,0,0.087,ER,0.052,HP,269,Crit-DMG,0.07,Crit-Rate,0.039
 Emblem of Severed Fate,Raiden Shogun,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emblem of Severed Fate,Raiden Shogun,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emblem of Severed Fate,Xiangling,HP,Flower,6,1936,Crit-Rate,0.031,HP,0.041,DEF,0.066,ER,0.052
+Emblem of Severed Fate,Raiden Shogun,EM,Circlet,0,28,ATK,0.041,DEF,21,HP,239,NA,NA
+Emblem of Severed Fate,Xiangling,HP,Flower,0,717,Crit-Rate,0.035,ER,0.065,ATK,0.041,ATK,16
 Emblem of Severed Fate,Xiangling,ATK,Feather,4,100,EM,23,ATK,0.041,DEF,19,Crit-Rate,0.027
 Emblem of Severed Fate,Xiangling,ER,Sands,4,0.166,Crit-DMG,0.054,EM,23,DEF,23,ATK,14
 Emblem of Severed Fate,Xiangling,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Xiangling,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,Xiangling,ATK,Circlet,5,0.169,HP,209,DEF,0.051,HP,0.058,DEF,21
+Emblem of Severed Fate,Xingqui,HP,Flower,6,1936,Crit-Rate,0.031,HP,0.041,DEF,0.066,ER,0.052
+Emblem of Severed Fate,Xingqui,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,Xingqui,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,Xingqui,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,Xingqui,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -382,28 +400,29 @@ Emblem of Severed Fate,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emblem of Severed Fate,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Emblem of Severed Fate,NA,DEF,Circlet,0,0.087,HP,299,DEF,21,ER,0.045,NA,NA
 Emblem of Severed Fate,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emblem of Severed Fate,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,Baizhu,HP,Goblet,0,0.07,HP,299,ER,0.045,ATK,14,NA,NA
 Finale of Deep Gallies,Chongyun,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Finale of Deep Gallies,Chongyun,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,Chongyun,ATK,Feather,0,47,DEF,21,HP,269,DEF,0.073,Crit-DMG,0.07
 Finale of Deep Gallies,Chongyun,ATK,Sands,0,0.07,EM,23,HP,239,Crit-DMG,0.07,NA,NA
-Finale of Deep Gallies,Chongyun,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,Chongyun,Cryo-DMG,Goblet,0,0.07,DEF,0.066,ER,0.065,ATK,0.053,NA,NA
 Finale of Deep Gallies,Chongyun,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Finale of Deep Gallies,Escoffier,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,Escoffier,HP,Flower,0,717,Crit-Rate,0.027,DEF,23,ER,0.045,NA,NA
 Finale of Deep Gallies,Escoffier,ATK,Feather,0,47,ER,0.058,Crit-Rate,0.027,ATK,0.058,NA,NA
-Finale of Deep Gallies,Escoffier,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,Escoffier,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,Escoffier,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Finale of Deep Gallies,Escoffier,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,Escoffier,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,Escoffier,ATK,Circlet,0,0.07,HP,0.053,Crit-Rate,0.027,Crit-DMG,0.078,NA,NA
 Finale of Deep Gallies,Kaeya,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,Kaeya,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,Kaeya,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,Kaeya,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,Kaeya,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Finale of Deep Gallies,Layla,HP,Flower,0,717,HP,0.047,ATK,19,DEF,23,NA,NA
+Finale of Deep Gallies,Layla,HP,Flower,20,4780,HP,0.093,ATK,35,DEF,23,EM,65
 Finale of Deep Gallies,Layla,ATK,Feather,20,311,Crit-DMG,0.07,HP,538,ER,0.11,DEF,49
 Finale of Deep Gallies,Layla,EM,Sands,20,187,HP,269,HP,0.146,Crit-Rate,0.07,DEF,0.197
 Finale of Deep Gallies,Layla,HP,Sands,0,0.07,EM,19,ATK,16,DEF,0.051,NA,NA
@@ -417,21 +436,21 @@ Finale of Deep Gallies,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Finale of Deep Gallies,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,NA,HP,Sands,0,0.07,DEF,0.073,ATK,0.047,Crit-Rate,0.027,NA,NA
 Finale of Deep Gallies,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,DEF,Goblet,0,0.087,HP,239,ATK,18,Crit-DMG,0.078,NA,NA
 Finale of Deep Gallies,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Finale of Deep Gallies,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,NA,Dendro-DMG,Goblet,0,0.07,Crit-Rate,0.027,DEF,0.051,Crit-DMG,0.054,NA,NA
 Finale of Deep Gallies,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Finale of Deep Gallies,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finale of Deep Gallies,NA,Geo-DMG,Goblet,0,0.07,EM,23,Crit-Rate,0.031,HP,0.041,HP,239
 Finale of Deep Gallies,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,Pyro-DMG,Goblet,0,0.07,ATK,14,DEF,0.073,EM,19,DEF,19
 Finale of Deep Gallies,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Finale of Deep Gallies,NA,ATK,Circlet,0,0.07,HP,0.053,Crit-Rate,0.027,Crit-DMG,0.078,NA,NA
+Finale of Deep Gallies,NA,ATK,Circlet,0,0.07,Crit-Rate,0.031,ER,0.045,DEF,16,NA,NA
 Finale of Deep Gallies,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Finale of Deep Gallies,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -529,8 +548,8 @@ Fragment of Harmonic Whimsy,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,
 Gilded Dreams,Alhaitham,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gilded Dreams,Alhaitham,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gilded Dreams,Alhaitham,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Gilded Dreams,Alhaitham,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Gilded Dreams,Alhaitham,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gilded Dreams,Alhaitham,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gilded Dreams,Alhaitham,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gilded Dreams,Cyno,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gilded Dreams,Cyno,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gilded Dreams,Cyno,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -596,21 +615,25 @@ Gilded Dreams,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,Alhaitham,Dendro-DMG,Goblet,0,0.07,EM,21,DEF,21,Crit-DMG,0.062,NA,NA
 Gladiator's Finale,Amber,Pyro-DMG,Goblet,0,0.07,Crit-Rate,0.039,ATK,0.041,ATK,16,EM,19
 Gladiator's Finale,Fischl,Physical-DMG,Goblet,0,0.087,EM,21,ER,0.058,ATK,16,NA,NA
+Gladiator's Finale,Iansan,HP,Flower,0,717,ATK,0.058,ATK,16,DEF,23,Crit-DMG,0.078
 Gladiator's Finale,Iansan,ATK,Feather,8,152,ER,0.104,ATK,0.058,DEF,0.051,HP,538
+Gladiator's Finale,Iansan,ATK,Sands,0,0.07,ATK,18,HP,269,Crit-Rate,0.035,DEF,0.066
 Gladiator's Finale,Iansan,ATK,Goblet,0,0.07,ER,0.065,DEF,23,HP,209,Crit-Rate,0.027
-Gladiator's Finale,Lan Yan,ATK,Sands,0,0.07,ATK,18,HP,269,Crit-Rate,0.035,DEF,0.066
+Gladiator's Finale,Iansan,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,Lumine,HP,Flower,0,717,ATK,18,ER,0.045,EM,19,NA,NA
 Gladiator's Finale,Lumine,ATK,Feather,0,47,ER,0.058,EM,16,Crit-Rate,0.035,NA,NA
 Gladiator's Finale,Lumine,ER,Sands,0,0.078,ATK,14,DEF,16,Crit-Rate,0.031,HP,299
 Gladiator's Finale,Lumine,ATK,Goblet,0,0.07,Crit-DMG,0.054,Crit-Rate,0.035,ATK,14,NA,NA
 Gladiator's Finale,Lumine,Crit-Rate,Circlet,0,0.047,ATK,19,ATK,0.041,EM,19,NA,NA
+Gladiator's Finale,Ororon,Electro-DMG,Goblet,0,0.07,ER,0.052,DEF,21,HP,209,NA,NA
+Gladiator's Finale,Thoma,HP,Circlet,0,0.07,HP,209,ER,0.052,EM,23,Crit-DMG,0.054
 Gladiator's Finale,NA,HP,Flower,0,717,HP,0.047,ATK,16,ATK,0.053,Crit-Rate,0.027
-Gladiator's Finale,NA,ATK,Feather,0,47,HP,239,DEF,16,ER,0.058,Crit-Rate,0.035
-Gladiator's Finale,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gladiator's Finale,NA,ATK,Feather,0,47,DEF,0.073,EM,16,ER,0.065,Crit-DMG,0.078
+Gladiator's Finale,NA,ATK,Sands,0,0.07,DEF,0.051,HP,269,DEF,21,NA,NA
 Gladiator's Finale,NA,DEF,Sands,0,0.087,ER,0.065,DEF,16,HP,0.047,HP,239
 Gladiator's Finale,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Gladiator's Finale,NA,HP,Sands,20,0.466,ATK,19,ATK,0.144,HP,1046,ER,0.058
+Gladiator's Finale,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -621,15 +644,15 @@ Gladiator's Finale,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,NA,Electro-DMG,Goblet,0,0.07,ER,0.052,DEF,21,HP,209,NA,NA
 Gladiator's Finale,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Gladiator's Finale,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gladiator's Finale,NA,Physical-DMG,Goblet,0,0.087,HP,0.053,ATK,19,ER,0.052,Crit-DMG,0.062
 Gladiator's Finale,NA,Pyro-DMG,Goblet,0,0.07,DEF,0.058,DEF,21,ATK,19,NA,NA
-Gladiator's Finale,NA,HP,Circlet,0,0.07,HP,209,ER,0.052,EM,23,Crit-DMG,0.054
-Gladiator's Finale,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gladiator's Finale,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gladiator's Finale,NA,ATK,Circlet,0,0.07,ER,0.052,HP,269,DEF,19,NA,NA
 Gladiator's Finale,NA,DEF,Circlet,0,0.087,HP,269,Crit-Rate,0.035,ER,0.065,DEF,19
 Gladiator's Finale,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gladiator's Finale,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Gladiator's Finale,NA,Crit-DMG,Circlet,0,0.093,ATK,16,DEF,19,ATK,0.058,NA,NA
-Gladiator's Finale,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gladiator's Finale,NA,Crit-DMG,Circlet,0,0.093,ATK,0.053,EM,23,HP,0.058,HP,269
+Gladiator's Finale,NA,Healing-Bonus,Circlet,0,0.054,ATK,0.053,HP,0.041,ATK,16,NA,NA
 Golden Troupe,Amber,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Amber,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Amber,EM,Sands,0,28,Crit-DMG,0.054,ER,0.045,DEF,21,HP,0.041
@@ -641,31 +664,25 @@ Golden Troupe,Charlotte,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Charlotte,ATK,Sands,4,0.149,ER,0.058,EM,19,ATK,37,DEF,23
 Golden Troupe,Charlotte,ATK,Goblet,11,0.288,EM,19,ER,0.091,HP,299,DEF,16
 Golden Troupe,Charlotte,ATK,Circlet,20,0.466,Crit-DMG,0.21,HP,448,DEF,19,Crit-Rate,0.058
-Golden Troupe,Escoffier,HP,Flower,0,717,DEF,0.073,EM,19,ATK,19,NA,NA
-Golden Troupe,Escoffier,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Escoffier,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Escoffier,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Escoffier,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Fischl,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Golden Troupe,Fischl,HP,Flower,0,717,DEF,0.073,EM,19,ATK,19,NA,NA
 Golden Troupe,Fischl,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Fischl,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Fischl,Electro-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Fischl,ER,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Fischl,ER,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Golden Troupe,Fischl,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Furina,HP,Flower,12,3155,HP,0.047,ER,0.065,DEF,44,Crit-DMG,0.194
 Golden Troupe,Furina,ATK,Feather,12,205,HP,687,Crit-Rate,0.031,Crit-DMG,0.07,ATK,0.047
 Golden Troupe,Furina,HP,Sands,20,0.466,HP,568,ER,0.097,EM,54,ATK,14
 Golden Troupe,Furina,Hydro-DMG,Goblet,9,0.248,ATK,0.053,EM,16,DEF,42,HP,0.047
 Golden Troupe,Furina,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Furina,DEF,Circlet,4,0.186,ATK,0.058,DEF,16,Crit-Rate,0.027,HP,209
-Golden Troupe,Ororon,HP,Flower,0,717,ATK,0.047,Crit-DMG,0.078,ER,0.058,NA,NA
-Golden Troupe,Ororon,ATK,Feather,0,47,DEF,21,ATK,0.047,HP,239,NA,NA
+Golden Troupe,Ororon,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Golden Troupe,Ororon,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Ororon,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Ororon,HP,Sands,0,0.07,ATK,0.053,Crit-Rate,0.035,EM,21,ER,0.058
+Golden Troupe,Ororon,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Ororon,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Ororon,ATK,Circlet,0,0.07,Crit-Rate,0.039,DEF,16,HP,0.047,NA,NA
+Golden Troupe,Ororon,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,Ororon,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Golden Troupe,Sethos,Electro-DMG,Goblet,0,0.07,ATK,0,0.07,0.053,EM,19,Crit-DMG,0.054
+Golden Troupe,Raiden Shogun,Electro-DMG,Goblet,0,0.07,ATK,0.07,ER,0.053,EM,19,Crit-DMG,0.054
 Golden Troupe,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -694,7 +711,7 @@ Golden Troupe,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Golden Troupe,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,Barbara,HP,Flower,0,717,HP,0.053,ATK,0.041,DEF,19,Crit-Rate,0.031
 Heart of Depths,Barbara,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Heart of Depths,Barbara,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Heart of Depths,Barbara,ATK,Sands,0,0.07,ER,0.065,EM,21,HP,0.047,ATK,18
 Heart of Depths,Barbara,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,Barbara,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,Collei,Dendro-DMG,Goblet,ER,0.052,HP,239,DEF,23,Crit-DMG,0.14,NA,NA
@@ -703,14 +720,14 @@ Heart of Depths,Xinqui,ATK,Feather,0,47,DEF,19,ER,0.045,Crit-Rate,0.039,NA,NA
 Heart of Depths,Xinqui,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,Xinqui,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,Xinqui,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Heart of Depths,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Heart of Depths,NA,HP,Flower,0,717,ATK,16,HP,0.053,DEF,0.066,NA,NA
 Heart of Depths,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Heart of Depths,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Heart of Depths,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Heart of Depths,NA,HP,Sands,0,0.07,HP,239,ATK,0.041,DEF,0.051,NA,NA
+Heart of Depths,NA,ATK,Goblet,0,0.07,NA,21,HP,209,ER,0.045,NA,NA
 Heart of Depths,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -723,12 +740,12 @@ Heart of Depths,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Heart of Depths,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Heart of Depths,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Heart of Depths,NA,ATK,Circlet,0,0.07,Crit-DMG,0.062,Crit-Rate,0.039,HP,269,NA,NA
+Heart of Depths,NA,DEF,Circlet,0,0.087,EM,21,ER,0.045,Crit-DMG,0.07,NA,NA
 Heart of Depths,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Heart of Depths,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Heart of Depths,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Heart of Depths,NA,Healing-Bonus,Circlet,0,0.058,DEF,0.058,ER,0.045,HP,0.058,NA,NA
 Husk of Oppulent Dreams,Arataki Itto,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Husk of Oppulent Dreams,Arataki Itto,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Husk of Oppulent Dreams,Arataki Itto,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -755,6 +772,11 @@ Husk of Oppulent Dreams,Chiori,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Husk of Oppulent Dreams,Chiori,HP,Circlet,20,0.466,HP,448,Crit-DMG,0.078,Crit-Rate,0.07,ATK,49
 Husk of Oppulent Dreams,Chiori,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Husk of Oppulent Dreams,Chiori,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Husk of Oppulent Dreams,Xinyan,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Husk of Oppulent Dreams,Xinyan,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Husk of Oppulent Dreams,Xinyan,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Husk of Oppulent Dreams,Xinyan,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Husk of Oppulent Dreams,Xinyan,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Husk of Oppulent Dreams,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Husk of Oppulent Dreams,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Husk of Oppulent Dreams,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -809,28 +831,32 @@ Lavawalker,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Lavawalker,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,Chongyun,HP,Flower,4,1530,ATK,18,ER,0.052,HP,0.058,DEF,19
 Long Night's Oath,Chongyun,ATK,Feather,0,47,EM,19,HP,0.053,ER,0.058,NA,NA
-Long Night's Oath,Chongyun,DEF,Sands,0,0.087,DEF,19,HP,239,ATK,19,NA,NA
 Long Night's Oath,Chongyun,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,Chongyun,EM,Goblet,0,28,HP,269,DEF,21,ATK,14,NA,NA
 Long Night's Oath,Chongyun,HP,Goblet,0,0.07,ER,0.065,ATK,18,Crit-Rate,0.027,NA,NA
 Long Night's Oath,Chongyun,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,Lynette,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,Lynette,ATK,Feather,0,47,ATK,0.058,EM,23,HP,299,NA,NA
+Long Night's Oath,Lynette,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,Lynette,Anemo-DMG,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,Lynette,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,Kaveh,Dendro-DMG,Goblet,0,0.07,EM,16,ER,0.052,ATK,18,DEF,19
 Long Night's Oath,Neuvilette,HP,Goblet,4,0.149,ER,0.065,ATK,19,DEF,19,HP,269
 Long Night's Oath,Varesa,HP,Flower,20,4780,ATK,33,ER,0.065,HP,0.146,DEF,35
 Long Night's Oath,Varesa,ATK,Feather,320,311,Crit-Rate,0.07,ER,0.11,HP,299,HP,0.134
-Long Night's Oath,Varesa,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Long Night's Oath,Varesa,DEF,Sands,4,0.186,HP,0.053,ER,0.045,HP,269,ATK,0.058
+Long Night's Oath,Varesa,ATK,Sands,20,0.466,EM,47,Crit-DMG,0.334,HP,0.047,DEF,0.051
 Long Night's Oath,Varesa,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Long Night's Oath,Varesa,Crit-Rate,Circlet,16,0.258,EM,40,ER,0.123,ATK,19,DEF,0.131
-Long Night's Oath,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Long Night's Oath,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,Varesa,Crit-DMG,Circlet,20,0.622,ATK,0.047,Crit-Rate,0.105,ER,0.11,EM,3
+Long Night's Oath,Yelan,Crit-Rate,Circlet,20,0.311,EM,40,ER,0.175,ATK,19,DEF,0.131
+Long Night's Oath,NA,HP,Flower,0,717,DEF,0.051,EM,21,DEF,19,ATK,19
+Long Night's Oath,NA,ATK,Feather,0,47,DEF,19,ER,0.058,HP,209,DEF,0.066
 Long Night's Oath,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Long Night's Oath,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,NA,DEF,Sands,4,0.186,HP,0.053,ER,0.045,HP,269,ATK,0.058
 Long Night's Oath,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Long Night's Oath,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,NA,HP,Sands,0,0.07,DEF,19,ER,0.058,ATK,19,NA,NA
 Long Night's Oath,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Long Night's Oath,NA,DEF,Goblet,0,0.087,ATK,0.047,DEF,21,ATK,16,NA,NA
+Long Night's Oath,NA,DEF,Goblet,0,0.087,DEF,0.073,DEF,16,ER,0.045,NA,NA
 Long Night's Oath,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -841,9 +867,9 @@ Long Night's Oath,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,NA,Hydro-DMG,Goblet,0,0.087,DEF,0.073,DEF,16,ER,0.045,NA,NA
 Long Night's Oath,NA,Physical-DMG,Goblet,0,0.087,ATK,0.058,ATK,16,Crit-DMG,0.078,HP,239
 Long Night's Oath,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Long Night's Oath,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,NA,HP,Circlet,17,0.407,ER,0.13,ATK,35,Crit-Rate,0.054,HP,299
 Long Night's Oath,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Long Night's Oath,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Night's Oath,NA,DEF,Circlet,0,0.087,DEF,23,ATK,19,Crit-Rate,0.027,ER,0.058
 Long Night's Oath,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Long Night's Oath,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -854,10 +880,11 @@ Maiden Beloved,Barbara,HP,Sands,4,0.149,ER,0.058,ATK,19,EM,19,DEF,16
 Maiden Beloved,Barbara,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Barbara,Hydro-DMG,Goblet,8,0.228,HP,0.117,DEF,0.06,DEF,21,ATK,0.105
 Maiden Beloved,Barbara,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Maiden Beloved,Jean,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maiden Beloved,Jean,HP,Flower,0,717,ATK,0.057,DEF,23,ER,0.065,NA,NA
 Maiden Beloved,Jean,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Jean,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Jean,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maiden Beloved,Jean,ATK,Circlet,0,0.07,HP,239,Crit-Rate,0.035,DEF,23,DEF,0.066
 Maiden Beloved,Jean,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Mika,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Mika,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -865,13 +892,14 @@ Maiden Beloved,Mika,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Mika,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Mika,Pysical-DMG,Goblet,9,0.31,EM,16,ATK,0.047,DEF,23,ATK,31
 Maiden Beloved,Mika,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maiden Beloved,Nahida,Dendro-DMG,Goblet,0,0.07,ATK,0.047,EM,19,HP,299,NA,NA
 Maiden Beloved,Qiqi,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Qiqi,ATK,Feather,6,126,DEF,19,HP,0.047,Crit-DMG,0.054,ATK,0.058
 Maiden Beloved,Qiqi,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Qiqi,HP,Sands,4,0.149,ATK,0.047,DEF,0.058,Crit-DMG,0.07,HP,209
 Maiden Beloved,Qiqi,ATK,Goblet,16,0.387,EM,63,ATK,33,Crit-Rate,0.039,Crit-DMG,0.062
 Maiden Beloved,Qiqi,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Maiden Beloved,Varesa,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maiden Beloved,Varesa,HP,Flower,0,717,DEF,21,Crit-Rate,0.039,DEF,0.073,NA,NA
 Maiden Beloved,Varesa,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Varesa,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,Varesa,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -889,26 +917,27 @@ Maiden Beloved,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Maiden Beloved,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maiden Beloved,NA,Dendro-DMG,Goblet,0,0.07,ATK,0.047,EM,19,HP,299,NA,NA
 Maiden Beloved,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Maiden Beloved,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maiden Beloved,NA,Geo-DMG,Goblet,0,0.07,ATK,19,EM,19,DEF,0.066,NA,NA
 Maiden Beloved,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Maiden Beloved,NA,ATK,Circlet,0,0.07,HP,239,Crit-Rate,0.035,DEF,23,DEF,0.066
+Maiden Beloved,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Maiden Beloved,NA,DEF,Circlet,0,0.087,EM,16,DEF,23,ATK,19,NA,NA
-Maiden Beloved,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maiden Beloved,NA,EM,Circlet,0,28,DEF,0.051,HP,269,DEF,21,NA,NA
 Maiden Beloved,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Maiden Beloved,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maiden Beloved,NA,Crit-DMG,Circlet,0,0.093,ATK,14,ER,0.065,HP,269,NA,NA
 Maiden Beloved,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Marechaussee Hunter,Freminet,Physical-DMG,Goblet,9,0.31,EM,21,ATK,33,HP,269,Crit-DMG,0.078
 Marechaussee Hunter,Gaming,HP,Flower,4,1530,ER,0.065,HP,0.053,DEF,0.058,ATK,0.041
 Marechaussee Hunter,Gaming,ATK,Feather,0,47,Crit-DMG,0.078,HP,299,EM,23,NA,NA
-Marechaussee Hunter,Gaming,EM,Sands,4,60,DEF,0.051,EM,16,HP,269,ER,0.052
+Marechaussee Hunter,Gaming,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Marechaussee Hunter,Gaming,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Marechaussee Hunter,Gaming,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Marechaussee Hunter,Gaming,ATK,Circlet,0,0.07,DEF,19,ER,0.065,ATK,18,NA,NA
+Marechaussee Hunter,Jean,ATK,Goblet,0,0.07,DEF,0.051,EM,16,HP,269,ER,0.052
 Marechaussee Hunter,Lynette,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Marechaussee Hunter,Lynette,ATK,Feather,12,205,HP,0.047,HP,508,EM,16,ATK,0.082
 Marechaussee Hunter,Lynette,EM,Sands,0,60,DEF,23,HP,0.041,HP,299,NA,NA
@@ -960,7 +989,6 @@ Nighttime Whispers in the Echoing Woods,Navia,ATK,Feather,4,1530,ATK,0.053,DEF,2
 Nighttime Whispers in the Echoing Woods,Navia,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nighttime Whispers in the Echoing Woods,Navia,DEF,Sands,0,0.087,ER,0.045,DEF,23,ATK,16,NA,NA
 Nighttime Whispers in the Echoing Woods,Navia,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Nighttime Whispers in the Echoing Woods,Navia,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nighttime Whispers in the Echoing Woods,Navia,Crit-DMG,Circlet,9,0.331,ATK,0.047,Crit-Rate,0.074,HP,0.047,EM,47
 Nighttime Whispers in the Echoing Woods,Neuvilette,Hydro-DMG,Goblet,12,0.308,ATK,0.192,ATK,19,EM,16,DEF,23
 Nighttime Whispers in the Echoing Woods,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -994,11 +1022,21 @@ Noblesse Oblige,Bennett,ATK,Feather,0,47,ER,0.052,ATK,0.058,DEF,0.073,Crit-DMG,0
 Noblesse Oblige,Bennett,ER,Sands,0,0.78,Crit-DMG,0.062,ATK,0.041,HP,0.058,NA,NA
 Noblesse Oblige,Bennett,HP,Goblet,6,0.189,HP,209,DEF,0.051,ATK,0.093,Crit-Rate,0.039
 Noblesse Oblige,Bennett,Healing Bonus,Circlet,4,0.115,DEF,16,ATK,18,EM,16,Crit-DMG,0.07
+Noblesse Oblige,Charlotte,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Charlotte,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Charlotte,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Charlotte,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Charlotte,Healing Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Noblesse Oblige,Gorou,HP,Flower,4,1530,DEF,19,Crit-DMG,0.062,HP,0.041,ATK,0.041
 Noblesse Oblige,Gorou,ATK,Feather,4,100,EM,16,DEF,0.058,DEF,16,Crit-DMG,0.054
 Noblesse Oblige,Gorou,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Noblesse Oblige,Gorou,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Gorou,DEF,Goblet,0,0.087,ATK,0.058,HP,299,DEF,19,NA,NA
 Noblesse Oblige,Gorou,DEF,Circlet,4,0.186,DEF,16,ATK,0.058,EM,19,ATK,14
+Noblesse Oblige,Emilie,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Emilie,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Emilie,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Emilie,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Emilie,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Noblesse Oblige,Kujou Sara,HP,Flower,9,2545,Crit-DMG,0.07,Crit-Rate,0.031,DEF,21,ATK,0.111
 Noblesse Oblige,Kujou Sara,ATK,Feather,12,205,ATK,0.053,Crit-DMG,0.14,EM,16,HP,478
 Noblesse Oblige,Kujou Sara,ATK,Sands,4,0.149,HP,209,HP,0.053,ATK,16,DEF,21
@@ -1006,11 +1044,17 @@ Noblesse Oblige,Kujou Sara,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Noblesse Oblige,Kujou Sara,Electro-DMG,Goblet,4,0.149,Crit-DMG,0.07,HP,269,ER,0.045,ATK,0.058
 Noblesse Oblige,Kujou Sara,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Noblesse Oblige,Kujou Sara,ATK,Circlet,0,0.07,EM,19,ATK,19,DEF,21,NA,NA
+Noblesse Oblige,Shenhe,HP,Flower,0,717,ATK,0.047,Crit-Rate,0.031,DEF,23,NA,NA
+Noblesse Oblige,Shenhe,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Shenhe,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Shenhe,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Noblesse Oblige,Shenhe,ATK,Circlet,4,0.149,DEF,23,ER,0.052,DEF,0.051,HP,269
+Noblesse Oblige,Shenhe,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Noblesse Oblige,Thoma,HP,Flower,4,1530,ATK,0.047,DEF,0.066,ATK,19,HP,0.041
 Noblesse Oblige,Thoma,ATK,Feather,4,100,ATK,0.058,ER,0.065,HP,269,HP,0.053
+Noblesse Oblige,Thoma,HP,Sands,0,0.07,Crit-Rate,0.039,ATK,0.041,DEF,19,EM,21
 Noblesse Oblige,Thoma,HP,Goblet,20,0.466,DEF,0.073,Crit-DMG,0.117,Crit-Rate,0.105,ATK,37
-Noblesse Oblige,Thoma,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Noblesse Oblige,THoma,ATK,Circlet,4,0.149,DEF,23,ER,0.052,DEF,0.051,HP,269
+Noblesse Oblige,Thoma,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Noblesse Oblige,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Noblesse Oblige,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Noblesse Oblige,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1043,6 +1087,11 @@ Nymph's Dream,Barbara,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nymph's Dream,Barbara,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nymph's Dream,Barbara,Crit-DMG,Circlet,16,0.516,Crit-Rate,0.078,HP,717,DEF,0.124,DEF,23
 Nymph's Dream,Barbara,HP,Circlet,10,0.268,Crit-Rate,0.035,ER,0.104,Crit-DMG,0.054,DEF,16
+Nymph's Dream,Candace,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Nymph's Dream,Candace,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Nymph's Dream,Candace,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Nymph's Dream,Candace,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Nymph's Dream,Candace,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nymph's Dream,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nymph's Dream,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nymph's Dream,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1069,7 +1118,11 @@ Nymph's Dream,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nymph's Dream,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nymph's Dream,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nymph's Dream,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Obsidian Codex,Iansan,ATK,Circlet,0,0.07,ATK,19,Crit-DMG,0.07,DEF,23,NA,NA
+Obsidian Codex,Chasca,HP,Flower,0,717,ATK,0.047,Crit-Rate,0.039,HP,0.053,DEF,16
+Obsidian Codex,Chasca,ATK,Feather,20,311,Crit-DMG,0.187,DEF,39,Crit-Rate,0.07,ATK,0.041
+Obsidian Codex,Chasca,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Obsidian Codex,Chasca,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Obsidian Codex,Chasca,Crit-DMG,Circlet,0,0.093,ATK,19,DEF,16,ER,0.058,ATK,0.047
 Obsidian Codex,Ifa,HP,Flower,0,717,DEF,19,ATK,19,HP,0.047,EM,19
 Obsidian Codex,Ifa,ATK,Feather,0,47,ATK,0.047,Crit-Rate,0.039,HP,0.053,DEF,16
 Obsidian Codex,Ifa,EM,Sands,0,28,ATK,14,Crit-Rate,0.027,Crit-DMG,0.054,NA,NA
@@ -1082,11 +1135,10 @@ Obsidian Codex,Kachina,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,Kachina,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,Lyney,Pyro-DMG,Goblet,0,0.07,HP,269,ATK,0.058,EM,19,NA,NA
 Obsidian Codex,Mualani,HP,Flower,20,4780,HP,0.105,ATK,0.14,ATK,16,EM,40
-Obsidian Codex,Mualani,ATK,Feather,20,311,Crit-DMG,0.187,DEF,39,Crit-Rate,0.07,ATK,0.041
+Obsidian Codex,Mualani,ATK,Feather,0,47,DEF,23,HP,0.058,HP,299,NA,NA
 Obsidian Codex,Mualani,HP,Sands,20,0.466,ER,0.052,DEF,19,ATK,0.157,EM,54
 Obsidian Codex,Mualani,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,Mualani,HP,Circlet,20,0.466,DEF,44,Crit-DMG,0.117,ER,0.045,HP,747
-Obsidian Codex,Mualani,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,ATK,Sands,0,0.07,ATK,19,HP,239,Crit-DMG,0.078,DEF,23
@@ -1095,7 +1147,7 @@ Obsidian Codex,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,HP,Sands,0,0.07,Crit-Rate,0.027,DEF,0.051,Crit-DMG,0.062,NA,NA
 Obsidian Codex,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Obsidian Codex,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Obsidian Codex,NA,DEF,Goblet,0,0.07,Crit-DMG,0.078,ATK,16,ER,0.058,NA,NA
 Obsidian Codex,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,HP,Goblet,0,0.07,EM,19,HP,299,ATK,18,NA,NA
 Obsidian Codex,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1105,12 +1157,12 @@ Obsidian Codex,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Obsidian Codex,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Obsidian Codex,NA,Pyro-DMG,Goblet,0,0.07,HP,299,ATK,19,DEF,0.051,NA,NA
 Obsidian Codex,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Obsidian Codex,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Obsidian Codex,NA,ATK,Circlet,0,0.07,ATK,19,Crit-DMG,0.07,DEF,23,NA,NA
 Obsidian Codex,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Obsidian Codex,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Obsidian Codex,NA,Crit-Rate,Circlet,0,0.047,HP,0.047,ATK,0.041,ATK,14,NA,NA
 Obsidian Codex,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Obsidian Codex,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,Baizhu,HP,Flower,20,4780,DEF,63,Crit-Rate,0.027,ER,0.117,ATK,0.099
@@ -1123,6 +1175,14 @@ Ocean-Hued Clam,Qiqi,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,Qiqi,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,Qiqi,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,Qiqi,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ocean-Hued Clam,Sangonomiya Kokomi,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ocean-Hued Clam,Sangonomiya Kokomi,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ocean-Hued Clam,Sangonomiya Kokomi,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ocean-Hued Clam,Sangonomiya Kokomi,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ocean-Hued Clam,Sangonomiya Kokomi,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ocean-Hued Clam,Sangonomiya Kokomi,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ocean-Hued Clam,Sangonomiya Kokomi,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ocean-Hued Clam,Sangonomiya Kokomi,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,Yaoyao,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,Yaoyao,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,Yaoyao,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1154,9 +1214,11 @@ Ocean-Hued Clam,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Ocean-Hued Clam,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Pale Flame,Freminet,HP,Flower,4,1530,Crit-DMG,0.054,ATK,0.053,DEF,19,ATK,16
-Pale Flame,Freminet,ATK,Feather,0,47,EM,16,ER,0.045,ATK,0.041,NA,NA
+Pale Flame,Freminet,HP,Flower,20,4780,EM,16,Crit-Rate,0.066,Crit-DMG,0.218,DEF,39
+Pale Flame,Freminet,ATK,Feather,10,179,EM,33,ER,0.045,ATK,0.041,HP,0.041
 Pale Flame,Freminet,ATK,Sands,20,0.466,Crit-Rate,0.078,DEF,44,DEF,0.124,EM,42
+Pale Flame,Freminet,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Pale Flame,Freminet,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,Freminet,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,Freminet,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,Freminet,ATK,Circlet,0,0.07,HP,299,ATK,19,HP,0.058,DEF,19
@@ -1166,18 +1228,17 @@ Pale Flame,Keqing,ATK,Sands,4,0.149,ER,0.065,Crit-Rate,0.027,ATK,14,HP,299
 Pale Flame,Keqing,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,Keqing,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,Rosaria,HP,Flower,4,1530,ER,0.045,DEF,19,ATK,33,EM,23
-Pale Flame,Rosaria,ATK,Feather,0,47,HP,269,ATK,0.047,ER,0.052,NA,NA
+Pale Flame,Rosaria,ATK,Feather,4,100,HP,269,ATK,0.047,ER,0.052,HP,0.047
 Pale Flame,Rosaria,ER,Sands,0,0.078,ATK,14,DEF,0.058,EM,19,Crit-DMG,0.062
 Pale Flame,Rosaria,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,Rosaria,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Pale Flame,Rosaria,ATK,Circlet,20,0.466,ATK,31,HP,448,DEF,35,EM,42
+Pale Flame,Rosaria,ATK,Circlet,4,1530,ER,0.045,DEF,19,ATK,33,EM,23
 Pale Flame,Xingqui,Hydro-DMG,Goblet,4,0.149,ATK,0.058,ATK,16,ER,0.058,HP,239
-Pale Flame,Xinyan,HP,Flower,18,4374,EM,16,Crit-Rate,0.066,Crit-DMG,0.148,DEF,39
+Pale Flame,Xinyan,HP,Flower,4,1530,Crit-DMG,0.054,ATK,0.053,DEF,19,ATK,16
 Pale Flame,Xinyan,ATK,Feather,0,47,Crit-DMG,0.078,DEF,0.058,ER,0.045,NA,NA
 Pale Flame,Xinyan,ATK,Sands,8,0.228,ER,0.052,EM,37,HP,0.058,DEF,39
-Pale Flame,Xinyan,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Pale Flame,Xinyan,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Pale Flame,Xinyan,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Pale Flame,Xinyan,DEF,Sands,0,0.087,ATK,0.058,Crit-Rate,0.039,Crit-DMG,0.054,HP,0.053
+Pale Flame,Xinyan,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,Xinyan,DEF,Circlet,4,0.186,EM,21,HP,239,Crit-Rate,0.035,Crit-DMG,0.054
 Pale Flame,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1187,7 +1248,7 @@ Pale Flame,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Pale Flame,NA,DEF,Goblet,0,0.087,ATK,0.058,Crit-Rate,0.039,Crit-DMG,0.054,HP,0.053
+Pale Flame,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1200,7 +1261,7 @@ Pale Flame,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Pale Flame,NA,DEF,Circlet,13,0.409,Crit-DMG,0.07,ER,0.175,HP,0.053,ATK,19
+Pale Flame,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Pale Flame,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1210,8 +1271,8 @@ Retracing Bolide,Layla,ATK,Feather,20,311,HP,837,Crit-Rate,0.039,ER,0.181,DEF,23
 Retracing Bolide,Layla,HP,Sands,20,0.466,Crit-Rate,0.097,DEF,35,EM,37,ATK,33
 Retracing Bolide,Layla,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,Layla,Crit-DMG,Circlet,20,0.622,EM,17,DEF,32,Crit-Rate,0.031,HP,807
-Retracing Bolide,Kirara,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Retracing Bolide,Kirara,ATK,Feather,0,47,Crit-Rate,0.027,EM,19,DEF,19,NA,NA
+Retracing Bolide,Kirara,HP,Flower,0,717,ATK,0.041,Crit-Rate,0.031,DEF,0.051,NA,NA
+Retracing Bolide,Kirara,ATK,Feather,4,100,Crit-Rate,0.027,DEF,21,ER,0.045,EM,35
 Retracing Bolide,Kirara,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,Kirara,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,Kirara,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1222,13 +1283,13 @@ Retracing Bolide,Noelle,DEF,Goblet,4,0.186,Crit-DMG,0.078,ER,0.058,ATK,19,HP,448
 Retracing Bolide,Noelle,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,Noelle,DEF,Circlet,4,0.186,HP,0.053,Crit-DMG,0.062,EM,23,Crit-Rate,0.031
 Retracing Bolide,Sayu,Anemo-DMG,Bonus,4,0.149,ATK,33,EM,19,DEF,19,ER,0.052
-Retracing Bolide,Yanfei,HP,Flower,0,717,ATK,0.041,Crit-Rate,0.031,DEF,0.051,NA,NA
-Retracing Bolide,Yanfei,ATK,Feather,4,100,Crit-Rate,0.027,DEF,21,ER,0.045,EM,35
-Retracing Bolide,Yanfei,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Retracing Bolide,Yanfei,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Retracing Bolide,Yanfei,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Retracing Bolide,Xinyan,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Retracing Bolide,Xinyan,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Retracing Bolide,Xinyan,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Retracing Bolide,Xinyan,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Retracing Bolide,Xinyan,DEF,Circlet,0,0.087,ER,0.065,EM,16,HP,269,NA,NA
 Retracing Bolide,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Retracing Bolide,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Retracing Bolide,NA,ATK,Feather,0,47,Crit-Rate,0.027,EM,19,DEF,19,NA,NA
 Retracing Bolide,NA,ATK,Sands,4,0.149,EM,16,ATK,16,Crit-Rate,0.035,DEF,19
 Retracing Bolide,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1248,28 +1309,22 @@ Retracing Bolide,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Retracing Bolide,NA,DEF,Circlet,0,0.087,ER,0.065,EM,16,HP,269,NA,NA
+Retracing Bolide,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Retracing Bolide,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,Citalali,HP,Flower,8,2342,EM,58,DEF,19,Crit-Rate,0.031,ER,0.045
-Scroll of the Hero of Cinder City,Citalali,ATK,Feather,0,47,HP,239,Crit-Rate,0.027,DEF,19,DEF,0.066
-Scroll of the Hero of Cinder City,Citalali,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Citalali,HP,Sands,0,0.07,ER,0.052,ATK,19,HP,239,NA,NA
+Scroll of the Hero of Cinder City,Citalali,ATK,Feather,0,47,Crit-Ratem,0.027,HP,269,Crit-DMG,0.078,EM,21
+Scroll of the Hero of Cinder City,Citalali,EM,Sands,0,28,HP,299,DEF,21,Crit-DMG,0.054,NA,NA
 Scroll of the Hero of Cinder City,Citalali,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,Citalali,EM,Circlet,0,28,HP,269,HP,0.058,ATK,19,NA,NA
 Scroll of the Hero of Cinder City,Iansan,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,Iansan,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,Iansan,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Iansan,ATK,Sands,0,0.07,DEF,0.051,ATK,19,HP,299
-Scroll of the Hero of Cinder City,Iansan,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,Iansan,ATK,Sands,0,0.07,Crit-Rate,0.031,HP,0.047,ATK,14,NA,NA
+Scroll of the Hero of Cinder City,Iansan,ATK,Goblet,0,0.07,DEF,16,HP,269,EM,23,ATK,18
 Scroll of the Hero of Cinder City,Iansan,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Ifa,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Ifa,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Ifa,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Ifa,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Ifa,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,Kachina,HP,Flower,0,717,DEF,0.058,ATK,0.058,DEF,23,Crit-Rate,0.027
 Scroll of the Hero of Cinder City,Kachina,ATK,Feather,8,152,Crit-Rate,0.027,DEF,0.117,HP,299,DEF,21
 Scroll of the Hero of Cinder City,Kachina,DEF,Sands,20,0.583,ATK,31,Crit-Rate,0.027,ATK,0.093,ER,0.181
@@ -1279,19 +1334,25 @@ Scroll of the Hero of Cinder City,Kachina,DEF,Circlet,20,0.583,HP,0.146,EM,58,DE
 Scroll of the Hero of Cinder City,Kazuha,Anemo-DMG,Goblet,12,0.308,EM,23,HP,568,Crit-Rate,0.031,ATK,27
 Scroll of the Hero of Cinder City,Ororon,HP,Flower,0,717,ATK,0.047,Crit-DMG,0.078,ER,0.058,NA,NA
 Scroll of the Hero of Cinder City,Ororon,ATK,Feather,0,47,DEF,21,ATK,0.047,HP,239,NA,NA
-Scroll of the Hero of Cinder City,Ororon,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Ororon,HP,Sands,0,0.07,ATK,0.053,Crit-Rate,0.035,EM,21,ER,0.058
+Scroll of the Hero of Cinder City,Ororon,ER,Sands,0,0.78,EM,21,HP,0.058,HP,299,NA,NA
 Scroll of the Hero of Cinder City,Ororon,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Ororon,ATK,Circlet,0,0.07,Crit-Rate,0.039,DEF,16,HP,0.047,NA,NA
-Scroll of the Hero of Cinder City,Ororon,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,Shikanoin Heizou,8,0.228,EM,42,DEF,0.058,ATK,14,ATK,0.047,NA,NA
+Scroll of the Hero of Cinder City,Ororon,Crit-Rate,Circlet,0,0.047,DEF,0.051,HP,0.053,Crit-DMG,0.078,DEF,19
+Scroll of the Hero of Cinder City,Sethos,0,0.07,ATK,14,DEF,23,ATK,0.053,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,Shikanoin Heizou,Anemo-DMG,Goblet,8,0.228,EM,42,DEF,0.058,ATK,14,ATK,0.047
+Scroll of the Hero of Cinder City,Xilonen,HP,Flower,0,717,ATK,18,DEF,0.073,DEF,23,ATK,0.058
+Scroll of the Hero of Cinder City,Xilonen,ATK,Feather,0,47,HP,239,Crit-Rate,0.027,DEF,19,DEF,0.066
+Scroll of the Hero of Cinder City,Xilonen,ER,Sands,4,0.078,DEF,19,ATK,18,HP,239,ATK,0.047
+Scroll of the Hero of Cinder City,Xilonen,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,Xilonen,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,Xilonen,ATK,Goblet,0,0.07,DEF,0.051,ATK,19,HP,299,NA,NA
+Scroll of the Hero of Cinder City,Xilonen,Healing-Bonus,Circlet,0,0.054,HP,269,EM,23,Crit-DMG,0.078,ER,0.052
 Scroll of the Hero of Cinder City,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,NA,ATK,Sands,DEF,0.051,ATK,19,HP,299,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,NA,HP,Sands,0,0.07,ATK,0.053,Crit-Rate,0.035,EM,21,ER,0.058
 Scroll of the Hero of Cinder City,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1300,43 +1361,50 @@ Scroll of the Hero of Cinder City,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,NA,Geo-DMG,Goblet,0,0.07,ATK,0.053,Crit-DMG,0.07,DEF,16,NA,NA
 Scroll of the Hero of Cinder City,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,Physical-DMG,Goblet,0,0.087,HP,269,EM,16,Crit-DMG,0.078,NA,NA
-Scroll of the Hero of Cinder City,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,NA,Pyro-DMG,Goblet,0,0.07,Crit-DMG,0.062,HP,0.041,ATK,18,NA,NA
+Scroll of the Hero of Cinder City,NA,HP,Circlet,0,0.07,HP,299,ATK,14,EM,23,NA,NA
+Scroll of the Hero of Cinder City,NA,ATK,Circlet,0,0.07,Crit-Rate,0.039,DEF,16,HP,0.047,NA,NA
+Scroll of the Hero of Cinder City,NA,DEF,Circlet,0,0.087,HP,0.047,HP,209,ATK,0.041,NA,NA
 Scroll of the Hero of Cinder City,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Scroll of the Hero of Cinder City,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Scroll of the Hero of Cinder City,NA,Crit-Rate,Circlet,0,0.047,DEF,19,DEF,0.073,HP,269,Crit-DMG,0.07
 Scroll of the Hero of Cinder City,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Scroll of the Hero of Cinder City,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shimenawa's Reminiscence,Ifa,HP,Flower,0,717,ATK,0.047,DEF,16,ER,0.052,EM,21
+Shimenawa's Reminiscence,Ifa,ATK,Feather,0,47,Crit-Rate,0.035,ATK,0.041,EM,23,NA,NA
+Shimenawa's Reminiscence,Ifa,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shimenawa's Reminiscence,Ifa,DEF,Goblet,0,0.086,EM,16,HP,269,DEF,21,Crit-DMG,0.078
+Shimenawa's Reminiscence,Ifa,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shimenawa's Reminiscence,Ifa,EM,Circlet,0,28,Crit-Rate,0.027,DEF,0.058,HP,209,NA,NA
+Shimenawa's Reminiscence,Sucro,EM,Circlet,0,28,HP,269,DEF,16,Crit-Rate,0.027,NA,NA
+Shimenawa's Reminiscence,NA,HP,Flower,0,717,ATK,14,Crit-Rate,0.027,Crit-DMG,0.062,HP,0.058
+Shimenawa's Reminiscence,NA,ATK,Feather,0,47,Crit-Rate,0.039,Crit-DMG,0.078,ER,0.052,NA,NA
 Shimenawa's Reminiscence,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shimenawa's Reminiscence,NA,HP,Sands,DEF,19,ATK,18,EM,16,DEF,0.073,NA,NA
 Shimenawa's Reminiscence,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,Cryo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,Dendro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shimenawa's Reminiscence,NA,Dendro-DMG,Goblet,0,0.07,DEF,16,HP,209,ATK,19,NA,NA
 Shimenawa's Reminiscence,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shimenawa's Reminiscence,NA,Geo-DMG,Goblet,0,0.07,ATK,0.053,ER,0.058,HP,0.053,NA,NA
+Shimenawa's Reminiscence,NA,Hydro-DMG,Goblet,0,0.07,HP,299,ATK,0.041,Crit-DMG,0.062,HP,0.041
 Shimenawa's Reminiscence,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shimenawa's Reminiscence,NA,Pyro-DMG,Goblet,0,0.07,ATK,0.047,HP,0.041,ATK,18,NA,NA
+Shimenawa's Reminiscence,NA,HP,Circlet,0,0.07,Crit-DMG,0.054,ER,0.065,Crit-Rate,0.035,NA,NA
 Shimenawa's Reminiscence,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Shimenawa's Reminiscence,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Shimenawa's Reminiscence,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shimenawa's Reminiscence,NA,Crit-DMG,Circlet,0,0.093,HP,239,ATK,18,EM,16,HP,0.047
+Shimenawa's Reminiscence,NA,Healing-Bonus,Circlet,0,0.054,DEF,23,ER,0.045,Crit-DMG,0.07,NA,NA
 Song of Day's Past,Chevreuse,HP,Flower,8,2342,ER,0.045,HP,0.117,ATK,18,DEF,23
 Song of Day's Past,Chevreuse,ATK,Feather,4,100,ATK,0.053,DEF,19,HP,0.041,DEF,0.058
 Song of Day's Past,Chevreuse,HP,Sands,0,0.07,Crit-DMG,0.054,DEF,0.073,Crit-Rate,0.039,NA,NA
@@ -1391,6 +1459,7 @@ Tenacity of the Milileth,Diona,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Diona,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Dori,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Dori,ATK,Feather,0,47,ER,0.058,HP,269,DEF,23,NA,NA
+Tenacity of the Milileth,Dori,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Dori,HP,Sands,0,0.07,EM,21,ATK,19,DEF,16,NA,NA
 Tenacity of the Milileth,Dori,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Dori,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1412,15 +1481,25 @@ Tenacity of the Milileth,Nilou,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Nilou,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Nilou,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Nilou,HP,Circlet,20,0.466,Crit-Rate,0.066,ATK,47,EM,47,DEF,21
+Tenacity of the Milileth,Sangonomiya Kokomi,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Sangonomiya Kokomi,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Sangonomiya Kokomi,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Sangonomiya Kokomi,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Sangonomiya Kokomi,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Thoma,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Thoma,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Thoma,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Thoma,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Thoma,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Tenacity of the Milileth,Yelan,HP,Flower,0,717,DEF,16,HP,0.047,ER,0.058,NA,NA
-Tenacity of the Milileth,Yelan,ATK,Feather,0,47,DEF,21,ER,0.045,EM,21,HP,0.041
-Tenacity of the Milileth,Yelan,HP,Sands,0,0.07,HP,299,ER,0.065,Crit-Rate,0.031,NA,NA
-Tenacity of the Milileth,Yelan,ATK,Goblet,0,0.07,ATK,16,HP,299,EM,23,NA,NA
+Tenacity of the Milileth,Yanfei,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Yanfei,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Yanfei,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Yanfei,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Yanfei,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tenacity of the Milileth,Yelan,HP,Flower,4,1530,DEF,16,HP,0.047,ER,0.058,ATK,0.058
+Tenacity of the Milileth,Yelan,ATK,Feather,4,100,DEF,21,ER,0.045,EM,42,HP,0.041
+Tenacity of the Milileth,Yelan,HP,Sands,12,0.288,HP,299,ER,0.11,Crit-Rate,0.031,EM,21
+Tenacity of the Milileth,Yelan,ATK,Goblet,0,0.07,ATK,16,HP,299,EM,23,EM,21
 Tenacity of the Milileth,Yelan,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,Yelan,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tenacity of the Milileth,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1583,66 +1662,62 @@ Vermillion Hereafter,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vermillion Hereafter,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vermillion Hereafter,NA,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Faruzan,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Faruzan,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Faruzan,ER,Sands,0,0.078,EM,19,ATK,18,ATK,0.058,HP,239
+Viridescent Venerer,Faruzan,ATK,Feather,0,47,Crit-Rate,0.027,DEF,0.066,HP,239,NA,NA
+Viridescent Venerer,Faruzan,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Faruzan,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Faruzan,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Ifa,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Ifa,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Ifa,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Ifa,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Ifa,Crit-DMD,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Jean,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Jean,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Jean,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,Jean,HP,Flower,0,717,HP,0.041,ER,0.058,ATK,14,NA,NA
+Viridescent Venerer,Jean,ATK,Feather,4,100,HP,209,ATK,0.087,Crit-Rate,0.027,EM,21
+Viridescent Venerer,Jean,ER,Sands,0,0.078,EM,19,ATK,18,ATK,0.058,HP,239
 Viridescent Venerer,Jean,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Jean,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Kaedehara Kazuha,HP,Flower,8,2342,DEF,21,Crit-DMG,0.062,Crit-Rate,0.074,EM,21
-Viridescent Venerer,Kaedehara Kazuha,ATK,Feather,4,100,HP,209,ATK,0.087,Crit-Rate,0.027,EM,21
+Viridescent Venerer,Jean,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,Jean,HP,Circlet,0,0.07,ATK,18,EM,19,Crit-Rate,0.031,NA,NA
+Viridescent Venerer,Kaedehara Kazuha,HP,Flower,0,717,EM,21,DEF,0.066,Crit-Rate,0.027,NA,NA
+Viridescent Venerer,Kaedehara Kazuha,ATK,Feather,0,47,DEF,16,EM,19,HP,239,NA,NA
 Viridescent Venerer,Kaedehara Kazuha,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Kaedehara Kazuha,ER,Sands,8,0.254,HP,299,DEF,0.058,ATK,0.058,EM,44
 Viridescent Venerer,Kaedehara Kazuha,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Kaedehara Kazuha,Anemo-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,Kaedehara Kazuha,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Kaedehara Kazuha,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Kaedehara Kazuha,Crit-DMG,Circlet,0,0.093,HP,0.053,DEF,0.051,DEF,19,EM,21
 Viridescent Venerer,Lan Yan,HP,Flower,0,717,EM,21,ER,0.052,HP,0.053,ATK,14
 Viridescent Venerer,Lan Yan,ATK,Feather,11,192,HP,269,DEF,21,ER,0.123,Crit-Rate,0.027
-Viridescent Venerer,Lan Yan,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,Lan Yan,ATK,Sands,0,0.07,ER,0.045,DEF,16,HP,209,EM,21
 Viridescent Venerer,Lan Yan,ATK,Goblet,14,0.347,Crit-DMG,0.07,Crit-Rate,0.039,ATK,54,HP,0.053
 Viridescent Venerer,Lan Yan,ATK,Circlet,20,0.466,ATK,53,Crit-DMG,0.233,ER,0.065,HP,0.058
 Viridescent Venerer,Lisa,Electro-DMG,Goblet,0,0.07,DEF,21,ATK,0.058,ER,0.065,NA,NA
 Viridescent Venerer,Lynette,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Lynette,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Lynette,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,Lynette,ATK,Feather,4,47,HP,0.047,HP,209,Crit-Rate,0.031,EM,19
+Viridescent Venerer,Lynette,HP,Sands,0,0.07,ATK,0.058,DEF,0.066,ER,0.052,NA,NA
 Viridescent Venerer,Lynette,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Lynette,HP,Circlet,0,0.07,Crit-DMG,0.062,ATK,0.058,Crit-Rate,0.035,EM,21
+Viridescent Venerer,Lynette,HP,Circlet,0,0.07,ATK,18,EM,19,Crit-Rate,0.031,NA,NA
 Viridescent Venerer,Mualani,Hydro-DMG,Goblet,20,0.466,DEF,0.073,Crit-Rate,0.058,HP,568,HP,0.163
 Viridescent Venerer,Sayu,HP,Flower,0,717,Crit-DMG,0.07,ATK,14,EM,19,ER,0.052
 Viridescent Venerer,Sayu,ATK,Feather,20,311,DEF,0.102,HP,239,DEF,32,Crit-DMG,0.202
 Viridescent Venerer,Sayu,ATK,Sands,16,0.387,EM,35,HP,209,ATK,51,DEF,0.117
 Viridescent Venerer,Sayu,HP,Sands,2,0.11,DEF,0.066,EM,16,DEF,16,NA,NA
 Viridescent Venerer,Sayu,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Sayu,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Sucrose,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,Sayu,ATK,Circlet,16,0.347,EM,35,HP,209,ATK,51,DEF,0.117
+Viridescent Venerer,Sucrose,HP,Flower,20,4780,DEF,35,DEF,0.175,HP,0.105,ATK,0.041
 Viridescent Venerer,Sucrose,ATK,Feather,0,47,ER,0.045,DEF,19,HP,209,NA,NA
 Viridescent Venerer,Sucrose,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Sucrose,ER,Sands,0,0.078,DEF,19,ATK,16,HP,0.058,NA,NA
 Viridescent Venerer,Sucrose,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Sucrose,HP,Goblet,0,0.07,ATK,19,DEF,0.051,ER,0.065,Crit-DMG,0.07
 Viridescent Venerer,Sucrose,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Sucrose,HP,Circlet,0,0.07,ATK,19,DEF,0.051,ER,0.065,Crit-DMG,0.07
 Viridescent Venerer,Xianyun,HP,Flower,4,1530,ATK,0.047,EM,21,Crit-DMG,0.062,HP,0.041
 Viridescent Venerer,Xianyun,ATK,Feather,10,179,ATK,0.053,EM,44,Crit-Rate,0.031,HP,209
 Viridescent Venerer,Xianyun,ATK,Sands,20,0.466,DEF,0.124,Crit-Rate,0.039,ATK,39,Crit-DMG,0.218
 Viridescent Venerer,Xianyun,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Xianyun,Healing-Bonus,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,Xianyun,ATK,Circlet,20,0.466,ER,0.117,ATK,29,HP,209,EM,63
-Viridescent Venerer,Yumemizuki Mizuki,HP,Flower,20,4780,DEF,35,DEF,0.175,HP,0.105,ATK,0.041
-Viridescent Venerer,Yumemizuki Mizuki,ATK,Feather,0,47,DEF,0.066,EM,21,Crit-Rate,0.035,NA,NA
-Viridescent Venerer,Yumemizuki Mizuki,EM,Sands,17,163,ATK,14,Crit-Rate,0.074,Crit-DMG,0.194,HP,239
+Viridescent Venerer,Yumemizuki Mizuki,HP,Flower,16,3967,DEF,21,Crit-DMG,0.218,Crit-Rate,0.074,EM,21
+Viridescent Venerer,Yumemizuki Mizuki,ATK,Feather,20,311,DEF,0.066,EM,37,Crit-Rate,0.144,HP,0.058
+Viridescent Venerer,Yumemizuki Mizuki,EM,Sands,20,187,ATK,14,Crit-Rate,0.074,Crit-DMG,0.194,HP,448
 Viridescent Venerer,Yumemizuki Mizuki,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,Yumemizuki Mizuki,Crit-DMG,Circlet,4,0.199,ATK,0.053,HP,0.041,DEF,0.073,ER,0.058
-Viridescent Venerer,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,Yumemizuki Mizuki,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,Yumemizuki Mizuki,Crit-DMG,Circlet,12,0.41,ATK,0.134,HP,0.041,DEF,0.073,ER,0.058
+Viridescent Venerer,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,NA,DEF,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1661,9 +1736,9 @@ Viridescent Venerer,NA,Geo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,NA,Hydro-DMG,Goblet,0,0.07,ATK,0.058,DEF,0.066,DEF,21,HP,0.053
 Viridescent Venerer,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,NA,Pyro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,NA,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,NA,HP,Circlet,0,0.07,ATK,19,DEF,0.051,ER,0.065,Crit-DMG,0.07
 Viridescent Venerer,NA,ATK,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Viridescent Venerer,NA,DEF,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viridescent Venerer,NA,DEF,Circlet,0,0.087,DEF,16,ER,0.045,EM,21,NA,NA
 Viridescent Venerer,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Viridescent Venerer,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1710,6 +1785,7 @@ Vourukasha's Glow,Nilou,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,Nilou,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,Nilou,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,Nilou,HP,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Vourukasha's Glow,Xilonen,DEF,Goblet,16,0.484,ER,0.065,Crit-Rate,0.035,DEF,44,EM,58
 Vourukasha's Glow,NA,HP,Flower,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,NA,ATK,Feather,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,NA,ATK,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1718,7 +1794,7 @@ Vourukasha's Glow,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,NA,HP,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Vourukasha's Glow,NA,DEF,Goblet,8,0.286,ER,0.065,Crit-Rate,0.035,DEF,21,EM,40
+Vourukasha's Glow,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Vourukasha's Glow,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1740,35 +1816,32 @@ Wanderer's Troupe,Amber,HP,Flower,4,1530,Crit-Rate,0.035,Crit-DMG,0.062,ATK,0.05
 Wanderer's Troupe,Amber,ATK,Feather,0,47,ER,0.065,ATK,0.053,HP,0.053,Crit-DMG,0.078
 Wanderer's Troupe,Amber,ATK,Sands,0,0.07,Crit-DMG,0.054,Crit-Rate,0.027,HP,239,HP,0.058
 Wanderer's Troupe,Amber,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Wanderer's Troupe,Amber,Crit-Rate,Circlet,20,0.311,ATK,0.152,ATK,37,DEF,0.139,HP,209
-Wanderer's Troupe,Amber,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wanderer's Troupe,Amber,Crit-DMG,Circlet,0,0.093,HP,0.053,ER,0.045,Crit-Rate,0.027,NA,NA
 Wanderer's Troupe,Gorou,DEF,Goblet,0,0.087,ER,0.058,DEF,23,HP,269,NA,NA
 Wanderer's Troupe,Navia,Geo-DMG,Goblet,4,0.149,DEF,21,Crit-Rate,0.035,ATK,19,EM,21
 Wanderer's Troupe,Sethos,HP,Flower,17,4171,ATK,0.053,Crit-Rate,0.089,ER,0.097,EM,44
 Wanderer's Troupe,Sethos,ATK,Feather,0,47,HP,0.047,EM,23,HP,209,Crit-Rate,0.027
-Wanderer's Troupe,Sethos,ATK,Sands,0,0.07,HP,239,DEF,21,ATK,16,EM,23
-Wanderer's Troupe,Sethos,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wanderer's Troupe,Sethos,EM,Sands,0,28,Crit-Rate,0.039,ATK,0.053,ER,0.052,NA,NA
 Wanderer's Troupe,Sethos,Crit-Rate,Circlet,HP,0.041,ATK,19,DEF,0.058,DEF,21,NA,NA
 Wanderer's Troupe,Sethos,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,Tighnari,HP,Flower,0,717,ATK,16,Crit-DMG,0.07,Crit-Rate,0.027,DEF,16
 Wanderer's Troupe,Tighnari,ATK,Feather,18,285,ER,0.11,EM,33,Crit-DMG,0.054,NA,NA
-Wanderer's Troupe,Tighnari,ATK,Sands,0,28,DEF,16,HP,299,Crit-DMG,0.062,HP,0.041
-Wanderer's Troupe,Tighnari,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wanderer's Troupe,Tighnari,EM,Sands,0,28,ER,0.065,Crit-Rate,0.039,ATK,19,NA,NA
 Wanderer's Troupe,Tighnari,Dendro-DMG,Goblet,0,0.07,ER,0.058,ATK,0.041,Crit-DMG,0.078,NA,NA
 Wanderer's Troupe,Tighnari,Crit-Rate,Circlet,0,0.047,ATK,0.058,ER,0.045,HP,299,EM,19
 Wanderer's Troupe,Tighnari,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,Yanfei,Pyro-DMG,Goblet,20,0.466,Crit-DMG,0.062,Crit-Rate,0.039,EM,68,ATK,0.14
-Wanderer's Troupe,Yumemizuki Mizuki,Anemo-DMG,Goblet,0,0.07,ER,0.065,Crit-DMG,0.062,ATK,14,EM,19
+Wanderer's Troupe,Yumemizuki Mizuki,Anemo-DMG,Goblet,4,0.149,ER,0.13,Crit-DMG,0.062,ATK,14,EM,19
 Wanderer's Troupe,NA,HP,Flower,0,717,Crit-DMG,0.054,ATK,0.041,EM,16,NA,NA
 Wanderer's Troupe,NA,ATK,Feather,0,47,EM,19,ATK,0.058,Crit-DMG,0.078,NA,NA
 Wanderer's Troupe,NA,ATK,Feather,0,47,HP,0.047,ER,0.058,Crit-DMG,0.062,NA,NA
-Wanderer's Troupe,NA,ATK,Sands,7,0.209,HP,0.082,Crit-Rate,0.027,HP,299,EM,21
-Wanderer's Troupe,NA,DEF,Sands,0,0.87,HP,239,ATK,0.047,ATK,16,CRIT-DMG,0.07
+Wanderer's Troupe,NA,ATK,Sands,0,28,DEF,16,HP,299,Crit-DMG,0.062,HP,0.041
+Wanderer's Troupe,NA,DEF,Sands,0,0.87,ATK,19,Crit-Rate,0.031,Crit-DMG,0.062,NA,NA
 Wanderer's Troupe,NA,ER,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,NA,EM,Sands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,NA,HP,Sands,0,0.07,ATK,19,ER,0.052,Crit-DMG,0.078,NA,NA
 Wanderer's Troupe,NA,ATK,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Wanderer's Troupe,NA,DEF,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wanderer's Troupe,NA,DEF,Goblet,0,0.087,DEF,16,Crit-DMG,0.078,HP,299,NA,NA
 Wanderer's Troupe,NA,EM,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,NA,HP,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,NA,Anemo-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1777,12 +1850,12 @@ Wanderer's Troupe,NA,Dendro-DMG,Goblet,0,0.07,Crit-DMG,0.078,HP,299,DEF,0.058,NA
 Wanderer's Troupe,NA,Electro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,NA,Geo-DMG,Goblet,0,0.07,HP,299,Crit-Rate,0.027,ATK,0.053,ER,0.058
 Wanderer's Troupe,NA,Hydro-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Wanderer's Troupe,NA,Physical-DMG,Goblet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wanderer's Troupe,NA,Physical-DMG,Goblet,0,0.087,HP,239,Crit-Rate,0.039,ATK,0.047,NA,NA
 Wanderer's Troupe,NA,Pyro-DMG,Goblet,0,0.07,ER,0.052,ATK,18,HP,209,NA,NA
-Wanderer's Troupe,NA,ATK,Circlet,0,0.07,DEF,16,HP,0.041,HP,269,Crit-DMG,0.054
+Wanderer's Troupe,NA,ATK,Circlet,0,0.07,Crit-Rate,0.035,Crit-DMG,0.062,ER,0.052,EM,19
 Wanderer's Troupe,NA,DEF,Circlet,0,0.087,ATK,0.053,ATK,19,EM,23,NA,NA
 Wanderer's Troupe,NA,EM,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Wanderer's Troupe,NA,HP,Circlet,0,0.07,Crit-Rate,0.031,ER,0.058,DEF,0.051,NA,NA
+Wanderer's Troupe,NA,HP,Circlet,0,0.07,ATK,0.053,HP,209,ER,0.058,Crit-Rate,0.027
 Wanderer's Troupe,NA,Crit-Rate,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,NA,Crit-DMG,Circlet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Wanderer's Troupe,NA,Healing-Bonus,Circlet,4,0.054,ATK,19,HP,209,DEF,19,NA,NA
