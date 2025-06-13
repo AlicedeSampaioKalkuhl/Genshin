@@ -4,6 +4,8 @@ Off-Field-Amber,Amber,Mooun's Moon,Golden Troupe,EM:Pyro-DMG:EM
 On-Field-Amber,Amber,Mooun's Moon,Wanderer's Troupe,ER:Pyro-DMG:Crit-DMG
 Deepwood-Alhaitham,Alhaitham,Light of Folicar Incision,Deepwood Memories,EM:Dendro-DMG:Crit-Rate
 Gilded-Alhaitham,Alhaitham,Light of Folicar Incision,Gilded Dreams,EM:Dendro-DMG:Crit-DMG
+Freeze-Ayaka,Kamisato Ayaka,Kagotsurube Isshin,Blizzard Strayer,ATK:Cryo-DMG:Crit-DMG
+Melt-Ayaka,Kamisato Ayaka,Xiphos' Moonlight,Noblesse Oblige,EM:EM:Crit-DMG
 Arataki Itto,Arataki Itto,Serpent Spine,Husk of Oppulent Dreams,DEF:Geo-DMG:Crit-DMG
 Deepwood-Baizhu,Baizhu,Sacrificial Jade,Deepwood Memories,HP:HP:Healing-Bonus
 Healer-Baizhu,Baizhu,Sacrificial Jade,Ocean-Hued Clam,HP:HP:Healing-Bonus
@@ -13,8 +15,8 @@ Healer-Barbara,Barbara,Ash-Graven Drinking Horn,Maiden Beloved,HP:HP:Healing-Bon
 Nymph-Barbara,Barbara,Ash-Graven Drinking Horn,Nymph's Dream,ATK:Hydro-DMG:Crit-DMG
 Heart-Barbara,Barbara,Ash-Graven Drinking Horn,Heart of Depths,ATK:Hydro-DMG:Crit-DMG
 Candace,Candace,Staff of Homa,Gilded Dreams,HP:HP:HP
+Hydro-Candace,Candance,Staff of Homa,Nymph's Dream,HP:HP:HP
 Charlotte,Charlotte,Frostbearer,Noblesse Obliege,ER:ATK:ATK
-Chasca,Chasca,Chainbreaker,Obsidian Codex,ER:ATK:Crit-DMG
 Chevreuse,Chevreuse,Black Tassel,Song of Days Past,HP:HP:HP
 Cyno,Cyno,White Tassel,Gilded Dreams,EM:Electro-DMG:Crit-DMG
 Geo-Chiori,Chiori,Flue of Ezpital,Husk of Oppulent Dreams,DEF:Geo-DMG:DEF
@@ -36,7 +38,9 @@ Dori,Dori,The Bell,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:Healing-Bonu
 Crit-Emilie,Emilie,Ballad of the Fjords,Unfinished Reverie,ATK:ATK:ATK
 Deepwood-Emilie,Emilie,Moonpiercer,Deepwood Memories,ATK:ATK:ATK
 EM-Emilie,Emili,Moonpiercer,Unfinished Reverie,ATK:ATK:ATK
-Escoffier,Escoffier,Prospector's Drill,Blizzard Strayer-Finale of Deep Gallies,ATK:ATK:Healing-Bonus
+DPS-Escoffier,Escoffier,Golden Troupe,Symphonist of Scent,ATK:Cryo-DMG:Crit-DMG
+Healer-Escoffier,Escoffier,Ocean-Hued Clam,Symphonist of Scent,ER:ATK:
+ATK-Escoffier,Escoffier,Noblesse Obliege,Symphonist of Scent,
 DPS-Faruzan,Faruzan,Skyward Harp,Desert Pavilion Chroncile,ER:Anemo-DMG:Crit-DMG
 Support-Faruzan,Faruzan,Skyward Harp,Viridescent Venerer,ER:Anemo-DMG:Crit-Rate
 Phys-Fischl,Fischl,Compound Bow,Bloodstained Chivalry,ATK:Physical-DMG:Crit-DMG
@@ -45,6 +49,7 @@ Freminet,Freminet,Entombed Starsilver,Pale Flame,EM:EM:Crit-DMG
 Cryo-Freminet,Freminet,Entombed Starsilver,Blizzard Stray,EM:EM:Crit-DMG
 Phys-Freminet,Freminet,Entombed Starsilver,Pale Flame,ATK:Physical-DMG:Crit-DMG
 Furina,Furina,Fleuvre Cendre Ferryman,Golden Troupe,HP:Hydro-DMG:Crit-Rate
+Tenacity-Furina,Furina,Fleuvre Cendre Ferryman,Tenacity of the Milileth,ER:HP:HP
 Pyro-Gaming,Gaming,Fruitful Hook,Crimson Witch of Flames,EM:Pyro-DMG:Crit-DMG
 HP-Gaming,Gaming,The Bell,Marechaussee Hunter,EM:Pyro-DM:Crit-DMG
 ATK-Iansan,Iansan,,Vermillion Hereafter-Gladiator's Triumph,ATK:ATK:ATK
@@ -73,7 +78,7 @@ Support-Kokomi,Sangonomiya Kokimi,Prototype Amber,Tenacity of the Milileth,HP:HP
 Healer-Kokomi,Sangonomiya Kokimi,Prototype Amber,Ocean-Hued Clam,EM:EM:EM
 HP-Shinobu,Kuki Shinobu,Key of Khaj Nisut,Guilded Dreams,EM:EM:Healing-Bonus
 EM-Shinobu,Kuki Shinobu,Dark Iron Sword,Guilded Dreams,EM:EM:EM
-Kujou Sara,Kujou Sara,Amos Bow,Noblesse Oblige,ER:Electro-DMG:Crit-Rate
+Sara,Kujou Sara,Amos Bow,Noblesse Oblige,ER:Electro-DMG:Crit-Rate
 Lan Yan,Lan Yan,Flowing Purity,Viridescent Venerer,ATK:ATK:ATK 
 Lisa,Lisa,Hakushin Ring,Emblem of Severe Fate,ER:Electro-DMG:Crit-Rate
 Hydro-Lumine,Lumine,Sacrificial Sword,Emblem of Severed Fate,ER:Hydro-DMG:Crit-DMG
@@ -112,7 +117,9 @@ Razor,Razor,Skyrider Greatsword,Pale Flame,AKT:Physical-DMG:Crit-DMG
 Freeze-Rosaria,Rosaria,Favonius Lance,Blizzard Strayer,ER:Cryo-DMG:Crit-Rate
 Phys-Rosaria,Rosaria,Dragonspine Spear,Pale Flame,ER:Physical-DMG:Crit-Rate
 Sayu,Sayu,Tidal Shadow,Viridescent Venerer,ATK:ATK:ATK
-Shenhe,Shenhe,Favonius Lance,Blizzard Strayer,ATK:ATK:ATK
+Sethos,Sethos,Cloudforged,Wanderer's Troupe,EM:Electro-DMG:Crit-DMG
+Burst-Shenhe,Shenhe,Favonius Lance,Noblesse Oblige,ATK:ATK:ATK
+Cryo-Shenhe,Shenhe,Favonius Lance,Blizzard Strayer,ATK:ATK:ATK
 DPS-Sigewinne,Sigewinne,Silvershower Heartstrings,Fragment of Harmonic Whimsy,ER:Hydro-DMG:Crit-DMG
 Healer-Sigewinne,Sigewinne,Silvershower Heartstrings,Song of Day's Past,HP:HP:Healing-Bonus
 DPS-Sucrose,Sucrose,Wandering Evenstar,Gilded Dreams,EM:Anemo-DMG:Crit-DMG

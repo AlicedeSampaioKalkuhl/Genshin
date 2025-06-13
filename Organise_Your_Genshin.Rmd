@@ -19,6 +19,7 @@ artifacts <- read.csv("artifactfarming.csv",header=T) # my artifacts and plannin
 
 # artifact farming
 ```{r artifacts}
+
 artifacts <- artifacts %>% 
 mutate(equiped = ifelse(is.na(character)==TRUE,"spare","build") ,
        sub1_rv = case_when(sub1 == "HP" & sub1_value < 1 ~ sub1_value/0.2915, 
@@ -70,23 +71,23 @@ artifacts %>% filter(is.na(lv)) %>% group_by(set) %>% tally() %>% arrange(-n)
 ```
 
 ```{r character stats}
-character_builds <- merge(builds,characters,on="character") %>% 
+cw_builds <- merge(builds,characters,on="character") %>% 
 merge(weapons, on="weapon") %>% 
-mutate(ATK = ((level/90)*ATK_base)*(1+ATK_multiplier+(level/90)*ATKmultiplier_base)+ATK_flat,
-HP = ((lv/90)*HP_base)*(1+HP_multiplier+(lv/90)*HPmultiplier_base)+HP_flat,
-DEF = ((lv/90)*DEF_base)*(1+DEF_multiplier+(lv/90)*DEFmultiplier_base)+DEF_flat,
-ER = (lv/90)*ER_base+ER_artifacts,
-EM = (lv/90)*EM_base+EM_artifacts,
-CritRate = (lv/90)*CritRate_base+CritRate_artifacts,
-CritDMG = (lv/90)*CritDMG_base+CritDMG_artifacts,
-HealingBonus = (lv/90)*HealingBonus_base+HealingBonus_artifacts,
-AnemoDMG = (lv/90)*AnemoDMG_base+AnemoDMG_artifacts,
-CryoDMG = (lv/90)*CryoDMG_base,
-DendroDMG = (lv/90)*DendroDMG_base,
-ElectroDMG = (lv/90)*ElectroDMG_base,
-GeoDMG = (lv/90)*GeoDMG_base,
-PhysicalDMG = (lv/90)*PhysicalDMG_base,
-PyroDMG = (lv/90)*PyroDMG_base) %>% 
+mutate(ATK = ((level/90)*ATK_base)*(1+ATKmultiplier_base+(level/90)*ATKmultiplier_base),
+HP = ((level/90)*HP_base)*(1+HPmultiplier_base+(level/90)*HPmultiplier_base),
+DEF = ((level/90)*DEF_base)*(1+DEFmultiplier_base+(level/90)*DEFmultiplier_base),
+ER = (level/90)*ER_base,
+EM = (level/90)*EM_base,
+CritRate = (level/90)*CritRate_base,
+CritDMG = (level/90)*CritDMG_base,
+HealingBonus = (level/90)*HealingBonus_base,
+AnemoDMG = (level/90)*AnemoDMG_base,
+CryoDMG = (level/90)*CryoDMG_base,
+DendroDMG = (level/90)*DendroDMG_base,
+ElectroDMG = (level/90)*ElectroDMG_base,
+GeoDMG = (level/90)*GeoDMG_base,
+PhysicalDMG = (level/90)*PhysicalDMG_base,
+PyroDMG = (level/90)*PyroDMG_base) %>% 
 mutate(HP = ifelse(weapon_stat=="HP",(weapon_level/90)*weapon_stat_value+HP,HP),
   ATK = ifelse(weapon_stat=="ATK",(weapon_level/90)*weapon_stat_value+ATK,ATK),
   DEF = ifelse(weapon_stat=="DEF",(weapon_level/90)*weapon_stat_value+DEF,DEF),
@@ -100,7 +101,9 @@ filter(equiped=="build" & is.na(main_value)==FALSE) %>%
   rowwise()%>%
 filter(grepl(set,artifact_set)) %>% 
   ungroup() %>%
-  group_by(build_name) %>% 
+  group_by(build_name) 
+
+cwa_builds <- cw_builds %>% 
 mutate(HP_flat = case_when(
   main=="HP" & main_value >1 ~ main_value,
   sub1=="HP" & main_value >1 & sub1_value > 1 ~ sub1_value,

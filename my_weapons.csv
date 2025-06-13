@@ -22,10 +22,11 @@ Dragon's Bane,R1,53,454,EM,221
 Dragonspine Spear,R1,50,454,Physical-DMG,0.69
 Earth Shaker,R2,70,565,ATK,0.276
 Emerald Orb,R5,20,448,EM,94
+End of the Line,R2,1,510,ER,0.459
 Eye of Perception,R5,80,454,ATK,0.551
 Favonius Codex,R4,50,510,ER,0.459
 Favonius Greatsword,R5,80,454,ER,0.613
-Favonius Lance,R5,50,565,ER,0.613
+Favonius Lance,R5,60,565,ER,0.613
 Favonius Sword,R5,50,454,ER,0.613
 Favonius Warbow,R5,90,454,ER,0.613
 Ferrous Shadow,R5,20,401,HP,0.352
@@ -56,21 +57,22 @@ Lion's Roar,R5,60,510,ATK,0.413
 Lost Prayer to the Sacred Wind,R2,61,608,Crit-Rate,0.331
 Recurve Bow,R5,70,353,HP,0.469
 Magic Guide,R5,40,354,EM,187
-Makhaira Aquamarine,R1,55,510,EM,165
+Makhaira Aquamarine,R1,56,510,EM,165
 Mappa Mare,R1,83,565,EM,110
 Messenger,R5,60,448,Crit-DMG,0.312
 Moonpiercer,R5,70,565,EM,110
 Mountain-Bracing Bolt,R2,60,565,ER,0.306
 Mouun's Moon,R2,20,565,ATK,0.276
 Otherwordly Story,R2,80,401,ER,0.39
+Portable Power Saw,R1,1,454,HP,0.551
 Primordial Jade-Winged Spear,R1,50,674,Crit-Rate,0.221
-Prospector's Drill,R1,50,565,ATK,0.276
+Prospector's Drill,R1,70,565,ATK,0.276
 Prototype Amber,R3,70,510,HP,0.413
 Prototype Crescent,R1,50,510,ATK,0.413
 Prototype Rancor,R3,70,565,Physical-DMG,0.345
 Prototype Starglitter,R1,20,510,ER,0.459
 Rainslasher,R5,60,510,EM,165
-Range Gauge,R2,1,565,ATK,0.275
+Range Gauge,R3,1,565,ATK,0.275
 Raven Bow,R5,20,448,EM,94
 Rightful Reward,R1,80,565,HP,0.276
 Ring of Yaxche,R2,90,510,HP,0.413
@@ -81,19 +83,22 @@ Sacrificial Greatsword,R5,50,565,ER,0.306
 Sacrificial Jade,R1,51,454,Crit-Rate,0.368
 Sacrificial Sword,R5,60,454,ER,0.613
 Sapwood Blade,R2,70,565,ER,0.306
+Serpent Spine,R1,1,510,Crit-Rate,0.276
+Sequence of Solitude,R5,75,510,HP,0.413
 Sharpshooter's Oath,R5,50,401,Crit-DMG,0.469
 Silvershower Heartstrings,R2,60,542,HP,0.662
 Skyrider Greatsword,R5,70,401,Physical-DMG,0.439
 Skyrider Sword,R5,50,354,ER,0.517
 Skyward Blade,R1,50,608,ER,0.551
 Skyward Harp,R4,70,674,Crit-Rate,0.221
-Snow-Tombed Starsilver,R1,50,565,Physical-DMG,0.345
+Snow-Tombed Starsilver,R1,60,565,Physical-DMG,0.345
 Solar Pearl,R1,40,510,Crit-Rate,0.276
-Song of Stillness,R20,20,510,ATK,0.413
+Song of Stillness,R1,52,510,ATK,0.413
 Staff of Homa,R1,60,608,Crit-DMG,0.662
 Sunny Morning Sleep-In,R1,80,542,EM,265
 Surf's Up,R1,90,542,Crit-DMG,0.882
 Sword of Narzissenkreuz,R5,70,510,ATK,0.413
+Symphonist of Scents,R1,53,608,Crit-DMG,0.662
 Talking Stick,R1,70,565,Crit-Rate,0.184
 Tamayuratei no Ohanashi,R5,80,565,ER,0.306
 The Black Sword,R1,20,510,Crit-Rate,0.276
@@ -105,7 +110,7 @@ Twin Nephrite,R5,20,448,Crit-Rate,0.156
 Verdict,R2,60,674,Crit-Rate,0.221
 Slingshot,R5,20,354,Crit-Rate,0.312
 The Bell,R5,50,510,HP,0.413
-The Dockhand's Assistant,R1,1,510,HP,0.413
+The Dockhand's Assistant,R2,1,510,HP,0.413
 The Flute,R5,50,510,ATK,0.413s
 The Stringles,R5,70,510,EM,165
 The Viridescent Hunt,R1,50,510,Crit-Rate,0.551
