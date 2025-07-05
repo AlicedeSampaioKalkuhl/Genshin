@@ -9,6 +9,7 @@ Ballad of the Fjords,R1,70,510,Crit-Rate,0.276
 Black Tassel,R5,70,354,HP,0.469
 Bloodtainted Greatsword,R5,20,354,EM,187
 Calamity of Eshu,R5,90,565,ATK,0.276
+Calamity Queller,R1,70,741,ATK,0.165
 Chain Breaker,R1,50,565,ATK,0.276
 Cloudforged,R5,70,510,EM,165
 Compound Bow,R1,40,454,Physical-DMG,0.96
@@ -115,11 +116,11 @@ The Flute,R5,50,510,ATK,0.413s
 The Stringles,R5,70,510,EM,165
 The Viridescent Hunt,R1,50,510,Crit-Rate,0.551
 The Widsith,R5,80,510,Crit-DMG,0.551
-Wandering Evenstar,R1,70,510,EM,165
+Wandering Evenstar,R2,70,510,EM,165
 Waveriding Whirl,R1,40,454,ER,0.613
 Whiteblind,R4,60,510,DEF,0.517
 White Iron Greatsword,R5,70,401,DEF,0.439
 White Tassel,R5,50,401,Crit-Rate,0.234
 Wolf-Fang,R1,60,510,Crit-Rate,0.276
 Wolf's Gravestone,R1,1,608,ATK,0.496
-Xiphos' Moonlight,R4,50,510,EM,165
+Xiphos' Moonlight,R5,50,510,EM,165

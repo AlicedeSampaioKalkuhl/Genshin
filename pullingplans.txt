@@ -1,32 +1,26 @@
 pulling 
     must pull 
-Cyno 
-Calamity Queller 
-Kamisato Ayato 
-Yoimiya 
-Dahlia 
-
-
-    may pull 
-Durin
-Tsaritsa 
+Cyno
 Chasca
 Klee 
-Eula 
-Ganyu 
-Tartaglia 
-Yae Miko 
+Ineffa
 Song of Broken Pines 
+
+    may pull 
+Durin (if playable)
+Tsaritsa 
+Ganyu
 Summit Shaper 
 Primordial Jadecutter
+Memory of Dust 
 
-    planned constellation pulls 
+    planed constellation pulls 
 3xSilvershower Heartstrings 
 6xSigewinne
 3xKey of Khaj Nisut
 4xSunny Morning Sleep-In
-1xChiori 
 6xBaizhu 
+2xIneffa
 
     may constellation pulls 
 4xCitlali

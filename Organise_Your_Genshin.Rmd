@@ -15,6 +15,7 @@ characters <- read.csv("my_characters.csv",header=T) # my characters
 builds <- read.csv("builds.csv",header=T) # builds used 
 weapons <- read.csv("my_weapons.csv",header=T) # my weapons
 artifacts <- read.csv("artifactfarming.csv",header=T) # my artifacts and planning
+# export artifacts if needed artifacts %>% arrange(set,factor(type, levels=c("Flower","Feather","Sands","Goblet","Circlet")),main,character) %>% write.csv(.,"artifactfarming.csv",row.names=F,quote=F)
 ```
 
 # artifact farming
