@@ -1,4 +1,4 @@
-build_name,character,weapon,artifact_set,substats,functional
+build_name,character,weapon,artifact_set,substats,correct
 Layla,Layla,Key of Khaj Nisut,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP,TRUE
 Mizuki,Yumemizuki Mizuki,Sunny Morning Sleep-In,Viridescent Vener,EM:EM:EM,TRUE
 Sigewinne,Sigewinne,Silvershower Heartstrings,Fragment of Harmonic Whimsy,ER:Hydro-DMG:Crit-DMG,FALSE
@@ -13,8 +13,8 @@ Citlali,Citlali,Starcaller's Watch,Gilded Dreams,ER:EM:EM,FALSE
 Nahida,Nahida,Wandering Evenstar,Flower of Paradise Lost,EM:EM:EM,TRUE
 Emilie,Emilie,Moonpiercer,Unfinished Reverie,ATK:ATK:ATK,TRUE
 Alhaitham,Alhaitham,Light of Folicar Incision,Gilded Dreams,EM:Dendro-DMG:Crit-Rate,FALSE
-Escoffier,Escoffier,Ocean-Hued Clam,Symphonist of Scent,ATK:ATK:Healing-Bonus,FALSE
-Chasca,Chasca,Flower-Wreathed Feathers,Obsidian Codex,ATK:ATK:Crit-DMG,FALSE
+Escoffier,Escoffier,Ocean-Hued Clam,Symphonist of Scent,ATK:ATK:Healing-Bonus,TRUE
+Chasca,Chasca,Flower-Wreathed Feathers,Obsidian Codex,ATK:ATK:Crit-DMG,TRUE
 Shenhe,Shenhe,Calamity Queller,Noblesse Oblige,ATK:ATK:ATK,TRUE
 Yelan,Yelan,Aqua Simulacra,Tenacity of the Milileth,HP:HP:HP,FALSE
 Navia,Navia,Verdict,Nightime Whispers in the Echoing Woods,ATK:Geo-DMG:Crit-Rate,FALSE
