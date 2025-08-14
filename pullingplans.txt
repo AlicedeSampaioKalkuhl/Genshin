@@ -1,41 +1,36 @@
 pulling 
     must pull 
-Cyno
 Chasca
+Cyno
 Klee 
-Ineffa
-Tartaglia
 Lauma
 Aino 
-Durin
-Jaoda 
-Nefer
-Starcaller Watch
+Jahoda
+Ganyu
 Jadefall's Splendor
 
     may pull 
-Nicole 
-Flins 
+Nicole
 Sandrone
+Durin
 Tsaritsa 
-Ganyu
-Summit Shaper
-Primordial Jadecutter
+Nefer
+Linnea
 Memory of Dust 
-Elegy for the End 
-A Thousand Floating Dreams 
+Vivid Notions
 
     constellation pulls 
-3xSilvershower Heartstrings 
-6xSigewinne
-6xBaizhu
 6xNilou 
-3xKey of Kahj Nisut
+6xSigewinne
 4xSunny Morning Sleep-In
-2xCitlali
+3xKey of Kahj Nisut
+3xSilvershower Heartstrings 
 2xClorinde
+2xBaizhu
+2xIneffa
+1XLauma 
 1xChasca
-1xYelan
+1xXilonen
 
     anniversary pull 
 Yumemizuki Mizuki 
@@ -44,4 +39,3 @@ Yumemizuki Mizuki
 475 - Inazuma chronicled 2025 
 391 - Alhaitham and Clorinde 
 306 - Varesa and Xianyun 
-...

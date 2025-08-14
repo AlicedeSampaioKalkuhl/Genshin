@@ -1,133 +1,139 @@
-build_name,character,weapon,artifact_set,substats,correct
-Layla,Layla,Key of Khaj Nisut,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP,TRUE
-Mizuki,Yumemizuki Mizuki,Sunny Morning Sleep-In,Viridescent Vener,EM:EM:EM,TRUE
-Sigewinne,Sigewinne,Silvershower Heartstrings,Fragment of Harmonic Whimsy,ER:Hydro-DMG:Crit-DMG,FALSE
-Freminet,Freminet,Entombed Starsilver,Gilded Dreams,EM:EM:EM,TRUE
-Lynette,Lynette,Finale of the Deep,Marechausee Hunter,ER:ATK:Crit-DMG,TRUE
-Lyney,Lyney,Song of Stillness,Marechausee Hunter,EM:Pyro-DMG:Crit-Rate,FALSE
-Nilou,Nilou,Xiphos' Moonlight,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP,TRUE
-Baizhu,Baizhu,Sacrificial Jade,Deepwood Memories,ER:HP:Healing-Bonus,FALSE
-Chiori,Chiori,Flue of Ezpital,Husk of Oppulent Dreams,DEF:DEF:DEF,TRUE
-Clorinde,Clorinde,Absolution,Fragment of Harmonic Whimsy,ATK:Electro-DMG:Crit-DMG,TRUE
-Citlali,Citlali,Starcaller's Watch,Gilded Dreams,ER:EM:EM,FALSE
-Nahida,Nahida,Wandering Evenstar,Flower of Paradise Lost,EM:EM:EM,TRUE
-Emilie,Emilie,Moonpiercer,Unfinished Reverie,ATK:ATK:ATK,TRUE
-Alhaitham,Alhaitham,Light of Folicar Incision,Gilded Dreams,EM:Dendro-DMG:Crit-Rate,FALSE
-Escoffier,Escoffier,Ocean-Hued Clam,Symphonist of Scent,ATK:ATK:Healing-Bonus,TRUE
-Chasca,Chasca,Flower-Wreathed Feathers,Obsidian Codex,ATK:ATK:Crit-DMG,TRUE
-Shenhe,Shenhe,Calamity Queller,Noblesse Oblige,ATK:ATK:ATK,TRUE
-Yelan,Yelan,Aqua Simulacra,Tenacity of the Milileth,HP:HP:HP,FALSE
-Navia,Navia,Verdict,Nightime Whispers in the Echoing Woods,ATK:Geo-DMG:Crit-Rate,FALSE
-Mualani,Mualani,Surf's Up,Obsidian Codex,HP:Hydro-DMG:HP,TRUE
-Varesa,Varesa,Lost Prayer to the Sacred Winds,Long Night's Oath,ATK:Electro-DMG:Crit-DMG,TRUE
-Arataki Itto,Arataki Itto,Serpent Spine,Husk of Oppulent Dreams,DEF:Geo-DMG:Crit-DMG,FALSE
-Ineffa,Ineffa,Kithain Cross Spear,Thundering Fury,EM:EM:Crit-Rate,FALSE
-Yoimiya,Yoimiya,Rust,Shimenawa's Reminiscence,EM:Pyro-DMG:Crit-Rate,TRUE
-Kokomi,Sangonomiya Kokimi,Prototype Amber,Tenacity of the Milileth,HP:HP:Healing-Bonus,FALSE
-Dehya,Dehya,Makhaira Aquamarine,Vouroukasha's Glow,EM:EM:EM,FALSE
-Ayato,Kamisato Ayato,Wolf Fang,Echos of an Offering,ATK:Hydro-DMG:Crit-DMG,FALSE
-Miko,Yae Miko,Mappa Mare,Gilded Dreams,EM:EM:EM,FALSE
-Ayaka,Kamisato Ayaka,Kagotsurube Isshin,Blizzard Strayer,ATK:Cryo-DMG:Crit-DMG,TRUE
-Gaming,Gaming,Fruitful Hook,Crimson Witch of Flames,EM:Pyro-DMG:Crit-DMG,FALSE
-Cyno,Cyno,Ballad of the Fjords,Thundering Fury,EM:Electro-DMG:Crit-DMG,FALSE
-Keqing,Keqing,Anemona Kageuchi,Thundering Fury,ATK:Electro-DMG:Crit-DMG,FALSE
-Ifa,Ifa,The Widsith,Shimenawa's Reminiscence,EM:EM:EM,TRUE
-Qiqi,Qiqi,Narzissenkreuz Blade,Maiden Beloved,ATK:ATK:Healing-Bonus,FALSE
-Burnfei,Yanfei,Eye of Perception,Crimson Witch of Flames,ATK:Pyro-DMG:Crit-DMG,FALSE
+build_name,character,weapon,artifact_set,mainstats,present,correct
+Aino,Aino,Master Key,Nod Krai Support,ER:EM:Crit-Rate,FALSE,FALSE
+Ineffa,Ineffa,Ballad of the Fjords,Nod Krai DPS,ATK:ATK:Crit-Rate,FALSE,FALSE
+Jahoda,Jahoda,TBD,TBD,TBD:TBD:TBD,FALSE,FALSE
+Mizuki,Yumemizuki Mizuki,Sunny Morning Sleep-In,Viridescent Vener,EM:EM:EM,TRUE,TRUE
+Layla,Layla,The Dockhand's Assisstant,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP,TRUE,TRUE
+Baizhu,Baizhu,Sacrificial Jade,Deepwood Memories,ER:HP:Healing-Bonus,TRUE,FALSE
+Sigewinne,Sigewinne,Silvershower Heartstrings,Fragment of Harmonic Whimsy,ER:Hydro-DMG:Crit-DMG,TRUE,FALSE
+Nilou,Nilou,Key of Khaj Nisut,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP,TRUE,TRUE
+Chiori,Chiori,Flue of Ezpital,Husk of Oppulent Dreams,DEF:DEF:DEF,TRUE,TRUE
+Clorinde,Clorinde,Absolution,Fragment of Harmonic Whimsy,ATK:Electro-DMG:Crit-DMG,TRUE,TRUE
+Emilie,Emilie,Moonpiercer,Unfinished Reverie,ATK:ATK:ATK,TRUE,TRUE
+Escoffier,Escoffier,Ocean-Hued Clam,Symphonist of Scent,ATK:ATK:Healing-Bonus,TRUE,TRUE
+Mualani,Mualani,Surf's Up,Obsidian Codex,HP:Hydro-DMG:HP,TRUE,TRUE
+Varesa,Varesa,Lost Prayer to the Sacred Winds,Long Night's Oath,ATK:Electro-DMG:Crit-DMG,TRUE,TRUE
+Arataki Itto,Arataki Itto,Serpent Spine,Husk of Oppulent Dreams,DEF:Geo-DMG:Crit-DMG,FALSE,FALSE
+Yoimiya,Yoimiya,Scion of the Blazing Sun,Shimenawa's Reminiscence,EM:Pyro-DMG:Crit-Damage,TRUE,TRUE
+Kokomi,Sangonomiya Kokimi,Prototype Amber,Tenacity of the Milileth,HP:HP:Healing-Bonus,FALSE,FALSE
+Citlali,Citlali,Starcaller's Watch,Gilded Dreams,ER:EM:EM,FALSE,FALSE
+Freminet,Freminet,Flame-Forged Insight,Gilded Dreams,EM:EM:EM,TRUE,TRUE
+Lynette,Lynette,Finale of the Deep,Marechausee Hunter,ER:ATK:Crit-DMG,TRUE,TRUE
+Lyney,Lyney,Amos' Bow,Marechausee Hunter,EM:Pyro-DMG:Crit-Rate,FALSE,FALSE
+Alhaitham,Alhaitham,Light of Folicar Incision,Gilded Dreams,EM:Dendro-DMG:Crit-Rate,FALSE,FALSE
+Chasca,Chasca,Flower-Wreathed Feathers,Obsidian Codex,ATK:ATK:Crit-DMG,TRUE,TRUE
+Navia,Navia,Verdict,Nightime Whispers in the Echoing Woods,ATK:Geo-DMG:Crit-Rate,FALSE,FALSE
+Dehya,Dehya,Makhaira Aquamarine,Vouroukasha's Glow,EM:EM:EM,FALSE,FALSE
+Nahida,Nahida,Wandering Evenstar,Flower of Paradise Lost,EM:EM:EM,TRUE,TRUE
+Shenhe,Shenhe,Calamity Queller,Noblesse Oblige,ATK:ATK:ATK,TRUE,TRUE
+Yelan,Yelan,Aqua Simulacra,Tenacity of the Milileth,HP:HP:HP,TRUE,FALSE
+Ayato,Kamisato Ayato,Wolf Fang,Echos of an Offering,ATK:Hydro-DMG:Crit-DMG,TRUE,FALSE
+Lauma,Lauma,Nod Krai Event,Deepwood Memories,EM:EM:Crit-Rate,FALSE,FALSE
+Miko,Yae Miko,Mappa Mare,Gilded Dreams,EM:EM:EM,FALSE,FALSE
+Ayaka,Kamisato Ayaka,Kagotsurube Isshin,Blizzard Strayer,ER:Cryo-DMG:Crit-DMG,TRUE,TRUE
+Gaming,Gaming,Fruitful Hook,Crimson Witch of Flames,EM:Pyro-DMG:Crit-DMG,FALSE,FALSE
+Cyno,Cyno,Ballad of the Fjords,Thundering Fury,EM:Electro-DMG:Crit-DMG,FALSE,FALSE
+Keqing,Keqing,Anemona Kageuchi,Thundering Fury,ATK:Electro-DMG:Crit-DMG,FALSE,FALSE
+Ifa,Ifa,The Widsith,Shimenawa's Reminiscence,EM:EM:EM,TRUE,TRUE
+Qiqi,Qiqi,Narzissenkreuz Blade,Maiden Beloved,ATK:ATK:Healing-Bonus,FALSE,FALSE
+Burnfei,Yanfei,Eye of Perception,Crimson Witch of Flames,ATK:Pyro-DMG:Crit-DMG,FALSE,FALSE
 LanYan,Lan Yan,Skyward Atlas,Viridescent Venerer,ATK:ATK:ATK,TRUE
-Tartaglia,Tartaglia,End of the Line,Nymph's Dream,ATK:Hydro-DMG:Crit-DMG,FALSE
+Tartaglia,Tartaglia,End of the Line,Nymph's Dream,ATK:Hydro-DMG:Crit-DMG,FALSE,FALSE
 Xianyun,Xianyun,Crane's Echoing Call,Viridescent Past,ATK:ATK:Healing-Bonus,TRUE
-Chongyun,Chongyun,Akuoumaru,Blizzard Strayer,EM:EM:Crit-DMG,FALSE
-Xiao,Xiao,Primordial Jade Winged Spear,Vermillion Hereafter,ER:Anemo-DMG:Crit-DGM,FALSE
-Jean,Jean,Skyward Blade,Viridescent Veneter,ER:ATK:Healing-Bonus,TRUE
-Sara,Kujou Sara,Amos Bow,Nfoblesse Oblige,ER:ATK:ATK,FALSE
-Kachina,Kachina,Footprints of the Rainbow,Husk of Oppulent Dreams,DEF:DEF:DEF,FALSE
-Xilonen,Xilonen,Peak Patrol Song,Archaic Petra,DEF:DEF:Healing-Bonus,FALSE
-Iansan,Iansan,Tamayuratei no Ohanashi,Vermillion Hereafter-Gladiator's Triumph,ER:ATK:ATK,FALSE
+Chongyun,Chongyun,Akuoumaru,Blizzard Strayer,EM:EM:Crit-DMG,FALSE,FALSE
+Xiao,Xiao,Primordial Jade Winged Spear,Vermillion Hereafter,ER:Anemo-DMG:Crit-DGM,FALSE,FALSE
+Sara,Kujou Sara,Amos Bow,Nfoblesse Oblige,ER:ATK:ATK,FALSE,FALSE
+Jean,Jean,Skyward Blade,Viridescent Veneter,ER:ATK:Healing-Bonus,TRUE,TRUE
+Klee,Klee,TBD,Crimson Witch of Flames,EM:Pyro-DMG:Crit-Damage,FALSE,FALSE
+Kachina,Kachina,Footprints of the Rainbow,Husk of Oppulent Dreams,DEF:DEF:DEF,FALSE,FALSE
+Xilonen,Xilonen,Peak Patrol Song,Archaic Petra,DEF:DEF:Healing-Bonus,FALSE,FALSE
+Iansan,Iansan,Tamayuratei no Ohanashi,Vermillion Hereafter-Gladiator's Triumph,ER:ATK:ATK,FALSE,FALSE
 Charlotte,Charlotte,Frostbearer,Noblesse Obliege,ER:ATK:Healing-Bonus,TRUE
 Candace,Candace,Staff of Homa,Gilded Dreams,HP:HP:HP,TRUE
-Faruzan,Faruzan,Skyward Harp,Desert Pavilion Chroncile,ER:Anemo-DMG:Crit-DMG,FALSE
-Amber,Amber,Mooun's Moon,Wanderer's Troupe,ER:Pyro-DMG:Crit-DMG,FALSE
+Faruzan,Faruzan,Skyward Harp,Desert Pavilion Chroncile,ER:Anemo-DMG:Crit-DMG,FALSE,FALSE
+Amber,Amber,Mooun's Moon,Wanderer's Troupe,ER:Pyro-DMG:Crit-DMG,FALSE,FALSE
 Barbara,Barbara,Ash-Graven Drinking Horn,Heart of Depths,ATK:Hydro-DMG:Crit-DMG,TRUE
-Thoma,Thoma,Dragon's Bane,Noblesse Oblige,ER:EM:EM,FALSE
+Thoma,Thoma,Dragon's Bane,Noblesse Oblige,ER:EM:EM,FALSE,FALSE
 Chevreuse,Chevreuse,Black Tassel,Song of Days Past,HP:HP:HP,TRUE
-Xinyan,Xinyan,Earth Shaker,Husk of Oppulent Dreams-Retracing Bolide,DEF:DEF:DEF,FALSE
+Xinyan,Xinyan,Earth Shaker,Husk of Oppulent Dreams-Retracing Bolide,DEF:DEF:DEF,FALSE,FALSE
 Sayu,Sayu,Tidal Shadow,Viridescent Venerer,ATK:ATK:ATK,TRUE
-Furina,Furina,Fleuvre Cendre Ferryman,Tenacity of the Milileth,ER:HP:HP,TRUE
+Furina,Furina,Fleuvre Cendre Ferryman,Tenacity of the Milileth,ER:HP:HP,TRUE,FALSE
 Ororon,Ororon,Favonius Warbow,Scroll of the Hero of Cinder City,ER:Electro-DMG:Crit-Rate,TRUE
-Kaveh,Kaveh,Makhaira Aquamarine,Gilded Dreams,EM:EM:Crit-DMG,FALSE
-Kirara,Kirara,Xiphos' Moonlight,Deepwood Memories,HP:HP:HP,FALSE
-Xiangling,Xiangling,The Catch,Emblem of Severed Fate,ER:Pyro-DMG:Crit-Rate,TRUE
+Kaveh,Kaveh,Makhaira Aquamarine,Gilded Dreams,EM:EM:Crit-DMG,FALSE,FALSE
+Kirara,Kirara,Serenity Call,Deepwood Memories,HP:HP:HP,FALSE,FALSE
+Lisa,Lisa,Hakushin Ring,Emblem of Severed Fate,ER:Electro-DMG:Crit-Rate,FALSE,FALSE
+Sucrose,Sucrose,Favonius Codex,Viridescent Venerer,EM:EM:EM,FALSE,FALSE
 Yaoyao,Yaoyao,Rightful Reward,Deepwood Memories,HP:HP:Healing-Bonus,TRUE 
-Ningguang,Ningguang,Otherwordly Story,Archaic Petra,ER:Geo-DMG:Crit-Rate,FALSE
-YunJin,Yun Jin,Deathmatch,Husk of Opulent Dreams,ER:DEF:DEF,FALSE
-Gorou,Gorou,Sacrificial Bow,Noblesse Obliege,DEF:DEF:DEF,FALSE
+Ningguang,Ningguang,Otherwordly Story,Archaic Petra,ER:Geo-DMG:Crit-Rate,FALSE,FALSE
+YunJin,Yun Jin,Deathmatch,Husk of Opulent Dreams,ER:DEF:DEF,FALSE,FALSE
+Gorou,Gorou,Sacrificial Bow,Noblesse Obliege,DEF:DEF:DEF,FALSE,FALSE
+Mona,Mona,Thrilling Tales of the Dragon Slayer,Emblem of Severed Fate,ER:Hydro-DMG:Crit-Rate,FALSE,FALSE
+Xiangling,Xiangling,The Catch,Emblem of Severed Fate,ER:Pyro-DMG:Crit-Rate,TRUE
 Rosaria,Rosaria,Favonius Lance,Noblesse Oblige,ER:Cryo-DMG:Crit-Rate,TRUE
-Fischl,Fischl,Compound Bow,Pale Flame,ATK:ATK:Crit-DMG,FALSE
-Kazuha,Kazuha,Freedom Sworn,Viridescent Venerer,EM:EM:EM,FALSE
-Lisa,Lisa,Hakushin Ring,Emblem of Severed Fate,ER:Electro-DMG:Crit-Rate,FALSE
-Heizou,Shikanoin Heizou,Solar Pearl,Shimenawa's Reminiscence,ATK:Anemo-DMG:Crit-Rate,FALSE
-Dahlia,Dahlia,Calamity of Esshu,Tenacity of the Milileth,HP:HP:HP,FALSE
+Fischl,Fischl,Compound Bow,Pale Flame,ATK:ATK:Crit-DMG,FALSE,FALSE
+Kazuha,Kazuha,Freedom Sworn,Viridescent Venerer,EM:EM:EM,FALSE,FALSE
+Heizou,Shikanoin Heizou,Solar Pearl,Shimenawa's Reminiscence,ATK:Anemo-DMG:Crit-Rate,FALSE,FALSE
+Dahlia,Dahlia,Calamity of Esshu,Tenacity of the Milileth,HP:HP:HP,FALSE,FALSE
+Diona,Diona,Recurve Bow,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP,TRUE
 Collei,Collei,King's Squire,Deepwood Memories,ATK:ATK:ATK,TRUE 
 Noelle,Noelle,Whiteblind,Retracing Bolide,DEF:DEF:Healing-Bonus,TRUE 
-Shinobu,Kuki Shinobu,Dark Iron Sword,Guilded Dreams,EM:EM:EM,FALSE
-Sucrose,Sucrose,Favonius Codex,Viridescent Venerer,EM:EM:EM,FALSE
-Mika,Mika,Prototype Staglitter,Maiden Beloved,HP:HP:Healing-Bonus,FALSE
-Bennett,Bennett,Sapwood Blade,Noblesse Oblige,ER:HP:Healing-Bonus,FALSE
-Razor,Razor,Wolf's Gravesword,Pale Flame,AKT:Physical-DMG:Crit-Rate,FALSE
-Beidou,Beidou,Favonius Greatsword,Emblem of Severed Fate,ER:Electro-DMG:Crit-Rate,FALSE
+Shinobu,Kuki Shinobu,Dark Iron Sword,Gilded Dreams,EM:EM:EM,FALSE,FALSE
+Mika,Mika,Prototype Staglitter,Maiden Beloved,HP:HP:Healing-Bonus,FALSE,FALSE
+Bennett,Bennett,Sapwood Blade,Noblesse Oblige,ER:HP:Healing-Bonus,FALSE,FALSE
+Razor,Razor,Wolf's Gravesword,Pale Flame,AKT:Physical-DMG:Crit-Rate,FALSE,FALSE
+Beidou,Beidou,Favonius Greatsword,Emblem of Severed Fate,ER:Electro-DMG:Crit-Rate,FALSE,FALSE
 Tighnari,Tighnaria,The Viridescent Hunt,Wanderer's Troupe,EM:Dendro-DMG:Crit-DMG,TRUE
-Xingqui,Xingqui,Iron Sting,Heart of Depths-Nymph's Dream,ER:ATK:Crit-Rate,FALSE
-Diona,Diona,Recurve Bow,Tenacity of the Milileth-Vourukasha's Glow,HP:HP:HP,TRUE
-Dori,Dori,The Bell,Tenacity of the Milileth-Vourukasha's Glow,ER:HP:Healing-Bonus,FALSE
-Kaeya,Kaeya,Wolf-Fang,Blizzard Strayer,ATK:Cryo-DMG:Crit-DMG,FALSE
-Neuvilette,Neuvilette,Waverider Whirl,Emblem of Severed Fate-Thundersoother,ER:HP:HP,FALSE
-EM-Layla,Layla,Key of Khaj Nisut,Blizzard Strayer-Finale of Deep Galleries,EM:Cryo-DMG:HP,FALSE
-Support-Miko,Yae Miko,Mappa Mare,Thundering Fury,EM:EM:EM,FALSE
-VV-Lynette,Lynette,Wolf-Fang,Viridescent Venerer,ER:EM:EM,FALSE
-Crimson-Lyney,Lyney,Rust,Crimson Witch of Flames,HP:Pyro-DMG:Crit-DMG,FALSE
-Support-Chiori,Chiori,Favonius Sword,Golden Troupe,DEF:DEF:Crit-Rate,FALSE
-IneffaEM,Ineffa,Kithain Cross Spear,Gilded Dreams,ATK:ATK:ATK,FALSE
-Healer-Kokomi,Sangonomiya Kokimi,Prototype Amber,Ocean-Hued Clam,EM:EM:EM,FALSE
-Phys-Keqing,Keqing,Prototype Rancour,Pale Flame-Bloodstained Chivalry,ATK:Physical-DMG:Crit-DMG,FALSE
-Deepwood-Alhaitham,Alhaitham,Light of Folicar Incision,Deepwood Memories,EM:Dendro-DMG:Crit-Rate,FALSE
-Deepwood-Nahida,Nahida,Wandering Evenstar,Deepwood Memories,EM:EM:EM,FALSE
-EM-Collei,Collei,King's Squire,Flower of Paradise Lost,EM:EM:EM,FALSE
-HP-Kirara,Kirara,The Dockhand's Assistant,Tenacity of the Milileth,HP:HP:HP,FALSE
-Healer-Baizhu,Baizhu,Sacrificial Jade,Ocean-Hued Clam,ER:HP:Healing-Bonus,FALSE
-Healer-Sigewinne,Sigewinne,Silvershower Heartstrings,Song of Day's Past,HP:HP:Healing-Bonus,FALSE
-Healer-Varesa,Varesa,Prototype Amber,Maiden Beloved,ER:Electro-DMG:Healing-Bonus,FALSE
-Healer-Xianyun,Xianyun,Crane's Echoing Call,Song of Day's Past,ATK:ATK:Healing-Bonus,FALSE
-Healer-Jean,Jean,Skyward Blade,Maiden Beloved,ATK:ATK:Healing-Bonus,FALSE
-Healer-Nahida,Nahida,Prototype Amber,Deepwood Memories,EM:EM:EM,FALSE
-Tankfei,Yanfei,Ring of Yaxche,Tenacity of the Milileth,ER:HP:HP,FALSE
-Healer-Yaoyao,Yaoyao,Rightful Reward,Ocean-Hued Clam,HP:HP:Healing-Bonus,FALSE
-Healer-Barbara,Barbara,Ash-Graven Drinking Horn,Maiden Beloved,HP:HP:Healing-Bonus,FALSE
-Burn-Xiangling,Xiangling,The Catch,Crimson Witch of Flames,ER:Pyro-DMG:Crit-Rate,FALSE
-Bloom-Kaveh,Kaveh,Makhaira Aquamarine,Flower of Paradise Lost,EM:Dendro-DMG:Crit-DMG,FALSE
-Plunge-Chongyun,Chongyun,Fruitful Hook,Long Night's Oath,ATK:Physical-DMG:Crit-DMG,FALSE
-Burn-Amber,Amber,Stringless,Crimson Witch of Flames,EM:Pyro-DMG:EM,FALSE
-Support-Faruzan,Faruzan,Skyward Harp,Viridescent Venerer,ER:ATK:ATK,FALSE
-Hydro-Candace,Candance,Staff of Homa,Nymph's Dream,HP:HP:HP,FALSE
-Burst-Thoma,Thoma,Dragon's Bane,Noblesse Oblige,ER:EM:EM,FALSE
-DPS-Sucrose,Sucrose,Wandering Evenstar,Gilded Dreams,EM:Anemo-DMG:Crit-DMG,FALSE
-Natlan-Kachina,Kachina,Footprints of the Rainbow,Scroll of the Hero of Cinder City,DEF:Geo-DMG:Crit-Rate,FALSE
-Support-Ororon,Ororon,Favonius Warbow,Golden Troupe,ER:Electro-DMG:Crit-Rate,FALSE
-Natlan-Citlali,Citlali,Sacrificial Fragments,Scroll of the Hero of Cinder City,EM:EM:EM,FALSE
-Natlan-Xilonen,Xilonen,Peak Patrol Song,Scroll of the Hero of Cider City,DEF:DEF:Healing-Bonus,FALSE
-Natlan-Iansan,Iansan,Tamayuratei no Ohanashi,Scroll of the Hero of Cinder City,ER:ATK:ATK,FALSE
-Phys-Rosaria,Rosaria,Dragonspine Spear,Pale Flame,ER:Physical-DMG:Crit-Rate,FALSE
-HP-Thoma,Thoma,Rightful Reward,Tenacity of the Milileth,HP:HP:HP,FALSE
-Melt-Ayaka,Kamisato Ayaka,Xiphos' Moonlight,Finale of Deep Galleries-Blizzard Strayer,EM:EM:Crit-DMG,FALSE
-Anemo-Ifa,Ifa,The Widsith,Desert Pavillion Chronicle,EM:EM:EM,FALSE
-Pyro-Lumine,Lumine,Lion's Roar,Scroll of the Hero of Cinder City,ER:Pyro-DMG:Healing-Bonus,FALSE
-Hydro-Lumine,Lumine,Sacrificial Sword,Emblem of Severed Fate,ER:Hydro-DMG:Crit-DMG,FALSE
-Anemo-Lumine,Lumine,Sacrificial,Viridescent Venerer,ER:Anemo-DMG:Crit-DMG,FALSE
-EM-Raiden,Raiden Shogun,Kithain Cross Spear,Gilded Dreams,EM:EM:EM,FALSE
-ER-Raiden,Raiden Shogun,The Catch,Emblem of Severed Fate,ER:Electro-DMG:Crit-Rate,FALSE
-Mona,Mona,Thrilling Tales of the Dragon Slayer,Emblem of Severed Fate,ER:Hydro-DMG:Crit-Rate,FALSE
-Diluc,Diluc,Talking Stick,Crimson Witch of Flames,ATK:Pyro-DMG:Crit-DMG,FALSE
-Plunge-Kazuha,Kazuha,Kagotsurube Isshin,Long Night's Oath,ER:Anemo-DMG:Crit-DMG,FALSE
-DPS-Neuvilette,Neuvilette,Flowing Purity,Marechaussee Hunter,HP:Hydro-DMG:Crit-DMG,FALSE
-Support-Fischl,Fischl,Stringless,Golden Troupe,ER:Electro-DMG:Crit-Rate,FALSE
-HP-Bennett,Bennett,Sapwood Blade,Tenacity of the Milileth,ER:ATK:Healing-Bonus,TRUE
+Xingqui,Xingqui,Iron Sting,Heart of Depths-Nymph's Dream,ER:ATK:Crit-Rate,FALSE,FALSE
+Dori,Dori,The Bell,Tenacity of the Milileth-Vourukasha's Glow,ER:HP:Healing-Bonus,FALSE,FALSE
+Diluc,Diluc,Talking Stick,Crimson Witch of Flames,ATK:Pyro-DMG:Crit-DMG,FALSE,FALSE
+Kaeya,Kaeya,Wolf-Fang,Blizzard Strayer,ATK:Cryo-DMG:Crit-DMG,FALSE,FALSE
+Neuvilette,Neuvilette,Waverider Whirl,Emblem of Severed Fate-Thundersoother,ER:HP:HP,FALSE,FALSE
+EM-Layla,Layla,Key of Khaj Nisut,Blizzard Strayer-Finale of Deep Galleries,EM:Cryo-DMG:HP,FALSE,FALSE
+Support-Miko,Yae Miko,Mappa Mare,Thundering Fury,EM:EM:EM,FALSE,FALSE
+VV-Lynette,Lynette,Wolf-Fang,Viridescent Venerer,ER:EM:EM,FALSE,FALSE
+Crimson-Lyney,Lyney,Rust,Crimson Witch of Flames,HP:Pyro-DMG:Crit-DMG,FALSE,FALSE
+Support-Chiori,Chiori,Favonius Sword,Golden Troupe,DEF:DEF:Crit-Rate,FALSE,FALSE
+IneffaEM,Ineffa,Kithain Cross Spear,Gilded Dreams,ATK:ATK:ATK,FALSE,FALSE
+Healer-Kokomi,Sangonomiya Kokimi,Prototype Amber,Ocean-Hued Clam,EM:EM:EM,FALSE,FALSE
+Phys-Keqing,Keqing,Prototype Rancour,Pale Flame-Bloodstained Chivalry,ATK:Physical-DMG:Crit-DMG,FALSE,FALSE
+Deepwood-Alhaitham,Alhaitham,Light of Folicar Incision,Deepwood Memories,EM:Dendro-DMG:Crit-Rate,FALSE,FALSE
+Deepwood-Nahida,Nahida,Wandering Evenstar,Deepwood Memories,EM:EM:EM,FALSE,FALSE
+EM-Collei,Collei,King's Squire,Flower of Paradise Lost,EM:EM:EM,FALSE,FALSE
+HP-Kirara,Kirara,The Dockhand's Assistant,Tenacity of the Milileth,HP:HP:HP,FALSE,FALSE
+Healer-Baizhu,Baizhu,Sacrificial Jade,Ocean-Hued Clam,ER:HP:Healing-Bonus,FALSE,FALSE
+Healer-Sigewinne,Sigewinne,Silvershower Heartstrings,Song of Day's Past,HP:HP:Healing-Bonus,FALSE,FALSE
+Healer-Varesa,Varesa,Prototype Amber,Maiden Beloved,ER:Electro-DMG:Healing-Bonus,FALSE,FALSE
+Healer-Xianyun,Xianyun,Crane's Echoing Call,Song of Day's Past,ATK:ATK:Healing-Bonus,FALSE,FALSE
+Healer-Jean,Jean,Skyward Blade,Maiden Beloved,ATK:ATK:Healing-Bonus,FALSE,FALSE
+Healer-Nahida,Nahida,Prototype Amber,Deepwood Memories,EM:EM:EM,FALSE,FALSE
+Tankfei,Yanfei,Ring of Yaxche,Tenacity of the Milileth,ER:HP:HP,FALSE,FALSE
+Healer-Yaoyao,Yaoyao,Rightful Reward,Ocean-Hued Clam,HP:HP:Healing-Bonus,FALSE,FALSE
+Healer-Barbara,Barbara,Ash-Graven Drinking Horn,Maiden Beloved,HP:HP:Healing-Bonus,FALSE,FALSE
+Burn-Xiangling,Xiangling,The Catch,Crimson Witch of Flames,ER:Pyro-DMG:Crit-Rate,FALSE,FALSE
+Bloom-Kaveh,Kaveh,Makhaira Aquamarine,Flower of Paradise Lost,EM:Dendro-DMG:Crit-DMG,FALSE,FALSE
+Plunge-Chongyun,Chongyun,Fruitful Hook,Long Night's Oath,ATK:Physical-DMG:Crit-DMG,FALSE,FALSE
+Burn-Amber,Amber,Stringless,Crimson Witch of Flames,EM:Pyro-DMG:EM,FALSE,FALSE
+Support-Faruzan,Faruzan,Skyward Harp,Viridescent Venerer,ER:ATK:ATK,FALSE,FALSE
+Hydro-Candace,Candance,Staff of Homa,Nymph's Dream,HP:HP:HP,FALSE,FALSE
+Burst-Thoma,Thoma,Dragon's Bane,Noblesse Oblige,ER:EM:EM,FALSE,FALSE
+DPS-Sucrose,Sucrose,Wandering Evenstar,Gilded Dreams,EM:Anemo-DMG:Crit-DMG,FALSE,FALSE
+Natlan-Kachina,Kachina,Footprints of the Rainbow,Scroll of the Hero of Cinder City,DEF:Geo-DMG:Crit-Rate,FALSE,FALSE
+Support-Ororon,Ororon,Favonius Warbow,Golden Troupe,ER:Electro-DMG:Crit-Rate,FALSE,FALSE
+Natlan-Citlali,Citlali,Sacrificial Fragments,Scroll of the Hero of Cinder City,EM:EM:EM,FALSE,FALSE
+Natlan-Xilonen,Xilonen,Peak Patrol Song,Scroll of the Hero of Cider City,DEF:DEF:Healing-Bonus,FALSE,FALSE
+Natlan-Iansan,Iansan,Tamayuratei no Ohanashi,Scroll of the Hero of Cinder City,ER:ATK:ATK,FALSE,FALSE
+Phys-Rosaria,Rosaria,Dragonspine Spear,Pale Flame,ER:Physical-DMG:Crit-Rate,FALSE,FALSE
+HP-Thoma,Thoma,Rightful Reward,Tenacity of the Milileth,HP:HP:HP,FALSE,FALSE
+Melt-Ayaka,Kamisato Ayaka,Xiphos' Moonlight,Finale of Deep Galleries-Blizzard Strayer,EM:EM:Crit-DMG,FALSE,FALSE
+Anemo-Ifa,Ifa,The Widsith,Desert Pavillion Chronicle,EM:EM:EM,FALSE,FALSE
+Pyro-Lumine,Lumine,Lion's Roar,Scroll of the Hero of Cinder City,ER:Pyro-DMG:Healing-Bonus,FALSE,FALSE
+Hydro-Lumine,Lumine,Sacrificial Sword,Emblem of Severed Fate,ER:Hydro-DMG:Crit-DMG,FALSE,FALSE
+Anemo-Lumine,Lumine,Sacrificial,Viridescent Venerer,ER:Anemo-DMG:Crit-DMG,FALSE,FALSE
+EM-Raiden,Raiden Shogun,Kithain Cross Spear,Gilded Dreams,EM:EM:EM,FALSE,FALSE
+ER-Raiden,Raiden Shogun,The Catch,Emblem of Severed Fate,ER:Electro-DMG:Crit-Rate,FALSE,FALSE
+Plunge-Kazuha,Kazuha,Kagotsurube Isshin,Long Night's Oath,ER:Anemo-DMG:Crit-DMG,FALSE,FALSE
+DPS-Neuvilette,Neuvilette,Flowing Purity,Marechaussee Hunter,HP:Hydro-DMG:Crit-DMG,FALSE,FALSE
+Support-Fischl,Fischl,Stringless,Golden Troupe,ER:Electro-DMG:Crit-Rate,FALSE,FALSE
+HP-Bennett,Bennett,Sapwood Blade,Tenacity of the Milileth,ER:ATK:Healing-Bonus,TRUE,FALSE
+Phys-Faruzan,Faruzan,Compound Bow,Bloodstained Chivalry,ATK:ATK:Crit-DMG,FALSE,FALSE
+Prelim-Ineffa,Ineffa,Kithain Cross Spear,Thundering Fury,EM:ATK:Crit-Rate,TRUE,TRUE
