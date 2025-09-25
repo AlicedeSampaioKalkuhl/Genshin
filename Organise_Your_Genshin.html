@@ -11,7 +11,7 @@
 
 <meta name="author" content="Alice de Sampaio Kalkuhl" />
 
-<meta name="date" content="2025-04-22" />
+<meta name="date" content="2025-09-04" />
 
 <title>Organise Your Dailies</title>
 
@@ -352,7 +352,7 @@ display: none;
 
 <h1 class="title toc-ignore">Organise Your Dailies</h1>
 <h4 class="author">Alice de Sampaio Kalkuhl</h4>
-<h4 class="date">2025-04-22</h4>
+<h4 class="date">2025-09-04</h4>
 
 </div>
 
@@ -363,13 +363,25 @@ display: none;
 characters &lt;- read.csv(&quot;my_characters.csv&quot;,header=T) # my characters
 builds &lt;- read.csv(&quot;builds.csv&quot;,header=T) # builds used 
 weapons &lt;- read.csv(&quot;my_weapons.csv&quot;,header=T) # my weapons
-artifacts &lt;- read.csv(&quot;artifactfarming.csv&quot;,header=T,sep=&quot;,&quot;) # my artifacts and planning</code></pre>
+artifacts &lt;- read.csv(&quot;artifacts.csv&quot;,header=T) # my artifacts and planning</code></pre>
 </div>
 <div id="artifact-farming" class="section level1">
 <h1>artifact farming</h1>
+<pre class="r"><code>artifact_set &lt;- c(&quot;Archaic Petra&quot;,&quot;Blizzard Strayer&quot;,&quot;Crimson Witch of Flames&quot;,&quot;Deepwood Memories&quot;,&quot;Desert Pavillion Chronicle&quot;,&quot;Echoes of An Offering&quot;,&quot;Emblem of Severed Fate&quot;,&quot;Finale of Deep Galleries&quot;,&quot;Flower of Paradise Lost&quot;,&quot;Fragment of Harmonic Whimsy&quot;,&quot;Gilded Dreams&quot;,&quot;Gladiator&#39;s Finale&quot;,&quot;Golden Troupe&quot;,&quot;Heart of Depths&quot;,&quot;Husk of Oppulent Dreams&quot;,&quot;Lavawalker&quot;,&quot;Long Night&#39;s Oath&quot;,&quot;Maiden Beloved&quot;,&quot;Marechaussee Hunter&quot;,&quot;Night of the Sky&#39;s Unveiling&quot;,&quot;Nighttime Whispers in the Echoing Woods&quot;,&quot;Noblesse Oblige&quot;,&quot;Nymph&#39;s Dream&quot;,&quot;Obsidian Codex&quot;,&quot;Ocean-Hued Clam&quot;,&quot;Pale Flame&quot;,&quot;Retracing Bolide&quot;,&quot;Scroll of the Hero of Cinder City&quot;,&quot;Silken Moon&#39;s Serenade&quot;,&quot;Shimenawa&#39;s Reminiscence&quot;,&quot;Song of Day&#39;s Past&quot;,&quot;Tenacity of the Milileth&quot;,&quot;Thundering Fury&quot;,&quot;Thundersoother&quot;,&quot;Unfinished Reverie&quot;,&quot;Vermillion Hereafter&quot;,&quot;Viridescent Venerer&quot;,&quot;Vourukasha&#39;s Glow&quot;,&quot;Wanderer&#39;s Troupe&quot;)
+
+artifact_type&lt;-c(&quot;Flower&quot;,&quot;Feather&quot;,&quot;Sands&quot;,&quot;Goblet&quot;,&quot;Circlet&quot;)
+artifacts_needed &lt;- expand_grid(artifact_set,artifact_type) %&gt;% 
+                        mutate(artifact_main=case_when(artifact_type==&quot;Flower&quot; ~ &quot;HP&quot;,
+                            artifact_type==&quot;Feather&quot; ~ &quot;ATK&quot;, 
+                            artifact_type==&quot;Sands&quot; ~ &quot;ATK:DEF:ER:EM:HP&quot;,
+                            artifact_type==&quot;Goblet&quot; ~&quot;Anemo_DMG:ATK:Cryo_DMG:DEF:Dendro_DMG:Electro_DMG:EM:Geo_DMG:HP:Hydro_DMG:Pyro_DMG&quot;,
+                            artifact_type==&quot;Circlet&quot; ~ &quot;ATK:Crit_DMG:Crit_Rate:DEF:Healing_Bonus:EM:HP&quot;)) %&gt;% separate_longer_delim(artifact_main,delim=&quot;:&quot;) 
+
+builds_artifacts &lt;- builds %&gt;% select(build_name,artifact_set,artifact_main) %&gt;% separate_longer_delim(artifact_main,delim=&quot;:&quot;) %&gt;% separate_longer_delim(artifact_set,delim=&quot;:&quot;) %&gt;% group_by(build_name) %&gt;% mutate(artifact_type=rep(c(&quot;Flower&quot;,&quot;Feather&quot;,&quot;Sands&quot;,&quot;Goblet&quot;,&quot;Circlet&quot;),length.out=n()))
+
+artifactfarming &lt;- dplyr::bind_rows(artifacts_needed,builds_artifacts) %&gt;% arrange(artifact_set,factor(artifact_type,levels=c(&quot;Flower&quot;,&quot;Feather&quot;,&quot;Sands&quot;,&quot;Goblet&quot;,&quot;Circlet&quot;))) %&gt;% ungroup()</code></pre>
 <pre class="r"><code>artifacts &lt;- artifacts %&gt;% 
-mutate(equiped = ifelse(is.na(character)==TRUE,&quot;spare&quot;,&quot;build&quot;) ,
-       sub1_rv = case_when(sub1 == &quot;HP&quot; &amp; sub1_value &lt; 1 ~ sub1_value/0.2915, 
+mutate(sub1_rv = case_when(sub1 == &quot;HP&quot; &amp; sub1_value &lt; 1 ~ sub1_value/0.2915, 
                     sub1== &quot;HP&quot; &amp; sub1_value &gt; 1 ~ sub1_value/1493.75, 
                     sub1== &quot;ATK&quot; &amp; sub1_value &lt; 1 ~ sub1_value/0.2915,
                     sub1== &quot;ATK&quot; &amp; sub1_value &gt; 1 ~ sub1_value/97.25,
@@ -412,95 +424,80 @@ mutate(equiped = ifelse(is.na(character)==TRUE,&quot;spare&quot;,&quot;build&quo
         rv=100*(sub1_rv+sub2_rv+sub3_rv+sub4_rv)) %&gt;% 
         arrange(-rv)
 
-# find artifacts you need   
-artifacts %&gt;% filter(is.na(lv)) %&gt;% group_by(set) %&gt;% tally() %&gt;% arrange(-n)</code></pre>
-<pre><code>## # A tibble: 38 × 2
-##    set                          n
-##    &lt;chr&gt;                    &lt;int&gt;
-##  1 Tenacity of the Milileth    64
-##  2 Gilded Dreams               57
-##  3 Vourukasha&#39;s Glow           53
-##  4 Emblem of Severed Fate      51
-##  5 Golden Troupe               51
-##  6 Deepwood Memories           50
-##  7 Viridescent Venerer         50
-##  8 Husk of Oppulent Dreams     47
-##  9 Blizzard Strayer            44
-## 10 Marechaussee Hunter         40
-## # ℹ 28 more rows</code></pre>
-<pre class="r"><code>character_builds &lt;- merge(builds,characters,on=&quot;character&quot;) %&gt;% 
-                    merge(artifacts, on=&quot;character&quot;) %&gt;% 
-                    filter(equiped==&quot;build&quot; &amp; is.na(main_value)==FALSE) %&gt;% 
-                    group_by(build_name) %&gt;% 
-                    mutate(HP_flat = case_when(
-                            main==&quot;HP&quot; &amp; main_value &gt;1 ~ main_value,
-                            sub1==&quot;HP&quot; &amp; sub1_value &gt; 1 ~ sub1_value,
-                            sub2==&quot;HP&quot; &amp; sub2_value &gt; 1 ~ sub2_value,
-                            sub3==&quot;HP&quot; &amp; sub3_value &gt; 1 ~ sub3_value,
-                            sub4==&quot;HP&quot; &amp; sub4_value &gt; 1 ~ sub4_value),
-                           HP_multiplier = case_when(
-                             main==&quot;HP&quot; &amp; main_value &lt; 1 ~ main_value,
-                             main==&quot;HP&quot; &amp; sub1==&quot;HP&quot; &amp; sub1_value &lt; 1 ~ main_value+sub1_value,
-                             main==&quot;HP&quot; &amp; sub2==&quot;HP&quot; &amp; sub2_value &lt; 1 ~ main_value+sub2_value,
-                             main==&quot;HP&quot; &amp; sub3==&quot;HP&quot; &amp; sub3_value &lt; 1 ~ main_value+sub3_value,
-                             main==&quot;HP&quot; &amp; sub4==&quot;HP&quot; &amp; sub4_value &lt; 1 ~ main_value+sub4_value),
-                           ATK_flat = case_when(
-                            main==&quot;ATK&quot; &amp; main_value &gt;1 ~ main_value,
-                            sub1==&quot;ATK&quot; &amp; sub1_value &gt; 1 ~ sub1_value,
-                            sub2==&quot;ATK&quot; &amp; sub2_value &gt; 1 ~ sub2_value,
-                            sub3==&quot;ATK&quot; &amp; sub3_value &gt; 1 ~ sub3_value,
-                            sub4==&quot;ATK&quot; &amp; sub4_value &gt; 1 ~ sub4_value),
-                           ATK_multiplier = case_when(
-                             main==&quot;ATK&quot; &amp; main_value &lt; 1 ~ main_value,
-                             main==&quot;ATK&quot; &amp; sub1==&quot;ATK&quot; &amp; sub1_value &lt; 1 ~ main_value+sub1_value,
-                             main==&quot;ATK&quot; &amp; sub2==&quot;ATK&quot; &amp; sub2_value &lt; 1 ~ main_value+sub2_value,
-                             main==&quot;ATK&quot; &amp; sub3==&quot;ATK&quot; &amp; sub3_value &lt; 1 ~ main_value+sub3_value,
-                             main==&quot;ATK&quot; &amp; sub4==&quot;ATK&quot; &amp; sub4_value &lt; 1 ~ main_value+sub4_value),
-                           DEF_flat = case_when(
-                            main==&quot;DEF&quot; &amp; main_value &gt;1 ~ main_value,
-                            sub1==&quot;DEF&quot; &amp; sub1_value &gt; 1 ~ sub1_value,
-                            sub2==&quot;DEF&quot; &amp; sub2_value &gt; 1 ~ sub2_value,
-                            sub3==&quot;DEF&quot; &amp; sub3_value &gt; 1 ~ sub3_value,
-                            sub4==&quot;DEF&quot; &amp; sub4_value &gt; 1 ~ sub4_value),
-                           DEF_multiplier = case_when(
-                             main==&quot;DEF&quot; &amp; main_value &lt; 1 ~ main_value,
-                             main==&quot;DEF&quot; &amp; sub1==&quot;DEF&quot; &amp; sub1_value &lt; 1 ~ main_value+sub1_value,
-                             main==&quot;DEF&quot; &amp; sub2==&quot;DEF&quot; &amp; sub2_value &lt; 1 ~ main_value+sub2_value,
-                             main==&quot;DEF&quot; &amp; sub3==&quot;DEF&quot; &amp; sub3_value &lt; 1 ~ main_value+sub3_value,
-                             main==&quot;DEF&quot; &amp; sub4==&quot;DEF&quot; &amp; sub4_value &lt; 1 ~ main_value+sub4_value),
-                           ER_artifact = case_when(
-                             main==&quot;ER&quot;~main_value,
-                             sub1==&quot;ER&quot;~sub1_value,
-                             sub2==&quot;ER&quot;~sub2_value,
-                             sub3==&quot;ER&quot;~sub3_value,
-                             sub4==&quot;ER&quot;~sub4_value),
-                           EM_artifact = case_when(
-                             main==&quot;EM&quot;~main_value,
-                             sub1==&quot;EM&quot;~sub1_value,
-                             sub2==&quot;EM&quot;~sub2_value,
-                             sub3==&quot;EM&quot;~sub3_value,
-                             sub4==&quot;EM&quot;~sub4_value),
-                           CritRate_artifact = case_when(
-                             main==&quot;Crit-Rate&quot;~main_value,
-                             sub1==&quot;Crit-Rate&quot;~sub1_value,
-                             sub2==&quot;Crit-Rate&quot;~sub2_value,
-                             sub3==&quot;Crit-Rate&quot;~sub3_value,
-                             sub4==&quot;Crit-Rate&quot;~sub4_value),
-                           CritDMG_artifact = case_when(
-                             main==&quot;Crit-DMG&quot;~main_value,
-                             sub1==&quot;Crit-DMG&quot;~sub1_value,
-                             sub2==&quot;Crit-DMG&quot;~sub2_value,
-                             sub3==&quot;Crit-DMG&quot;~sub3_value,
-                             sub4==&quot;Crit-DMG&quot;~sub4_value),
-                           HealingBonus_artifact = ifelse(type==&quot;Circlet&quot; &amp; main==&quot;Healing-Bonus&quot;,main_value,0),
-                           AnemoDMG_artifact = ifelse(type==&quot;Goblet&quot; &amp; main==&quot;Anemo-DMG&quot;,main_value,0),
-                           CryoDMG_artifact = ifelse(type==&quot;Goblet&quot; &amp; main==&quot;Cryo-DMG&quot;,main_value,0), 
-                           DendroDMG_artifact = ifelse(type==&quot;Goblet&quot; &amp; main==&quot;Dendro-DMG&quot;,main_value,0),,
-                           ElectroDMG_artifact = ifelse(type==&quot;Goblet&quot; &amp; main==&quot;Electro-DMG&quot;,main_value,0), 
-                           GeoDMG_artifact = ifelse(type==&quot;Goblet&quot; &amp; main==&quot;Geo-DMG&quot;,main_value,0),
-                           Pyro_artifact = ifelse(type==&quot;Goblet&quot; &amp; main==&quot;Pyro-DMG&quot;,main_value,0),
-                           PhysicalDMG_artifact = ifelse(type==&quot;Goblet&quot; &amp; main==&quot;Geo-DMG&quot;,main_value,0),
-                           ) </code></pre>
+head(artifacts) # 6 highest rv artifacts on the account </code></pre>
+<pre><code>##                        set main    type lv main_value sub1 sub1_value sub2
+## 1         Blizzard Strayer  ATK Circlet 20      0.466   EM     47.000   ER
+## 2         Blizzard Strayer  ATK Feather 20    311.000   HP      0.053   EM
+## 3 Tenacity of the Milileth   HP   Sands 20      0.466   HP    777.000   EM
+## 4           Obsidian Codex  ATK  Goblet 20      0.466   EM     61.000   HP
+## 5        Vourukasha&#39;s Glow   HP Circlet 20      0.466  ATK     53.000  ATK
+## 6 Tenacity of the Milileth  ATK Feather 20    311.000  DEF     21.000   ER
+##   sub2_value      sub3 sub3_value sub4 sub4_value   sub1_rv   sub2_rv   sub3_rv
+## 1      0.220 Crit-Rate      0.062  ATK     19.000 0.4032604 3.3950617 0.3187661
+## 2     56.000        ER      0.175   HP    239.000 0.1818182 0.4804805 2.7006173
+## 3     47.000        ER      0.155  ATK     16.000 0.5201674 0.4032604 2.3919753
+## 4    269.000        ER      0.168  DEF     19.000 0.5233805 0.1800837 2.5925926
+## 5      0.041        ER      0.168  DEF     19.000 0.5449871 0.1406518 2.5925926
+## 6      0.162        EM     65.000   HP      0.041 0.1814255 2.5000000 0.5577006
+##     sub4_rv       rv
+## 1 0.1953728 431.2461
+## 2 0.1600000 352.2916
+## 3 0.1645244 347.9927
+## 4 0.1641469 346.0204
+## 5 0.1641469 344.2378
+## 6 0.1406518 337.9778</code></pre>
+<pre class="r"><code># find artifacts you need   </code></pre>
+<pre class="r"><code>artifacts_summary &lt;- artifacts %&gt;% group_by(set,type,main) %&gt;% summarise(n_have=n())</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;set&#39;, &#39;type&#39;. You can override using the
+## `.groups` argument.</code></pre>
+<pre class="r"><code>artifactfarming_summary &lt;- artifactfarming %&gt;% group_by(artifact_set,artifact_type,artifact_main) %&gt;% summarise(n_needed=n())</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;artifact_set&#39;, &#39;artifact_type&#39;. You can
+## override using the `.groups` argument.</code></pre>
+<pre class="r"><code>left_join(artifactfarming_summary,artifacts_summary, by=c(&quot;artifact_set&quot;=&quot;set&quot;,&quot;artifact_type&quot;=&quot;type&quot;,&quot;artifact_main&quot;=&quot;main&quot;)) %&gt;%mutate_all(~replace(., is.na(.), 0)) %&gt;% mutate(n_need=n_needed-n_have) %&gt;% write.table(.,&quot;artifactfarming.csv&quot;,sep=&quot;,&quot;,row.names=FALSE,quote=FALSE)</code></pre>
+<pre><code>## `mutate_all()` ignored the following grouping variables:
+## • Columns `artifact_set`, `artifact_type`
+## ℹ Use `mutate_at(df, vars(-group_cols()), myoperation)` to silence the message.</code></pre>
+<pre class="r"><code>artifactfarming_summary %&gt;%group_by(artifact_set) %&gt;% summarise(n=n()) %&gt;% arrange(-n) %&gt;% write.csv(&quot;level_farm.csv&quot;,row.names=FALSE,quote=FALSE)</code></pre>
+<pre class="r"><code>library(jsonlite)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;jsonlite&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:purrr&#39;:
+## 
+##     flatten</code></pre>
+<pre class="r"><code>ExampleOptimizer &lt;- read_json(&quot;Eu_Genshin.json&quot;)
+dbVersion = 25
+Optimizer &lt;- list(format = &#39;GOOD&#39;, 
+                  dbVersion = as.integer(dbVersion+1), 
+                  source = &#39;Genshin Optimizer&#39;,
+                  version = as.integer(1),
+                  characters = list(),
+                  weapons = list(),
+                  artifacts = list(),
+                  generatedBuildList = list(),
+                  optConfigs = list(),
+                  buildTcs = list(),
+                  charMetas = list(),
+                  builds = list(),
+                  teamchars = list(),
+                  teams = list(),
+                  dbMeta = list(),
+                  display_weapon = list(),
+                  display_artifact = list(),
+                  display_character = list(sortType = &#39;name&#39;, ascending = FALSE),
+                  display_tool = list(timeZoneKey = &#39;Europe&#39;, resin = 200, resinDate = 1.749406e+12),
+                  display_team = list(ascending = FALSE, sortType = &#39;name&#39;, charKey = list(), searchTerm = &quot;&quot;),
+                  display_archive = list(artifact = list(rarity = map(list(5,4,3),as.integer)),
+                                         character = list(rarity = map(list(5,4),as.integer),
+                                                          weaponType = list(&#39;sword&#39;, &#39;claymore&#39;, &#39;polearm&#39;, &#39;bow&#39;, &#39;catalyst&#39;), 
+                                                          sortOrder = &#39;desc&#39;, 
+                                                          sortOrderBy = &#39;name&#39;),
+                                         weapon = list(rarity = map(list(5,4,3,2,1),as.integer),
+                                                       subStat = list(),
+                                                       weaponType = list(&#39;sword&#39;, &#39;claymore&#39;, &#39;polearm&#39;, &#39;bow&#39;, &#39;catalyst&#39;),
+                                                       sortOrder = &#39;desc&#39;, 
+                                                       sortOrderBy = &#39;name&#39;)
+                                         )
+)             </code></pre>
 </div>
 
 

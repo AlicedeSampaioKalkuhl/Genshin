@@ -11,241 +11,279 @@ library(tidyverse)
 # data import 
 ```{r data import}
 # account info 
-characters <- read.csv("my_characters.csv",header=T) # my characters
+characters <- read.csv("my_characters.csv",header=T) # my characters 
 builds <- read.csv("builds.csv",header=T) # builds used 
-weapons <- read.csv("my_weapons.csv",header=T) # my weapons
-artifacts <- read.csv("artifactfarming.csv",header=T) # my artifacts and planning
-# export artifacts if needed artifacts %>% arrange(set,factor(type, levels=c("Flower","Feather","Sands","Goblet","Circlet")),main,character) %>% write.csv(.,"artifactfarming.csv",row.names=F,quote=F)
+weapons <- read.csv("my_weapons.csv",header = T) # my weapons
+artifacts <- read.csv("artifacts.csv",header=T) # my artifacts and planning
 ```
 
 # artifact farming
-```{r artifacts}
+```{r artifacts neeeded}
+artifact_set <- c("Archaic Petra","Blizzard Strayer","Crimson Witch of Flames","Deepwood Memories","Desert Pavillion Chronicle","Echoes of An Offering","Emblem of Severed Fate","Finale of Deep Galleries","Flower of Paradise Lost","Fragment of Harmonic Whimsy","Gilded Dreams","Gladiator's Finale","Golden Troupe","Heart of Depths","Husk of Oppulent Dreams","Lavawalker","Long Night's Oath","Maiden Beloved","Marechaussee Hunter","Night of the Sky's Unveiling","Nighttime Whispers in the Echoing Woods","Noblesse Oblige","Nymph's Dream","Obsidian Codex","Ocean-Hued Clam","Pale Flame","Retracing Bolide","Scroll of the Hero of Cinder City","Silken Moon's Serenade","Shimenawa's Reminiscence","Song of Day's Past","Tenacity of the Milileth","Thundering Fury","Thundersoother","Unfinished Reverie","Vermillion Hereafter","Viridescent Venerer","Vourukasha's Glow","Wanderer's Troupe") 
 
+artifact_type <- c("flower","plume","sands","goblet","circlet")
+artifacts_needed <- expand_grid(artifact_set,artifact_type) %>% 
+                        mutate(artifact_main=case_when(artifact_type=="flower" ~ "hp",
+                            artifact_type=="plume" ~ "atk", 
+                            artifact_type=="sands" ~ "atk_:def_:enerRech_:eleMas:hp_",
+                            artifact_type=="goblet" ~"anemo_dmg__:atk_:cryo_dmg_:def_:dendro_dmg_:electro_dmg_:eleMas:geo_dmg_:hp_:hydro_dmg_:pyro_dmg_",
+                            artifact_type=="circlet" ~ "atk_:critDMG:critRate:def_:Healing_Bonus:eleMas:hp_")) %>% separate_longer_delim(artifact_main,delim=":") 
+
+builds_artifacts <- builds %>% select(build_name,artifact_set,artifact_main) %>% separate_longer_delim(artifact_main,delim=":") %>% separate_longer_delim(artifact_set,delim=":") %>% group_by(build_name) %>% mutate(artifact_type=rep(c("flower","plume","sands","goblet","circlet"),length.out=n()))
+
+artifactfarming <- dplyr::bind_rows(artifacts_needed,builds_artifacts) %>% arrange(artifact_set,factor(artifact_type,levels=c("flower","plume","sands","goblet","circlet"))) %>% ungroup()
+```
+
+```{r artifacts obtained}
 artifacts <- artifacts %>% 
-mutate(equiped = ifelse(is.na(character)==TRUE,"spare","build") ,
-       sub1_rv = case_when(sub1 == "HP" & sub1_value < 1 ~ sub1_value/0.2915, 
-                    sub1== "HP" & sub1_value > 1 ~ sub1_value/1493.75, 
-                    sub1== "ATK" & sub1_value < 1 ~ sub1_value/0.2915,
-                    sub1== "ATK" & sub1_value > 1 ~ sub1_value/97.25,
-                    sub1== "DEF" & sub1_value < 1 ~ sub1_value/0.3645,
-                    sub1== "DEF" & sub1_value > 1 ~ sub1_value/115.75,
+mutate(sub1_rv = case_when(sub1 == "HP" & sub1_value < 1 ~ sub1_value/0.0583, 
+                    sub1== "HP" & sub1_value > 1 ~ sub1_value/298.75, 
+                    sub1== "ATK" & sub1_value < 1 ~ sub1_value/0.0583,
+                    sub1== "ATK" & sub1_value > 1 ~ sub1_value/19.45,
+                    sub1== "DEF" & sub1_value < 1 ~ sub1_value/0.0729,
+                    sub1== "DEF" & sub1_value > 1 ~ sub1_value/23.15,
                     sub1== "ER" ~ sub1_value/0.0648,
-                    sub1== "EM" ~ sub1_value/116.55, 
-                    sub1== "Crit-Rate" ~ sub1_value/0.1945, 
-                    sub1== "Crit-Damage" ~ sub1_value/0.3885),
-        sub2_rv = case_when(sub2 == "HP" & sub2_value < 1 ~ sub2_value/0.2915, 
-                    sub2== "HP" & sub2_value > 1 ~ sub2_value/1493.75, 
-                    sub2== "ATK" & sub2_value < 1 ~ sub2_value/0.2915,
-                    sub2== "ATK" & sub2_value > 1 ~ sub2_value/97.25,
-                    sub2== "DEF" & sub2_value < 1 ~ sub2_value/0.3645,
-                    sub2== "DEF" & sub2_value > 1 ~ sub2_value/115.75,
+                    sub1== "EM" ~ sub1_value/23.31, 
+                    sub1== "Crit-Rate" ~ sub1_value/0.0389, 
+                    sub1== "Crit-Damage" ~ sub1_value/0.0777),
+        sub2_rv = case_when(sub2 == "HP" & sub2_value < 1 ~ sub2_value/0.0583, 
+                    sub2== "HP" & sub2_value > 1 ~ sub2_value/298.75, 
+                    sub2== "ATK" & sub2_value < 1 ~ sub2_value/0.0583,
+                    sub2== "ATK" & sub2_value > 1 ~ sub2_value/19.45,
+                    sub2== "DEF" & sub2_value < 1 ~ sub2_value/0.0729,
+                    sub2== "DEF" & sub2_value > 1 ~ sub2_value/23.15,
                     sub2== "ER" ~ sub2_value/0.0648,
-                    sub2== "EM" ~ sub2_value/116.55, 
-                    sub2== "Crit-Rate" ~ sub2_value/0.1945, 
-                    sub2== "Crit-Damage" ~ sub2_value/0.3885),
-        sub3_rv = case_when(sub3 == "HP" & sub3_value < 1 ~ sub3_value/0.2915, 
-                    sub3== "HP" & sub3_value > 1 ~ sub3_value/1493.75, 
-                    sub3== "ATK" & sub3_value < 1 ~ sub3_value/0.2915,
-                    sub3== "ATK" & sub3_value > 1 ~ sub3_value/97.25,
-                    sub3== "DEF" & sub3_value < 1 ~ sub3_value/0.3645,
-                    sub3== "DEF" & sub3_value > 1 ~ sub3_value/115.75,
+                    sub2== "EM" ~ sub2_value/23.31, 
+                    sub2== "Crit-Rate" ~ sub2_value/0.0389, 
+                    sub2== "Crit-Damage" ~ sub2_value/0.0777),
+        sub3_rv = case_when(sub3 == "HP" & sub3_value < 1 ~ sub3_value/0.0583, 
+                    sub3== "HP" & sub3_value > 1 ~ sub3_value/298.75, 
+                    sub3== "ATK" & sub3_value < 1 ~ sub3_value/0.0583,
+                    sub3== "ATK" & sub3_value > 1 ~ sub3_value/19.45,
+                    sub3== "DEF" & sub3_value < 1 ~ sub3_value/0.0729,
+                    sub3== "DEF" & sub3_value > 1 ~ sub3_value/23.15,
                     sub3== "ER" ~ sub3_value/0.0648,
-                    sub3== "EM" ~ sub3_value/116.55, 
-                    sub3== "Crit-Rate" ~ sub3_value/0.1945, 
-                    sub3== "Crit-Damage" ~ sub3_value/0.3885),
-        sub4_rv = case_when(sub4 == "HP" & sub4_value < 1 ~ sub4_value/0.2915, 
-                    sub4== "HP" & sub4_value > 1 ~ sub4_value/1493.75, 
-                    sub4== "ATK" & sub4_value < 1 ~ sub4_value/0.2915,
-                    sub4== "ATK" & sub4_value > 1 ~ sub4_value/97.25,
-                    sub4== "DEF" & sub4_value < 1 ~ sub4_value/0.3645,
-                    sub4== "DEF" & sub4_value > 1 ~ sub4_value/115.75,
-                    sub4== "ER" ~ sub4_value/0.324,
-                    sub4== "EM" ~ sub4_value/116.55, 
-                    sub4== "Crit-Rate" ~ sub4_value/0.1945, 
-                    sub4== "Crit-Damage" ~ sub4_value/0.3885),
+                    sub3== "EM" ~ sub3_value/23.31, 
+                    sub3== "Crit-Rate" ~ sub3_value/0.0389, 
+                    sub3== "Crit-Damage" ~ sub3_value/0.0777),
+        sub4_rv = case_when(sub4 == "HP" & sub4_value < 1 ~ sub4_value/0.0583, 
+                    sub4== "HP" & sub4_value > 1 ~ sub4_value/298.75, 
+                    sub4== "ATK" & sub4_value < 1 ~ sub4_value/0.0583,
+                    sub4== "ATK" & sub4_value > 1 ~ sub4_value/19.45,
+                    sub4== "DEF" & sub4_value < 1 ~ sub4_value/0.0729,
+                    sub4== "DEF" & sub4_value > 1 ~ sub4_value/23.15,
+                    sub4== "ER" ~ sub4_value/0.0648,
+                    sub4== "EM" ~ sub4_value/23.31, 
+                    sub4== "Crit-Rate" ~ sub4_value/0.0389, 
+                    sub4== "Crit-Damage" ~ sub4_value/0.0777),
         rv=100*(sub1_rv+sub2_rv+sub3_rv+sub4_rv)) %>% 
         arrange(-rv)
 
 head(artifacts) # 6 highest rv artifacts on the account 
 # find artifacts you need   
-artifacts %>% filter(is.na(lv)) %>% group_by(set) %>% tally() %>% arrange(-n)
+``` 
+
+```{r artifact farming}
+artifacts_summary <- artifacts %>% group_by(set,type,main) %>% summarise(n_have=n())
+artifactfarming_summary <- artifactfarming %>% group_by(artifact_set,artifact_type,artifact_main) %>% summarise(n_needed=n())
+
+left_join(artifactfarming_summary,artifacts_summary, by=c("artifact_set"="set","artifact_type"="type","artifact_main"="main")) %>%mutate_all(~replace(., is.na(.), 0)) %>% mutate(n_need=n_needed-n_have) %>% write.table(.,"artifactfarming.csv",sep=",",row.names=FALSE,quote=FALSE)
+
+# in case of export wanted 
+# artifactfarming_summary %>%group_by(artifact_set) %>% summarise(n=n()) %>% arrange(-n) %>% write.csv("level_farm.csv",row.names=FALSE,quote=FALSE)
 ```
 
-```{r character stats}
-cw_builds <- merge(builds,characters,on="character") %>% 
-merge(weapons, on="weapon") %>% 
-mutate(ATK = ((level/90)*ATK_base)*(1+ATKmultiplier_base+(level/90)*ATKmultiplier_base),
-HP = ((level/90)*HP_base)*(1+HPmultiplier_base+(level/90)*HPmultiplier_base),
-DEF = ((level/90)*DEF_base)*(1+DEFmultiplier_base+(level/90)*DEFmultiplier_base),
-ER = (level/90)*ER_base,
-EM = (level/90)*EM_base,
-CritRate = (level/90)*CritRate_base,
-CritDMG = (level/90)*CritDMG_base,
-HealingBonus = (level/90)*HealingBonus_base,
-AnemoDMG = (level/90)*AnemoDMG_base,
-CryoDMG = (level/90)*CryoDMG_base,
-DendroDMG = (level/90)*DendroDMG_base,
-ElectroDMG = (level/90)*ElectroDMG_base,
-GeoDMG = (level/90)*GeoDMG_base,
-PhysicalDMG = (level/90)*PhysicalDMG_base,
-PyroDMG = (level/90)*PyroDMG_base) %>% 
-mutate(HP = ifelse(weapon_stat=="HP",(weapon_level/90)*weapon_stat_value+HP,HP),
-  ATK = ifelse(weapon_stat=="ATK",(weapon_level/90)*weapon_stat_value+ATK,ATK),
-  DEF = ifelse(weapon_stat=="DEF",(weapon_level/90)*weapon_stat_value+DEF,DEF),
-  ER = ifelse(weapon_stat=="ER",(weapon_level/90)*weapon_stat_value+EM,ER),
-  EM = ifelse(weapon_stat=="EM",(weapon_level/90)*weapon_stat_value+EM,EM),
-  CritRate = ifelse(weapon_stat=="Crit-Rate",(weapon_level/90)*weapon_stat_value+CritRate,CritRate),
-  CritDMG = ifelse(weapon_stat=="Crit-DMG",(weapon_level/90)*weapon_stat_value+CritDMG,CritDMG),
-  PhysicalDMG = ifelse(weapon_stat=="Physical-DMG",(weapon_level/90)*weapon_stat_value+PhysicalDMG_base,PhysicalDMG_base))%>% 
-  merge(artifacts, on="character") %>% 
-filter(equiped=="build" & is.na(main_value)==FALSE) %>% 
-  rowwise()%>%
-filter(grepl(set,artifact_set)) %>% 
-  ungroup() %>%
-  group_by(build_name) 
-
-cwa_builds <- cw_builds %>% 
-mutate(HP_flat = case_when(
-  main=="HP" & main_value >1 ~ main_value,
-  sub1=="HP" & main_value >1 & sub1_value > 1 ~ sub1_value,
-  sub2=="HP" & main_value >1 & sub2_value > 1 ~ sub2_value,
-  sub3=="HP" & main_value >1 & sub3_value > 1 ~ sub3_value,
-  sub4=="HP" & main_value >1 & sub4_value > 1 ~ sub4_value),
- HP_multiplier = case_when(
-   main=="HP" & main_value < 1 ~ main_value,
-   main=="HP" & main_value < 1 & sub1=="HP" & sub1_value < 1 ~ main_value+sub1_value,
-   main=="HP" & main_value < 1 & sub2=="HP" & sub2_value < 1 ~ main_value+sub2_value,
-   main=="HP" & main_value < 1 & sub3=="HP" & sub3_value < 1 ~ main_value+sub3_value,
-   main=="HP" & main_value < 1 & sub4=="HP" & sub4_value < 1 ~ main_value+sub4_value),
- ATK_flat = case_when(
-  main=="ATK" & main_value >1 ~ main_value,
-  sub1=="ATK" & main_value >1 & sub1_value > 1 ~ sub1_value,
-  sub2=="ATK" & main_value >1 & sub2_value > 1 ~ sub2_value,
-  sub3=="ATK" & main_value >1 & sub3_value > 1 ~ sub3_value,
-  sub4=="ATK" & main_value >1 & sub4_value > 1 ~ sub4_value),
- ATK_multiplier = case_when(
-   main=="ATK" & main_value < 1 ~ main_value,
-   main=="ATK" & main_value < 1 & sub1=="ATK" & sub1_value < 1 ~ main_value+sub1_value,
-   main=="ATK" & main_value < 1 & sub2=="ATK" & sub2_value < 1 ~ main_value+sub2_value,
-   main=="ATK" & main_value < 1 & sub3=="ATK" & sub3_value < 1 ~ main_value+sub3_value,
-   main=="ATK" & main_value < 1 & sub4=="ATK" & sub4_value < 1 ~ main_value+sub4_value),
- DEF_flat = case_when(
-  main=="DEF" & main_value > 1 ~ main_value,
-  sub1=="DEF" & main_value > 1 & sub1_value > 1 ~ sub1_value,
-  sub2=="DEF" & main_value > 1 & sub2_value > 1 ~ sub2_value,
-  sub3=="DEF" & main_value > 1 & sub3_value > 1 ~ sub3_value,
-  sub4=="DEF" & main_value > 1 & sub4_value > 1 ~ sub4_value),
- DEF_multiplier = case_when(
-   main=="DEF" & main_value < 1 ~ main_value,
-   main=="DEF" & main_value < 1 & sub1=="DEF" & sub1_value < 1 ~ main_value+sub1_value,
-   main=="DEF" & main_value < 1 & sub2=="DEF" & sub2_value < 1 ~ main_value+sub2_value,
-   main=="DEF" & main_value < 1 & sub3=="DEF" & sub3_value < 1 ~ main_value+sub3_value,
-   main=="DEF" & main_value < 1 & sub4=="DEF" & sub4_value < 1 ~ main_value+sub4_value),
- ER_artifact = case_when(
-   main=="ER"~main_value,
-   sub1=="ER"~sub1_value,
-   sub2=="ER"~sub2_value,
-   sub3=="ER"~sub3_value,
-   sub4=="ER"~sub4_value),
- EM_artifact = case_when(
-   main=="EM"~main_value,
-   sub1=="EM"~sub1_value,
-   sub2=="EM"~sub2_value,
-   sub3=="EM"~sub3_value,
-   sub4=="EM"~sub4_value),
- CritRate_artifact = case_when(
-   main=="Crit-Rate"~main_value,
-   sub1=="Crit-Rate"~sub1_value,
-   sub2=="Crit-Rate"~sub2_value,
-   sub3=="Crit-Rate"~sub3_value,
-   sub4=="Crit-Rate"~sub4_value),
- CritDMG_artifact = case_when(
-   main=="Crit-DMG"~main_value,
-   sub1=="Crit-DMG"~sub1_value,
-   sub2=="Crit-DMG"~sub2_value,
-   sub3=="Crit-DMG"~sub3_value,
-   sub4=="Crit-DMG"~sub4_value),
- HealingBonus_artifact = ifelse(type=="Circlet" & main=="Healing-Bonus",main_value,0),
- AnemoDMG_artifact = ifelse(type=="Goblet" & main=="Anemo-DMG",main_value,0),
- CryoDMG_artifact = ifelse(type=="Goblet" & main=="Cryo-DMG",main_value,0), 
- DendroDMG_artifact = ifelse(type=="Goblet" & main=="Dendro-DMG",main_value,0),,
- ElectroDMG_artifact = ifelse(type=="Goblet" & main=="Electro-DMG",main_value,0), 
- GeoDMG_artifact = ifelse(type=="Goblet" & main=="Geo-DMG",main_value,0),
- PyroDMG_artifact = ifelse(type=="Goblet" & main=="Pyro-DMG",main_value,0),
- PhysicalDMG_artifact = ifelse(type=="Goblet" & main=="Physical-DMG",main_value,0)) %>% 
-mutate(HP = HP+HP_artifact,
- ATK = ATK+ATK_artifact,
- DEF = DEF+DEF_artifact,
- ER = ER+ER_artifact,
- EM = EM+EM_artifact,   
- CritRate = CritRate+CritDMG_artifact,
- CritDMG = CritDMG+CritDMG_artifact,
- HealingBonus = HealingBonus+HealingBonus_artifact,
- AnemoDMG = AnemoDMG+AnemoDMG_artifact,
- CryoDMG = CryoDMG+CryoDMG_artifact, 
- DendroDMG = DendroDMG+DendroDMG_artifact,
- ElectroDMG = ElectroDMG+ElectroDMG_artifact, 
- GeoDMG = GeoDMG+GeoDMG_artifact,
- PyroDMG = PyroDMG+PyroDMG_artifact,
- PhysicalDMG = PhysicalDMG+PhysicalDMG_artifact)
-
-build_comparison <- character_builds %>% 
-  separate(substats,c("sands_main","goblet_main","circlet_main"),":") %>% 
-  filter(type=="Flower" | type == "Feather" | type=="Sands" & main == sands_main | type=="Goblet" & main == goblet_main | type=="Circlet" & main == circlet_main) %>% 
-  mutate(id=paste0(build_name,row_number())) %>% 
-  group_by(build_name) %>% 
-  mutate(available=n()) 
- 
-build_comparison %>% 
-  select(build_name,set,main,type,lv,main_value,rv,HP_flat,HP_multiplier,ATK_flat,ATK_multiplier,DEF_flat,DEF_multiplier,ER_artifact,EM_artifact,CritRate_artifact,CritDMG_artifact,HealingBonus_artifact,AnemoDMG_artifact,CryoDMG_artifact,DendroDMG_artifact,ElectroDMG_artifact,GeoDMG_artifact,Pyro_artifact,PhysicalDMG_artifact,id,available) # here select a character
-
-pieces <- build_comparison %>% ungroup() %>% nest(.by=id)
-four_piece_options <- build_comparison %>% filter(available>=4) %>% do(data.frame(t(combn(.$id,4)))) 
-four_piece_1 <- merge(four_piece_options,pieces,by.x="X1",by.y="id") %>% rename(artifact1=data)
-four_piece_2 <- merge(four_piece_options,pieces,by.x="X2",by.y="id") %>% rename(artifact2=data)
-four_piece_3 <- merge(four_piece_options,pieces,by.x="X3",by.y="id") %>% rename(artifact3=data)
-four_piece_4 <- merge(four_piece_options,pieces,by.x="X4",by.y="id") %>% rename(artifact4=data)
-
-four_piece_builds <- list(four_piece_1,four_piece_2,four_piece_3,four_piece_4) %>% reduce(inner_join,by="build_name") %>%  select(build_name,artifact1,artifact2,artifact3,artifact4) %>% 
-  unnest(cols = c(artifact1, artifact2, artifact3, artifact4),names_sep="_") %>% 
-  distinct() %>% 
-  filter(artifact1_type!=artifact2_type & artifact1_type!=artifact3_type & artifact1_type!=artifact4_type & artifact2_type!=artifact3_type & artifact2_type!=artifact4_type & artifact3_type!=artifact4_type) 
-
-four_piece_bonus <- four_piece_builds %>% 
-      mutate(across(where(is.numeric),~replace_na(.,0))) %>% 
-mutate(ATK_flat=rowSums(select(.,ends_with("_ATK_flat"))),
-       ATK_mutiplier=rowSums(select(.,ends_with("_ATK_multiplier"))),
-       DEF_flat=rowSums(select(.,ends_with("_DEF_flat"))),
-       DEF_multiplier=rowSums(select(.,ends_with("_DEF_multiplier"))),
-       HP_flat=rowSums(select(.,ends_with("_HP_flat"))),
-       HP_multiplier=rowSums(select(.,ends_with("_HP_multiplier"))),
-       ER_artifacts=rowSums(select(.,ends_with("_ER"))),
-       EM_artifacts=rowSums(select(.,ends_with("_EM"))),
-       CritRate_artifacts=rowSums(select(.,ends_with("_CritRate"))),
-       CritDMG_artifacts=rowSums(select(.,ends_with("_CritDMG"))),
-       HealingBonus_artifacts=rowSums(select(.,ends_with("_HealingBonus"))),
-       AnemoDMG_artifacts=rowSums(select(.,ends_with("_AnemoDMG"))),
-       CryoDMG_artifacts=rowSums(select(.,ends_with("_Cryo"))),
-       DendroDMG_artifacts=rowSums(select(.,ends_with("_DendroDMG"))),
-       ElectroDMG_artifacts=rowSums(select(.,ends_with("_ElectroDMG"))),
-       GeoDMG_artifacts=rowSums(select(.,ends_with("_GeoDMG"))),
-       PhysicalDMG_artifacts=rowSums(select(.,ends_with("_PhysicalDMG"))),
-       PyroDMG_artifacts=rowSums(select(.,ends_with("_PyroDMG")))) %>% 
-       select(build_name,artifact1_lv,artifact2_lv,artifact3_lv,artifact4_lv,ATK_flat,ATK_mutiplier,DEF_flat,DEF_multiplier,HP_flat,HP_multiplier,ER_artifacts,EM_artifacts,CritRate_artifacts,CritDMG_artifacts,HealingBonus_artifacts,AnemoDMG_artifacts,CryoDMG_artifacts,DendroDMG_artifacts,ElectroDMG_artifacts,GeoDMG_artifacts,PhysicalDMG_artifacts,PyroDMG_artifacts,artifact1_set,artifact2_set,artifact3_set,artifact4_set)
-
-  
-five_piece_options <- build_comparison %>% filter(available>=5) %>% do(data.frame(t(combn(.$id,5)))) 
-five_piece_1 <- merge(five_piece_options,pieces,by.x="X1",by.y="id") %>% rename(artifact1=data)
-five_piece_2 <- merge(five_piece_options,pieces,by.x="X2",by.y="id") %>% rename(artifact2=data)
-five_piece_3 <- merge(five_piece_options,pieces,by.x="X3",by.y="id") %>% rename(artifact3=data)
-five_piece_4 <- merge(five_piece_options,pieces,by.x="X4",by.y="id") %>% rename(artifact4=data)
-five_piece_5 <- merge(five_piece_options,pieces,by.x="X5",by.y="id") %>% rename(artifact5=data)
-
-five_piece_builds <- list(five_piece_1,five_piece_2,five_piece_3,five_piece_4,five_piece_5) %>% reduce(inner_join,by="build_name") %>%  select(build_name,artifact1,artifact2,artifact3,artifact4,artifact5) %>% 
-  unnest(cols = c(artifact1, artifact2, artifact3, artifact4,artifact5),names_sep="_") %>% 
-  distinct() %>% 
-  filter(artifact1_type!=artifact2_type & artifact1_type!=artifact3_type & artifact1_type!=artifact4_type & artifact1_type!=artifact5_type & artifact2_type!=artifact3_type & artifact2_type!=artifact4_type & artifact2_type!=artifact5_type & artifact3_type!=artifact4_type & artifact3_type!=artifact5_type & artifact4_type!=artifact5_type) 
+```{r builds}
+my_builds <- merge(builds,characters,on="character") %>% merge(.,weapons,on="weapon")
 
 
-  
+# check which builds are missing, if needed 
+# setdiff(characters$character,my_builds$character)
+
+```
+
+```{r teams}
+
+```
+
+```{r elemental resonance }
+resonance = list()
+```
+
+```{r theorycalcs enemy setup}
+teams %>% mutate(enemyOverride = list(enemyLevel = integer(),
+                                      enemyDefRed_ = integer(),
+                                      enemyDefIgn = integer(),
+                                      physical_enemyRes_ = integer(),
+                                      anemo_enemyRes_ = integer(),
+                                      geo_enemyRes_ = integer(),
+                                      electro_enemyRes_ = integer(),
+                                      hydro_enemyRes_ = integer(),
+                                      pyro_enemyRes_ = integer(),
+                                      cryo_enemyRes_ = integer(),
+                                      dendro_enemyRes_ = integer()))
+```
+
+```{r optimizer copy}
+library(jsonlite)
+ExampleOptimizer <- read_json("Eu_Genshin.json")
+dbVersion = 25
+
+# rename substats 
+# "hp","hp_","atk","atk_","def","def_","eleMas","enerRech_","critRate","critDMG","anemo_dmg__","cryo_dmg__","dendro_dmg__","electro_dmg__","geo_dmg__","hydro_dmg__","pyro_dmg__"
+# rename type
+# "flower","plume","sands","goblet","circlet"
+# multiply with 100 ifelse(hp_,atk_,def_,enerRech_,"critRate","critDMG","anemo_dmg__","cryo_dmg__","dendro_dmg__","electro_dmg__","geo_dmg__","hydro_dmg__","pyro_dmg__") *100
+# set effects 
+# c("Archaic Petra","Blizzard Strayer","Crimson Witch of Flames","Deepwood Memories","Desert Pavillion Chronicle","Echoes of An Offering","Emblem of Severed Fate","Finale of Deep Galleries","Flower of Paradise Lost","Fragment of Harmonic Whimsy","Gilded Dreams","Gladiator's Finale","Golden Troupe","Heart of Depths","Husk of Oppulent Dreams","Lavawalker","Long Night's Oath","Maiden Beloved","Marechaussee Hunter","Night of the Sky's Unveiling","Nighttime Whispers in the Echoing Woods","Noblesse Oblige","Nymph's Dream","Obsidian Codex","Ocean-Hued Clam","Pale Flame","Retracing Bolide","Scroll of the Hero of Cinder City","Silken Moon's Serenade","Shimenawa's Reminiscence","Song of Day's Past","Tenacity of the Milileth","Thundering Fury","Thundersoother","Unfinished Reverie","Vermillion Hereafter","Viridescent Venerer","Vourukasha's Glow","Wanderer's Troupe")
+
+OptimizerCharacters <- builds %>% 
+                        filter() %>%  
+                        rename(key=character,)
+OptimizerArtifacts <- builds %>% 
+                        filter() %>% 
+                            nest() %>% 
+                            nest() %>% 
+                            nest() %>% 
+                            nest() %>% 
+                        rename() %>% 
+                        map(rename)
+
+OptimizerCharacters=list(key=,
+                        level=as.integer(),
+                        ascension=as.integer(),
+                        talent=list(auto=as.integer(),
+                                    skill=as.integer(),
+                                    burst=as.integer()),
+                        constellation=as.integer(),
+                        id=key)
+OptimizerArtifacts=list(setKey=,
+                        rarity=as.integer(5),
+                        level=,
+                        slotKey=,
+                        mainStatKey=,
+                        substats=list(list(key=,
+                                           value=),
+                                      list(key=,
+                                           value=),
+                                      list(key=,
+                                           value=),
+                                      list(key=,
+                                           value=)),
+                        location=,
+                        id=paste0("artifact","_",row_number()))
+OptimizerWeapons=list(key=,
+                      level=as.integer(),
+                      ascension=,
+                      refinement=,
+                      location=,
+                      lock=,
+                      id=paste0("weapon","_",row_number()))
+
+Optimizer <- list(format = 'GOOD', 
+                  dbVersion = as.integer(dbVersion+1), 
+                  source = 'Genshin Optimizer',
+                  version = as.integer(1),
+                  characters = list(),
+                  weapons = list(),
+                  artifacts = list(),
+                  generatedBuildList = list(),
+                  optConfigs = list(),
+                  buildTcs = list(),
+                  charMetas = list(),
+                  builds = list(),
+                  teamchars = list(),
+                  teams = list(name=character(),
+                               description=character(),
+                               enemyOverride = list(enemyLevel = integer(),
+                                      enemyDefRed_ = integer(),
+                                      enemyDefIgn = integer(),
+                                      physical_enemyRes_ = integer(),
+                                      anemo_enemyRes_ = integer(),
+                                      geo_enemyRes_ = integer(),
+                                      electro_enemyRes_ = integer(),
+                                      hydro_enemyRes_ = integer(),
+                                      pyro_enemyRes_ = integer(),
+                                      cryo_enemyRes_ = integer(),
+                                      dendro_enemyRes_ = integer()),
+                                conditional = list(resonance = list(),
+                                loadoutData = list(
+                                    list(teamCharId=character(),
+                                         buildtype = 'equipped',
+                                         buildId = character(),
+                                         buildTcId = character(),
+                                         compare = FALSE,
+                                         compareType = 'equiped',
+                                         compareBuildId = character(),
+                                         comparebuildTcId = character()),
+                                    list(teamCharId=character(),
+                                         buildtype = 'equipped',
+                                         buildId = character(),
+                                         buildTcId = character(),
+                                         compare = FALSE,
+                                         compareType = 'equiped',
+                                         compareBuildId = character(),
+                                         comparebuildTcId = character()),
+                                    list(teamCharId=character(),
+                                         buildtype = 'equipped',
+                                         buildId = character(),
+                                         buildTcId = character(),
+                                         compare = FALSE,
+                                         compareType = 'equiped',
+                                         compareBuildId = character(),
+                                         comparebuildTcId = character()),
+                                    list(teamCharId=character(),
+                                         buildtype = 'equipped',
+                                         buildId = character(),
+                                         buildTcId = character(),
+                                         compare = FALSE,
+                                         compareType = 'equiped',
+                                         compareBuildId = character(),
+                                         comparebuildTcId = character())
+                                )),
+                  dbMeta = list(name = "EU",
+                                lastEdit = 1.754833e-12,
+                                gender = "F"),
+                  display_weapon = list(editWeaponId = character(),
+                                        sortType = 'level',
+                                        ascending = FALSE,
+                                        rarity = map(list(5,4,3,2,1),as.integer),
+                                        weaponType = list('sword', 'claymore', 'polearm', 'bow', 'catalyst'),
+                                        locked = list('locked','unlocked'),
+                                        showEquipped = TRUE,
+                                        showInventory = TRUE,
+                                        locations = list()),
+                  display_artifact = list(filterOption = list(artSetKey = list(),
+                                                              rarity = map(list(5,4,3,2,1),as.integer),
+                                                              levelLow = as.integer(0), 
+                                                              levelHigh = as.integer(0),
+                                                              slotKey = list('flower','plume','sands','goblet','circlet'),
+                                                              mainStatKey = list(),
+                                                              substats = list(),
+                                                              locations = list(),
+                                                              showEquipped = TRUE,
+                                                              showInventory = TRUE,
+                                                              locked = list('locked','unlocked'),
+                                                              rvLow = 0,
+                                                              rvHigh = 900,
+                                                              useMaxRV = FALSE,
+                                                              lines = maps(list(1,2,3,4),as.integer),),
+                                          ascending = FALSE,
+                                          sortType = 'artsetkey',
+                                          effFilter = list('hp','hp_','atk','atk_','def','def_','eleMas','enerRech_','critRate','critDMG')),
+                  display_character = list(sortType = 'name', ascending = FALSE),
+                  display_tool = list(timeZoneKey = 'Europe', resin = 200, resinDate = 1.749406e+12),
+                  display_team = list(ascending = FALSE, sortType = 'name', charKey = list(), searchTerm = ""),
+                  display_archive = list(artifact = list(rarity = map(list(5,4,3),as.integer)),
+                                         character = list(rarity = map(list(5,4),as.integer),
+                                                          weaponType = list('sword', 'claymore', 'polearm', 'bow', 'catalyst'), 
+                                                          sortOrder = 'desc', 
+                                                          sortOrderBy = 'name'),
+                                         weapon = list(rarity = map(list(5,4,3,2,1),as.integer),
+                                                       subStat = list(),
+                                                       weaponType = list('sword', 'claymore', 'polearm', 'bow', 'catalyst'),
+                                                       sortOrder = 'desc', 
+                                                       sortOrderBy = 'name')
+                                         )
+)             
 ```

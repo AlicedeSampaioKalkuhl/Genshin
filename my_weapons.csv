@@ -5,11 +5,11 @@ Amos' Bow,R1,60,608,ATK,0.496
 Aqua Simulacra,R1,50,542,Crit-DMG,0.882
 Anemona Kageuchi,R1,51,454,ATK,0.0551
 Ash-Graven Drinking Horn,R5,90,510,HP,0.413
-Ballad of the Fjords,R1,70,510,Crit-Rate,0.276
+Ballad of the Fjords,R2,90,510,Crit-Rate,0.276
 Black Tassel,R5,70,354,HP,0.469
 Bloodtainted Greatsword,R5,20,354,EM,187
 Calamity of Eshu,R5,90,565,ATK,0.276
-Calamity Queller,R1,70,741,ATK,0.165
+Calamity Queller,R1,80,741,ATK,0.165
 Chain Breaker,R1,50,565,ATK,0.276
 Cloudforged,R5,70,510,EM,165
 Compound Bow,R1,40,454,Physical-DMG,0.96
@@ -33,8 +33,9 @@ Favonius Warbow,R5,90,454,ER,0.613
 Ferrous Shadow,R5,20,401,HP,0.352
 Fillet Blade,R5,40,401,ATK,0.352
 Finale of the Deep,R1,70,565,ATK,0.276
+Flame-Forged Insight,R5,90,510,EM,165
 Fleuve Cendre Ferryman,R5,70,510,ER,0.276
-Flower-Wreathed Feathers,R1,20,510,ATK,0.413
+Flower-Wreathed Feathers,R1,90,510,ATK,0.413
 Flowing Purity,R2,71,565,ATK,0.276
 Flute of Ezpital,R1,80,454,DEF,0.69
 Footprint of the Rainbow,R2,61,510,DEF,0.517
@@ -59,12 +60,13 @@ Lost Prayer to the Sacred Wind,R2,61,608,Crit-Rate,0.331
 Recurve Bow,R5,70,353,HP,0.469
 Magic Guide,R5,40,354,EM,187
 Makhaira Aquamarine,R1,56,510,EM,165
-Mappa Mare,R1,83,565,EM,110
+Mappa Mare,R1,90,565,EM,110
 Messenger,R5,60,448,Crit-DMG,0.312
 Moonpiercer,R5,70,565,EM,110
 Mountain-Bracing Bolt,R2,60,565,ER,0.306
 Mouun's Moon,R2,20,565,ATK,0.276
 Otherwordly Story,R2,80,401,ER,0.39
+Peak Patrol Song,R1,70,542,DEF,0.827
 Portable Power Saw,R1,1,454,HP,0.551
 Primordial Jade-Winged Spear,R1,50,674,Crit-Rate,0.221
 Prospector's Drill,R1,70,565,ATK,0.276
@@ -96,10 +98,11 @@ Snow-Tombed Starsilver,R1,60,565,Physical-DMG,0.345
 Solar Pearl,R1,40,510,Crit-Rate,0.276
 Song of Stillness,R1,52,510,ATK,0.413
 Staff of Homa,R1,60,608,Crit-DMG,0.662
-Sunny Morning Sleep-In,R1,80,542,EM,265
+Starcaller's Watch,R1,90,542,EM,265
+Sunny Morning Sleep-In,R1,90,542,EM,265
 Surf's Up,R1,90,542,Crit-DMG,0.882
 Sword of Narzissenkreuz,R5,70,510,ATK,0.413
-Symphonist of Scents,R1,53,608,Crit-DMG,0.662
+Symphonist of Scents,R1,78,608,Crit-DMG,0.662
 Talking Stick,R1,70,565,Crit-Rate,0.184
 Tamayuratei no Ohanashi,R5,80,565,ER,0.306
 The Black Sword,R1,20,510,Crit-Rate,0.276

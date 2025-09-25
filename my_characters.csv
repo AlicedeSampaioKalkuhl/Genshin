@@ -2,23 +2,24 @@ character,constellation,level,talent_normal,talent_skill,talent_bust,ascension
 Alhaitham,C1,71,3,4,4,5
 Amber,C4,80,4,5,8,5
 Arataki Itto,C1,61,6,5,5,4
-Baizhu,C0,80,4,5,5,5
+Baizhu,C0,80,4,5,5,6
 Barbara,C1,70,6,4,4,5
 Beidou,C4,71,4,8,5,5
 Bennett,C6,80,4,8,8,6
 Candace,C6,80,4,9,9,6
 Charlotte,C5,70,3,7,8,5
+Chasca,C2,80,2,8,8,6
 Chevreuse,C6,71,3,8,7,5
 Chiori,C2,72,4,6,6,5
 Chongyun,C5,65,4,7,7,4
 Citlali,C2,80,6,7,6,6
 Clorinde,C0,70,4,7,6,5
 Collei,C6,70,4,8,8,5
-Dahlia,C0,40,1,1,1,2
+Dahlia,C0,60,1,1,1,4
 Dehya,C2,79,3,6,5,6
-Diluc,C0,64,1,4,2,4
+Diluc,C1,64,1,4,2,4
 Diona,C4,54,1,1,4,4
-Dori,C4,57,1,1,4,4
+Dori,C4,64,1,1,4,4
 Emilie,C0,80,5,6,6,5
 Escoffier,C1,82,2,7,7,6
 Faruzan,C4,70,5,8,6,5
@@ -39,7 +40,7 @@ Kamisato Ayato,C0,61,2,4,4,4
 Kaveh,C6,70,4,7,7,5
 Keqing,C2,75,5,4,4,5
 Kirara,C6,70,3,6,4,5
-Kujou Sara,C6,71,4,8,7,5
+Kujou Sara,C6,80,4,8,7,5
 Kuki Shinobu,C6,70,3,6,7,5
 Lan Yan,C0,80,4,4,4,6
 Layla,C6,90,8,12,11,6
@@ -53,15 +54,15 @@ Mualani,C0,81,8,8,8,6
 Nahida,C0,70,4,5,5,5
 Navia,C0,72,4,5,5,5
 Neuvilette,C0,70,2,1,1,5
-Nilou,C0,90,4,5,5,6
+Nilou,C0,90,4,6,6,6
 Ningguang,C6,79,4,8,7,5
 Noelle,C6,67,4,7,7,4
 Ororon,C6,60,2,8,8,4
-Qiqi,C2,72,3,3,3,5
+Qiqi,C3,72,3,3,3,5
 Raiden Shogun,C0,64,3,3,3,4
 Razor,C3,63,1,1,4,4
 Rosaria,C6,70,4,7,9,5
-Sangonomiya Kokomi,C0,70,3,6,6,5
+Sangonomiya Kokomi,C0,80,3,6,6,5
 Sayu,C5,76,1,7,7,5
 Sethos,C6,70,7,4,7,5
 Shenhe,C0,80,2,6,6,6
@@ -74,7 +75,7 @@ Varesa,C0,80,7,7,8,6
 Xiangling,C6,72,4,7,9,5
 Xianyun,C0,71,4,5,5,5
 Xiao,C0,60,1,3,3,4
-Xilonen,C0,71,6,6,6,5
+Xilonen,C0,80,6,6,6,5
 Xingqui,C6,70,3,6,5,5
 Xinyan,C4,75,2,6,4,5
 Yae Miko,C0,50,2,4,4,4
