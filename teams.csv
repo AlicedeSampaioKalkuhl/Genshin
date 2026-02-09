@@ -103,6 +103,7 @@ Obsidian-Ifa,Xinqui,Furina,Natlan-Ororon
 Obsidian-Ifa,Furina,Natlan-Iansan,VV-Xianyun
 Obsidian-Ifa,Faruzan,Bennett,Yun Jin 
 Obsidian-Ifa,Furina,Natlan-Ororon,Support-Miko
+Obsidian-Ifa,Ororon,Yaoyao,Furina 
 Ifa,Ororon,Dahlia,Kazuha
 Sunfire-Jean,Bennet,EM-Raiden,VV-Sucrose
 Sunfire-Jean,Klee,EM-Raiden,Bennett
@@ -134,11 +135,6 @@ Marechausee-Lyney,Chevreuse,Bennett,Beidou
 Marechausee-Lyney,Bennett,Amber,Support-Sucrose
 Marechausee-Lyney,Bennett,Chevreuse,EM-Raiden
 Plunge-Lynette,Furina,Faruzan,VV-Xianyun
-Mizuki,Furina,EM-Kuki Shinobu,Support-Ororon 
-Mizuki,Furina,Burst-Layla,EM-Raiden
-Mizuki,Burst-Layla,Kuki Shinobu,Amber
-Mizuki,Burst-Layla,Furina,EM-Kuki Shinobu 
-Mizuki,HP-Thoma,Furina,EM-Kuki Shinobu
 Mualani,Support-Kazuha,Healer-Kokomi,Natlan-Citlali
 Mualani,EM-Dehya,Healer-Nahida,Emilie
 Mualani,Xinyan,Support-Chiori,Natlan-Kachina
@@ -151,6 +147,8 @@ Navia,Xilonen,EM-Dehya,Furina
 Navia,Xilonen,Yelan,Chongyun
 Navia,Xilonen,Furina,Chongyun
 Navia,Gorou,Xilonen,Shield-Layla
+DPS-Neuvilette,Healer-Sigewinne,EM-Raiden,Support-Ororon
+DPS-Neuvilette,Columbina,Natlan-Xilonen,Ineffa
 Nilou,Nahida,Yaoyao,Furina
 Nilou,Kokomi,Collei,Nahida
 Nilou,Nahida,Baizhu,Ayato
@@ -179,11 +177,11 @@ Heizou,Aino,Ineffa,Sayu
 Heizou,LanYan,Shinobu,Xiangling 
 Heizou,Yanfei,Xianling,Xingqui 
 Heizou,Ayaka,Rosaria,Kokomi
-Sigewinne,Neuvilette,EM-Raiden,Support-Ororon
 Sigewinne,Neuvilette,Support-Kazuha,Support-Ororon
 Sigewinne,Dehya,Furina,Nahida
 Sigewinne,Thoma,Emilie,Mualani
 Sigewinne,Bubble-Neuvilette,Sucrose,Ineffa
+Sigewinne,Lauma,Healer-Yaoyao,Support-Fischl
 DPS-Sucrose,Anemo-Lumine,EM-Thoma,Bennett
 Tartaglia,Yelan,Ineffa,Jean
 Tighnari,Deepwood-Nahida,EM-Raiden,LanYan
@@ -236,3 +234,9 @@ Mizuki,Furina,Candace,Amber
 Mizuki,Ineffa,EM-Raiden,Mona
 Mizuki,Aino,Ineffa,EM-Raiden
 Mizuki,Inefa,Furina,Miko
+Mizuki,Furina,EM-Kuki Shinobu,Support-Ororon 
+Mizuki,Furina,Burst-Layla,EM-Raiden
+Mizuki,Burst-Layla,Kuki Shinobu,Amber
+Mizuki,Burst-Layla,Furina,EM-Kuk
+Mizuki,HP-Thoma,Furina,EM-Kuki Shinobu
+Zibai,Ineffa,Columbina,Xilonen
